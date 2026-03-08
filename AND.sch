@@ -75,7 +75,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} -60 -70 0 0 {name=M3
 L=0.28u
-W=2u
+W=1u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -89,7 +89,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} 60 -70 0 0 {name=M4
 L=0.28u
-W=2u
+W=1u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"

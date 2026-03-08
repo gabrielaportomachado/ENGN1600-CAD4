@@ -20,7 +20,7 @@ N 0 60 10 60 {lab=GND}
 N -80 -30 -40 -30 {lab=IN}
 C {symbols/pfet_03v3.sym} -20 -80 0 0 {name=M1
 L=0.28u
-W=2u
+W=1u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -34,7 +34,7 @@ spiceprefix=X
 }
 C {symbols/nfet_03v3.sym} -20 20 0 0 {name=M2
 L=0.28u
-W=1u
+W=0.5u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"

@@ -49,7 +49,7 @@ C {ipin.sym} 270 -90 0 0 {name=p3 lab=IN0}
 C {ipin.sym} 280 -50 0 0 {name=p1 lab=IN1}
 C {symbols/nfet_03v3.sym} 380 30 0 0 {name=M1
 L=0.28u
-W=1u
+W=0.5u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -63,7 +63,7 @@ spiceprefix=X
 }
 C {symbols/nfet_03v3.sym} 500 30 0 0 {name=M2
 L=0.28u
-W=1u
+W=0.5u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
