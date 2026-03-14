@@ -5,15 +5,15 @@ M3 OUT Ab net1 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
 M4 net1 IN0 vdd vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
 M1 OUT IN0 net2 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
 M2 net2 IN1 GND GND nfet_03v3 L=0.28u W=1u nf=1 m=1
-M5 OUT Bb net3 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
-M6 net3 IN1 vdd vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
-M7 OUT Ab net4 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
-M8 net4 Bb GND GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+M5 OUT Bb net1 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
+M6 net1 IN1 vdd vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
+M7 OUT Ab net3 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+M8 net3 Bb GND GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+x2 Ab IN0 INV
 x1 Bb IN1 INV
-x0 Ab IN0 INV
 .ends
 
-* expanding   symbol:  ENGN1600-CAD4/INV.sym # of pins=2
+* expanding   symbol:  INV.sym # of pins=2
 ** sym_path: /foss/designs/ENGN1600-CAD4/INV.sym
 ** sch_path: /foss/designs/ENGN1600-CAD4/INV.sch
 .subckt INV OUT IN

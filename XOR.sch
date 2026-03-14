@@ -24,7 +24,7 @@ N 240 210 260 210 {lab=GND}
 N 440 -110 450 -110 {lab=vdd}
 N 440 -150 440 -110 {lab=vdd}
 N 440 -150 450 -150 {lab=vdd}
-N 450 -80 450 -50 {lab=#net3}
+N 450 -80 450 -50 {lab=#net1}
 N 430 -20 450 -20 {lab=vdd}
 N 430 -160 430 -20 {lab=vdd}
 N 430 -160 450 -160 {lab=vdd}
@@ -32,7 +32,7 @@ N 450 190 450 230 {lab=GND}
 N 440 160 450 160 {lab=GND}
 N 440 160 440 200 {lab=GND}
 N 440 200 450 200 {lab=GND}
-N 450 100 450 130 {lab=#net4}
+N 450 100 450 130 {lab=#net3}
 N 430 70 450 70 {lab=GND}
 N 430 70 430 210 {lab=GND}
 N 430 210 450 210 {lab=GND}
@@ -49,12 +49,12 @@ N 50 -190 130 -190 {lab=Ab}
 N 490 70 570 70 {lab=Ab}
 N 490 -110 540 -110 {lab=IN1}
 N 150 160 200 160 {lab=IN1}
-N 490 -20 570 -20 {lab=Bb}
+N 490 -20 570 -20 {lab=Ab}
 N 490 160 570 160 {lab=Bb}
 N -80 -190 -30 -190 {lab=IN0}
 N 980 -180 1030 -180 {lab=IN1}
 N 820 -180 900 -180 {lab=Bb}
-N 120 -10 200 -10 {lab=Bb}
+N 120 -10 200 -10 {lab=#net4}
 N -50 -100 150 -100 {lab=IN0}
 N -50 -190 -50 -100 {lab=IN0}
 N -50 -100 -50 30 {lab=IN0}
@@ -66,6 +66,7 @@ N 1010 -110 1010 160 {lab=IN1}
 N 150 160 150 280 {lab=IN1}
 N 150 280 1010 280 {lab=IN1}
 N 1010 160 1010 280 {lab=IN1}
+N 240 -60 450 -60 {lab=#net1}
 C {opin.sym} 650 30 0 0 {name=p2 lab=OUT}
 C {ipin.sym} -80 -190 0 0 {name=p3 lab=IN0}
 C {ipin.sym} 1030 -180 2 0 {name=p1 lab=IN1}
@@ -184,10 +185,10 @@ model=nfet_03v3
 spiceprefix=X
 }
 C {lab_wire.sym} 520 70 0 1 {name=p12 sig_type=std_logic lab=Ab}
-C {lab_wire.sym} 520 -20 0 1 {name=p14 sig_type=std_logic lab=Ab}
+C {lab_wire.sym} 150 -10 0 1 {name=p14 sig_type=std_logic lab=Ab}
 C {lab_wire.sym} 520 160 0 1 {name=p15 sig_type=std_logic lab=Bb}
 C {lab_wire.sym} 850 -180 2 0 {name=p17 sig_type=std_logic lab=Bb}
-C {lab_wire.sym} 150 -10 0 1 {name=p5 sig_type=std_logic lab=Bb}
+C {lab_wire.sym} 550 -20 0 1 {name=p5 sig_type=std_logic lab=Bb}
 C {lab_wire.sym} 70 -190 0 1 {name=p4 sig_type=std_logic lab=Ab}
 C {INV.sym} 0 -190 0 0 {name=x2}
 C {INV.sym} 950 -180 2 0 {name=x1}
