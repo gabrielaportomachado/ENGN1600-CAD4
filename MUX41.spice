@@ -1,0 +1,29 @@
+** sch_path: /foss/designs/ENGN1600-CAD4/MUX41.sch
+.subckt MUX41 vss vdd IN0 IN1 IN2 IN3 OUT SEL0 SEL1
+*.PININFO vss:B vdd:B IN0:I IN1:I IN2:I IN3:I OUT:I SEL0:I SEL1:I
+x1 IN0 vdd t1 SEL0 vss IN1 MUX21
+x2 IN2 vdd t2 SEL0 vss IN3 MUX21
+x3 t1 vdd OUT SEL1 vss t2 MUX21
+.ends
+
+* expanding   symbol:  MUX21.sym # of pins=6
+** sym_path: /foss/designs/ENGN1600-CAD4/MUX21.sym
+** sch_path: /foss/designs/ENGN1600-CAD4/MUX21.sch
+.subckt MUX21 IN0 vdd OUT SEL vss IN1
+*.PININFO SEL:I vdd:B vss:B IN0:I IN1:I OUT:I
+M1 t1 SEL vss vss nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+M2 t1 SEL vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+M3 t2 IN0 net1 vss nfet_03v3 L=0.28u W=1u nf=1 m=1
+M4 net1 t1 vss vss nfet_03v3 L=0.28u W=1u nf=1 m=1
+M5 t2 IN0 vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+M6 t2 t1 vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+M7 t3 SEL net2 vss nfet_03v3 L=0.28u W=1u nf=1 m=1
+M8 net2 IN1 vss vss nfet_03v3 L=0.28u W=1u nf=1 m=1
+M9 t3 SEL vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+M10 t3 IN1 vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+M11 OUT t2 net3 vss nfet_03v3 L=0.28u W=1u nf=1 m=1
+M12 net3 t3 vss vss nfet_03v3 L=0.28u W=1u nf=1 m=1
+M13 OUT t2 vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+M14 OUT t3 vdd vdd pfet_03v3 L=0.28u W=1u nf=1 m=1
+.ends
+
