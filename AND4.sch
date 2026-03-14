@@ -19,14 +19,9 @@ N 70 -60 70 -40 {lab=#net1}
 N -50 -40 10 -40 {lab=#net1}
 N 10 -40 10 0 {lab=#net1}
 N 10 -40 70 -40 {lab=#net1}
-N 10 370 10 410 {lab=GND}
-N 10 160 20 160 {lab=#net2}
-N 20 160 20 200 {lab=#net2}
-N 10 200 20 200 {lab=#net2}
-N 10 100 10 130 {lab=#net3}
-N 10 70 30 70 {lab=#net2}
-N 30 70 30 210 {lab=#net2}
-N 10 210 30 210 {lab=#net2}
+N 10 160 20 160 {lab=GND}
+N 10 100 10 130 {lab=#net2}
+N 10 70 30 70 {lab=GND}
 N 10 0 10 40 {lab=#net1}
 N 170 -90 180 -90 {lab=vdd}
 N 180 -140 180 -90 {lab=vdd}
@@ -44,11 +39,11 @@ N 290 -40 310 -40 {lab=#net1}
 N 10 340 20 340 {lab=GND}
 N 20 340 20 380 {lab=GND}
 N 10 380 20 380 {lab=GND}
-N 10 280 10 310 {lab=#net4}
+N 10 280 10 310 {lab=#net3}
 N 10 250 30 250 {lab=GND}
 N 30 250 30 390 {lab=GND}
 N 10 390 30 390 {lab=GND}
-N 10 190 10 220 {lab=#net2}
+N 10 190 10 220 {lab=#net4}
 N -420 150 -380 150 {lab=IN0}
 N -420 210 -380 210 {lab=IN1}
 N -420 280 -380 280 {lab=IN2}
@@ -63,12 +58,19 @@ N -100 250 -30 250 {lab=IN2}
 N -100 340 -30 340 {lab=IN3}
 N 460 -40 530 -40 {lab=OUT}
 N 310 -40 380 -40 {lab=#net1}
+N 10 400 40 400 {lab=GND}
+N 10 370 10 430 {lab=GND}
+N 10 410 50 410 {lab=GND}
+N 40 160 40 400 {lab=GND}
+N 50 70 50 410 {lab=GND}
+N 30 70 50 70 {lab=GND}
+N 20 160 40 160 {lab=GND}
 C {opin.sym} 530 -40 0 0 {name=p2 lab=OUT}
 C {ipin.sym} -420 150 0 0 {name=p3 lab=IN0}
 C {ipin.sym} -420 210 0 0 {name=p1 lab=IN1}
 C {symbols/nfet_03v3.sym} -10 70 0 0 {name=M1
 L=0.28u
-W=1u
+W=2u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -82,7 +84,7 @@ spiceprefix=X
 }
 C {symbols/nfet_03v3.sym} -10 160 0 0 {name=M2
 L=0.28u
-W=1u
+W=2u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -122,7 +124,7 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {gnd.sym} 10 410 0 0 {name=l1 lab=GND}
+C {gnd.sym} 10 430 0 0 {name=l1 lab=GND}
 C {vdd.sym} 10 -190 0 0 {name=l2 lab=vdd}
 C {symbols/pfet_03v3.sym} 150 -90 0 0 {name=M5
 L=0.28u
@@ -154,7 +156,7 @@ spiceprefix=X
 }
 C {symbols/nfet_03v3.sym} -10 250 0 0 {name=M7
 L=0.28u
-W=1u
+W=2u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -168,7 +170,7 @@ spiceprefix=X
 }
 C {symbols/nfet_03v3.sym} -10 340 0 0 {name=M8
 L=0.28u
-W=1u
+W=2u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
