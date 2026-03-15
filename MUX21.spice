@@ -1,0 +1,27 @@
+** sch_path: /foss/designs/ENGN1600-CAD4/MUX21.sch
+.subckt MUX21 IN0 S OUT IN1
+*.PININFO OUT:O IN0:I IN1:I S:I
+M3 net1 IN1 net2 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
+M4 net2 IN0 vdd vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
+M1 net1 IN0 net3 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+M2 net3 Sb GND GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+M5 net1 S net2 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
+M6 net2 Sb vdd vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
+M7 net1 IN1 net4 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+M8 net4 S GND GND nfet_03v3 L=0.28u W=1u nf=1 m=1
+x3 Sb S INV
+x4 OUT net1 INV
+.ends
+
+* expanding   symbol:  INV.sym # of pins=2
+** sym_path: /foss/designs/ENGN1600-CAD4/INV.sym
+** sch_path: /foss/designs/ENGN1600-CAD4/INV.sch
+.subckt INV OUT IN
+*.PININFO IN:I OUT:O
+M1 OUT IN VDD VDD pfet_03v3 L=0.28u W=1u nf=1 m=1
+M2 OUT IN GND GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
+.ends
+
+.GLOBAL vdd
+.GLOBAL GND
+.GLOBAL VDD

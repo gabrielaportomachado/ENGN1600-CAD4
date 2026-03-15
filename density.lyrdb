@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>GF180 DENSITY DRC Run Report at</description>
- <original-file>/foss/designs/ENGN1600-CAD4/XOR.gds</original-file>
+ <original-file>/foss/designs/ENGN1600-CAD4/MUX21.gds</original-file>
  <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/macros/gf180mcu_drc.lydrc'</generator>
- <top-cell>XOR</top-cell>
+ <top-cell>MUX21</top-cell>
  <tags>
   <tag>
    <name>waived</name>
@@ -82,7 +82,7 @@
  </categories>
  <cells>
   <cell>
-   <name>XOR</name>
+   <name>MUX21</name>
    <variant/>
    <layout-name/>
    <references>
@@ -93,181 +93,181 @@
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (5.54,-0.005;5.54,0.375;6.475,0.375;6.475,0.395;6.875,0.395;6.875,-0.005)</value>
+    <value>polygon: (2.7,-0.005;2.7,0.395;3.1,0.395;3.1,0.375;4.155,0.375;4.155,-0.005)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.01,-0.465;-1.01,-0.235;-0.82,-0.235;-0.82,0.755;-0.44,0.755;-0.44,-0.235;-0.05,-0.235;-0.05,0.755;0.33,0.755;0.33,-0.235;1.725,-0.235;1.725,0.755;2.105,0.755;2.105,-0.235;3.545,-0.235;3.545,0.375;3.925,0.375;3.925,-0.235;7.545,-0.235;7.545,0.375;7.925,0.375;7.925,-0.235;8.19,-0.235;8.19,-0.465)</value>
+    <value>polygon: (-1.01,-0.465;-1.01,-0.235;-0.82,-0.235;-0.82,0.755;-0.44,0.755;-0.44,-0.235;-0.04,-0.235;-0.04,0.755;0.34,0.755;0.34,-0.235;1.78,-0.235;1.78,0.375;2.16,0.375;2.16,-0.235;5.78,-0.235;5.78,0.375;6.16,0.375;6.16,-0.235;6.565,-0.235;6.565,0.755;6.945,0.755;6.945,-0.235;8.65,-0.235;8.65,-0.465)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (5.63,1.085;5.63,1.485;6.03,1.485;6.03,1.085)</value>
+    <value>polygon: (4.21,1.275;4.21,1.655;4.59,1.655;4.59,1.275)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-0.34,1.355;-0.34,1.735;0.52,1.735;0.52,1.355)</value>
+    <value>polygon: (3.255,1.285;3.255,1.665;3.635,1.665;3.635,1.285)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (1.89,1.355;1.89,1.735;2.27,1.735;2.27,1.355)</value>
+    <value>polygon: (0.125,1.355;0.125,1.735;0.505,1.735;0.505,1.355)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (1.03,0.225;1.03,0.98;1.02,0.98;1.02,1.38;1.03,1.38;1.03,3.025;1.41,3.025;1.41,1.38;1.42,1.38;1.42,0.98;1.41,0.98;1.41,0.225)</value>
+    <value>polygon: (6.68,1.835;6.68,2.235;7.08,2.235;7.08,1.835)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (2.78,0.225;2.78,3.025;3.16,3.025;3.16,0.855;7.035,0.855;7.035,1.095;6.98,1.095;6.98,1.475;7.36,1.475;7.36,1.095;7.315,1.095;7.315,0.625;3.16,0.625;3.16,0.225)</value>
+    <value>polygon: (1.015,0.375;1.015,3.025;1.395,3.025;1.395,0.915;4.89,0.915;4.89,1.295;5.27,1.295;5.27,0.685;1.395,0.685;1.395,0.375)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (3.545,2.335;3.545,2.835;3.535,2.835;3.535,3.235;3.545,3.235;3.545,3.735;3.925,3.735;3.925,3.235;3.935,3.235;3.935,2.835;3.925,2.835;3.925,2.335)</value>
+    <value>polygon: (7.485,0.375;7.485,3.025;7.865,3.025;7.865,0.375)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (5.475,2.335;5.475,2.835;5.465,2.835;5.465,3.235;5.475,3.235;5.475,3.735;5.855,3.735;5.855,3.235;5.865,3.235;5.865,2.835;5.855,2.835;5.855,2.335)</value>
+    <value>polygon: (1.78,2.335;1.78,2.835;1.77,2.835;1.77,3.235;1.78,3.235;1.78,3.735;2.16,3.735;2.16,3.235;2.17,3.235;2.17,2.835;2.16,2.835;2.16,2.335)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (6.475,1.705;6.475,2.335;6.48,2.335;6.48,3.735;6.86,3.735;6.86,2.335;6.875,2.335;6.875,1.935;8.125,1.935;8.125,1.705)</value>
+    <value>polygon: (2.7,1.935;2.7,2.335;2.71,2.335;2.71,3.735;3.09,3.735;3.09,2.335;3.1,2.335;3.1,1.935)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (7.545,2.335;7.545,2.835;7.535,2.835;7.535,3.235;7.545,3.235;7.545,3.735;7.925,3.735;7.925,3.235;7.935,3.235;7.935,2.835;7.925,2.835;7.925,2.335)</value>
+    <value>polygon: (3.71,2.335;3.71,2.835;3.7,2.835;3.7,3.235;3.71,3.235;3.71,3.735;4.09,3.735;4.09,3.235;4.1,3.235;4.1,2.835;4.09,2.835;4.09,2.335)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M1.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (4.475,2.335;4.475,3.965;2.115,3.965;2.115,2.645;1.735,2.645;1.735,3.965;0.29,3.965;0.29,2.645;-0.09,2.645;-0.09,3.965;-0.44,3.965;-0.44,2.645;-0.82,2.645;-0.82,3.965;-1.01,3.965;-1.01,4.195;8.65,4.195;8.65,3.965;4.855,3.965;4.855,2.335)</value>
+    <value>polygon: (5.78,2.335;5.78,2.835;5.77,2.835;5.77,3.235;5.78,3.235;5.78,3.735;6.16,3.735;6.16,3.235;6.17,3.235;6.17,2.835;6.16,2.835;6.16,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>MUX21</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (4.715,2.335;4.715,3.965;0.35,3.965;0.35,2.645;-0.03,2.645;-0.03,3.965;-0.44,3.965;-0.44,2.645;-0.82,2.645;-0.82,3.965;-1.01,3.965;-1.01,4.195;8.65,4.195;8.65,3.965;6.955,3.965;6.955,2.645;6.575,2.645;6.575,3.965;5.095,3.965;5.095,2.335)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M2.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (1.02,0.7;1.02,1.38;1.42,1.38;1.42,0.98;5.63,0.98;5.63,1.485;6.03,1.485;6.03,0.7)</value>
+    <value>polygon: (2.7,-0.005;2.7,2.335;3.1,2.335;3.1,2.235;7.08,2.235;7.08,1.835;3.1,1.835;3.1,-0.005)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'M2.4'</category>
-   <cell>XOR</cell>
+   <cell>MUX21</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (6.475,-0.005;6.475,2.335;6.875,2.335;6.875,-0.005)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M2.4'</category>
-   <cell>XOR</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (3.535,2.835;3.535,3.235;7.935,3.235;7.935,2.835)</value>
+    <value>polygon: (1.77,2.835;1.77,3.235;6.17,3.235;6.17,2.835)</value>
    </values>
   </item>
  </items>
