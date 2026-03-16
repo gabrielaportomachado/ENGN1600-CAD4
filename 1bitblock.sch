@@ -42,6 +42,7 @@ N 500 300 570 300 {lab=G}
 N 690 280 750 280 {lab=Cout}
 N 580 -210 580 -150 {lab=S0}
 N 620 -190 620 -130 {lab=S1}
+N 710 130 770 130 {lab=Y}
 C {AND.sym} 40 -60 0 0 {name=x1}
 C {XOR.sym} 40 -180 0 0 {name=x2}
 C {OR.sym} 70 70 0 0 {name=x3}
@@ -77,3 +78,4 @@ C {lab_wire.sym} 530 300 0 0 {name=p25 sig_type=std_logic lab=G}
 C {opin.sym} 750 280 0 0 {name=p26 lab=Cout}
 C {lab_wire.sym} 580 -180 1 0 {name=p27 sig_type=std_logic lab=S0}
 C {lab_wire.sym} 620 -160 1 0 {name=p28 sig_type=std_logic lab=S1}
+C {opin.sym} 770 130 0 0 {name=p29 lab=P}
