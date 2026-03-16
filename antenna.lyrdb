@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>GF180 ANTENNA DRC Run Report at</description>
- <original-file>/foss/designs/ENGN1600-CAD4/MUX21.gds</original-file>
+ <original-file>/foss/designs/ENGN1600-CAD4/MUX41.gds</original-file>
  <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/macros/gf180mcu_drc.lydrc'</generator>
- <top-cell>MUX21</top-cell>
+ <top-cell>MUX41</top-cell>
  <tags>
   <tag>
    <name>waived</name>
@@ -163,7 +163,7 @@
  </categories>
  <cells>
   <cell>
-   <name>MUX21</name>
+   <name>MUX41</name>
    <variant/>
    <layout-name/>
    <references>
