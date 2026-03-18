@@ -1,4 +1,4 @@
-* Extracted by KLayout with GF180MCU LVS runset on : 18/03/2026 18:55
+* Extracted by KLayout with GF180MCU LVS runset on : 18/03/2026 19:06
 
 .SUBCKT 1bitblock A Cin B GND P OR ADD Y Cout VDD S0 S1
 M$1 \$82 P VDD VDD pfet_03v3 L=0.28U W=2U AS=1.3P AD=0.725P PS=5.3U PD=2.725U

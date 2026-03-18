@@ -184,5 +184,5 @@ C {lab_wire.sym} -160 -560 0 1 {name=p3 sig_type=std_logic lab=IN0}
 C {lab_wire.sym} 190 -570 0 0 {name=p4 sig_type=std_logic lab=Sb}
 C {lab_wire.sym} -160 -390 0 1 {name=p10 sig_type=std_logic lab=IN0}
 C {lab_wire.sym} -150 -300 0 0 {name=p11 sig_type=std_logic lab=Sb}
-C {ENGN1600-CAD4/INV.sym} 350 -430 0 0 {name=x4}
 C {lab_wire.sym} 210 -390 0 1 {name=p13 sig_type=std_logic lab=IN1}
+C {INV.sym} 350 -430 0 0 {name=x1}
