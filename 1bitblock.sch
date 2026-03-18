@@ -7,12 +7,12 @@ E {}
 N -220 -200 -170 -200 {lab=A}
 N -220 -160 -170 -160 {lab=B}
 N -220 -120 -170 -120 {lab=Cin}
-N -90 -200 -20 -200 {lab=A}
-N -90 -160 -30 -160 {lab=B}
-N -30 -160 -20 -160 {lab=B}
-N -90 -80 -20 -80 {lab=A}
-N -90 -40 -30 -40 {lab=B}
-N -30 -40 -20 -40 {lab=B}
+N -90 -200 -20 -200 {lab=#net1}
+N -90 -160 -30 -160 {lab=A}
+N -30 -160 -20 -160 {lab=A}
+N -90 -80 -20 -80 {lab=B}
+N -90 -40 -30 -40 {lab=A}
+N -30 -40 -20 -40 {lab=A}
 N -90 50 -20 50 {lab=P}
 N -90 90 -30 90 {lab=G}
 N -30 90 -20 90 {lab=G}
@@ -37,22 +37,22 @@ N 430 120 500 120 {lab=P}
 N 700 0 760 0 {lab=Y}
 N 280 240 350 240 {lab=P}
 N 280 280 350 280 {lab=Cin}
-N 470 260 570 260 {lab=#net1}
+N 470 260 570 260 {lab=#net2}
 N 500 300 570 300 {lab=G}
 N 690 280 750 280 {lab=Cout}
 N 580 -210 580 -150 {lab=S0}
 N 620 -190 620 -130 {lab=S1}
-N 710 130 770 130 {lab=Y}
+N 710 130 770 130 {lab=P}
 C {AND.sym} 40 -60 0 0 {name=x1}
 C {XOR.sym} 40 -180 0 0 {name=x2}
 C {OR.sym} 70 70 0 0 {name=x3}
 C {ipin.sym} -220 -200 0 0 {name=p1 lab=A}
 C {ipin.sym} -220 -160 0 0 {name=p2 lab=B}
 C {ipin.sym} -220 -120 0 0 {name=p3 lab=Cin}
-C {lab_wire.sym} -60 -200 0 0 {name=p4 sig_type=std_logic lab=A}
-C {lab_wire.sym} -60 -160 0 0 {name=p5 sig_type=std_logic lab=B}
-C {lab_wire.sym} -60 -80 0 0 {name=p6 sig_type=std_logic lab=A}
-C {lab_wire.sym} -60 -40 0 0 {name=p7 sig_type=std_logic lab=B}
+C {lab_wire.sym} -40 -160 0 0 {name=p4 sig_type=std_logic lab=A}
+C {lab_wire.sym} -60 -200 0 0 {name=p5 sig_type=std_logic lab=B}
+C {lab_wire.sym} -40 -40 0 0 {name=p6 sig_type=std_logic lab=A}
+C {lab_wire.sym} -50 -80 0 0 {name=p7 sig_type=std_logic lab=B}
 C {lab_wire.sym} -60 50 0 0 {name=p8 sig_type=std_logic lab=P}
 C {lab_wire.sym} -60 90 0 0 {name=p9 sig_type=std_logic lab=G}
 C {lab_wire.sym} 130 -180 0 0 {name=p10 sig_type=std_logic lab=P}

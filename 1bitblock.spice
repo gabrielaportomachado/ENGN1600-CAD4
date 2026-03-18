@@ -1,8 +1,8 @@
 ** sch_path: /foss/designs/ENGN1600-CAD4/1bitblock.sch
 .subckt 1bitblock P A B Cin S0 S1 Y Cout
 *.PININFO A:I B:I Cin:I S0:I S1:I Y:O Cout:O P:O
-x1 A G B AND
-x2 A B P XOR
+x1 B G A AND
+x2 B A P XOR
 x3 P G OR OR
 x4 P Cin ADD XOR
 x5 S0 ADD S1 G Y OR P MUX41

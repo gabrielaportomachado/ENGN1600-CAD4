@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>GF180 DENSITY DRC Run Report at</description>
- <original-file>/foss/designs/ENGN1600-CAD4/AND.gds</original-file>
+ <original-file>/foss/designs/ENGN1600-CAD4/1bitblock.gds</original-file>
  <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/macros/gf180mcu_drc.lydrc'</generator>
- <top-cell>AND</top-cell>
+ <top-cell>1bitblock</top-cell>
  <tags>
  </tags>
  <categories>
   <category>
-   <name>PL.8</name>
-   <description>PL.8 : Poly2 coverage over the entire die shall be 14%.
-                Dummy poly2 lines must be added to meet the minimum poly2 density requirement. : 14%</description>
+   <name>M1.4</name>
+   <description>M1.4 : Metal1 coverage over the entire die shall be &gt;30%
+                (Refer to section 13.0 for Dummy Metal fill guidelines.
+                 Customer needs to ensure enough dummy metal to satisfy Metal1 coverage) : 30%</description>
    <categories>
    </categories>
   </category>
@@ -57,7 +58,7 @@
  </categories>
  <cells>
   <cell>
-   <name>AND</name>
+   <name>1bitblock</name>
    <variant/>
    <layout-name/>
    <references>
@@ -67,38 +68,1058 @@
  <items>
   <item>
    <tags/>
-   <category>'PL.8'</category>
-   <cell>AND</cell>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-2.33,-1.025;-2.33,1.155;-2.71,1.155;-2.71,1.535;-2.33,1.535;-2.33,2.935;-2.05,2.935;-2.05,-1.025)</value>
+    <value>polygon: (21.12,-1.095;21.12,-0.695;21.52,-0.695;21.52,-1.095)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'PL.8'</category>
-   <cell>AND</cell>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (-1.21,-1.025;-1.21,0.545;-1.59,0.545;-1.59,0.925;-1.21,0.925;-1.21,2.935;-0.93,2.935;-0.93,-1.025)</value>
+    <value>polygon: (5.54,-0.005;5.54,0.375;6.475,0.375;6.475,0.395;6.875,0.395;6.875,-0.005)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'PL.8'</category>
-   <cell>AND</cell>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (0.54,-0.525;0.54,0.815;0.16,0.815;0.16,1.195;0.54,1.195;0.54,2.935;0.82,2.935;0.82,-0.525)</value>
+    <value>polygon: (24.44,-0.005;24.44,0.375;25.375,0.375;25.375,0.395;25.775,0.395;25.775,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (30.755,-0.005;30.755,0.395;31.155,0.395;31.155,0.375;32.21,0.375;32.21,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (38.955,-0.005;38.955,0.395;39.355,0.395;39.355,0.375;40.41,0.375;40.41,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (47.155,-0.005;47.155,0.395;47.555,0.395;47.555,0.375;48.61,0.375;48.61,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-1.01,-0.465;-1.01,-0.235;-0.82,-0.235;-0.82,0.755;-0.44,0.755;-0.44,-0.235;-0.05,-0.235;-0.05,0.755;0.33,0.755;0.33,-0.235;1.725,-0.235;1.725,0.755;2.105,0.755;2.105,-0.235;3.545,-0.235;3.545,0.375;3.925,0.375;3.925,-0.235;7.545,-0.235;7.545,0.375;7.925,0.375;7.925,-0.235;8.335,-0.235;8.335,0.375;8.715,0.375;8.715,-0.235;11.355,-0.235;11.355,0.755;11.735,0.755;11.735,-0.235;13.415,-0.235;13.415,0.455;13.795,0.455;13.795,-0.235;15.54,-0.235;15.54,0.455;15.92,0.455;15.92,-0.235;16.64,-0.235;16.64,0.455;17.02,0.455;17.02,-0.235;18.85,-0.235;18.85,0.755;19.23,0.755;19.23,-0.235;20.625,-0.235;20.625,0.755;21.005,0.755;21.005,-0.235;22.445,-0.235;22.445,0.375;22.825,0.375;22.825,-0.235;26.445,-0.235;26.445,0.375;26.825,0.375;26.825,-0.235;27.235,-0.235;27.235,0.755;27.615,0.755;27.615,-0.235;28.015,-0.235;28.015,0.755;28.395,0.755;28.395,-0.235;29.835,-0.235;29.835,0.375;30.215,0.375;30.215,-0.235;33.835,-0.235;33.835,0.375;34.215,0.375;34.215,-0.235;34.62,-0.235;34.62,0.755;35,0.755;35,-0.235;36.31,-0.235;36.31,0.755;36.69,0.755;36.69,-0.235;38.035,-0.235;38.035,0.375;38.415,0.375;38.415,-0.235;42.035,-0.235;42.035,0.375;42.415,0.375;42.415,-0.235;42.82,-0.235;42.82,0.755;43.2,0.755;43.2,-0.235;44.51,-0.235;44.51,0.755;44.89,0.755;44.89,-0.235;46.235,-0.235;46.235,0.375;46.615,0.375;46.615,-0.235;50.235,-0.235;50.235,0.375;50.615,0.375;50.615,-0.235;51.025,-0.235;51.025,0.755;51.405,0.755;51.405,-0.235;52.84,-0.235;52.84,0.755;53.22,0.755;53.22,-0.235;53.64,-0.235;53.64,0.375;54.02,0.375;54.02,-0.235;56.66,-0.235;56.66,0.755;57.04,0.755;57.04,-0.235;58.72,-0.235;58.72,0.455;59.1,0.455;59.1,-0.235;60.845,-0.235;60.845,0.455;61.225,0.455;61.225,-0.235;61.945,-0.235;61.945,0.455;62.325,0.455;62.325,-0.235;64.155,-0.235;64.155,-0.465)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (13.625,0.71;13.625,1.11;14.025,1.11;14.025,0.71)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (5.63,1.085;5.63,1.485;6.03,1.485;6.03,1.085)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (24.53,1.085;24.53,1.485;24.93,1.485;24.93,1.085)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (54.21,1.1;54.21,1.5;54.61,1.5;54.61,1.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (32.205,1.145;32.205,1.545;32.605,1.545;32.605,1.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (46.11,1.145;46.11,1.545;46.51,1.545;46.51,1.47;47.71,1.47;47.71,1.545;48.09,1.545;48.09,1.165;47.71,1.165;47.71,1.24;46.51,1.24;46.51,1.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (48.655,1.155;48.655,1.555;49.055,1.555;49.055,1.155)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (59.965,1.19;59.965,1.57;60.345,1.57;60.345,1.19)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (40.465,1.275;40.465,1.655;40.845,1.655;40.845,1.275)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (31.31,1.285;31.31,1.665;31.69,1.665;31.69,1.285)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (39.51,1.285;39.51,1.665;39.89,1.665;39.89,1.285)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.12,1.31;0.12,1.71;0.52,1.71;0.52,1.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (4.675,1.31;4.675,1.71;5.075,1.71;5.075,1.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (19.02,1.31;19.02,1.71;19.42,1.71;19.42,1.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (23.575,1.31;23.575,1.71;23.975,1.71;23.975,1.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1.89,1.355;1.89,1.735;2.27,1.735;2.27,1.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (20.79,1.355;20.79,1.735;21.17,1.735;21.17,1.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (44.59,1.355;44.59,1.735;44.97,1.735;44.97,1.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (28.16,1.62;28.16,2.02;28.56,2.02;28.56,1.62)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (36.37,1.62;36.37,2.02;36.77,2.02;36.77,1.62)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (34.735,1.835;34.735,2.235;35.135,2.235;35.135,1.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (42.935,1.835;42.935,2.235;43.335,2.235;43.335,1.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (51.135,1.835;51.135,2.235;51.535,2.235;51.535,1.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (63.025,0.075;63.025,2.645;63.405,2.645;63.405,0.075)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (17.72,0.075;17.72,2.255;17.715,2.255;17.715,2.655;18.115,2.655;18.115,2.255;18.1,2.255;18.1,0.075)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (10.575,-0.005;10.575,2.18;9.455,2.18;9.455,3.02;9.835,3.02;9.835,2.41;10.955,2.41;10.955,1.89;11.815,1.89;11.815,1.51;10.955,1.51;10.955,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (12.325,0.375;12.325,3.02;12.705,3.02;12.705,1.57;15.04,1.57;15.04,1.19;14.66,1.19;14.66,1.34;12.705,1.34;12.705,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (55.88,-0.005;55.88,2.18;54.76,2.18;54.76,3.02;55.14,3.02;55.14,2.41;56.26,2.41;56.26,1.89;57.12,1.89;57.12,1.51;56.26,1.51;56.26,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (57.63,0.375;57.63,3.02;58.01,3.02;58.01,1.57;59.34,1.57;59.34,1.19;58.96,1.19;58.96,1.34;58.01,1.34;58.01,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1.03,0.375;1.03,0.98;1.02,0.98;1.02,1.38;1.03,1.38;1.03,3.025;1.41,3.025;1.41,1.38;1.42,1.38;1.42,0.98;1.41,0.98;1.41,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2.78,0.375;2.78,3.025;3.16,3.025;3.16,0.855;7.035,0.855;7.035,1.095;6.98,1.095;6.98,1.475;7.36,1.475;7.36,1.095;7.315,1.095;7.315,0.625;3.16,0.625;3.16,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (19.93,0.375;19.93,0.98;19.92,0.98;19.92,1.38;19.93,1.38;19.93,3.025;20.31,3.025;20.31,1.38;20.32,1.38;20.32,0.98;20.31,0.98;20.31,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (21.68,0.375;21.68,3.025;22.06,3.025;22.06,0.855;25.935,0.855;25.935,1.095;25.88,1.095;25.88,1.475;26.26,1.475;26.26,1.095;26.215,1.095;26.215,0.625;22.06,0.625;22.06,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (29.07,0.375;29.07,3.025;29.45,3.025;29.45,0.915;32.945,0.915;32.945,1.295;33.325,1.295;33.325,0.685;29.45,0.685;29.45,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (35.53,0.365;35.53,0.765;35.54,0.765;35.54,3.025;35.92,3.025;35.92,0.765;35.93,0.765;35.93,0.365)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (37.27,0.375;37.27,3.025;37.65,3.025;37.65,0.915;41.145,0.915;41.145,1.295;41.525,1.295;41.525,0.685;37.65,0.685;37.65,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (43.74,0.375;43.74,1.145;43.73,1.145;43.73,1.545;43.74,1.545;43.74,3.025;44.12,3.025;44.12,1.545;44.13,1.545;44.13,1.145;44.12,1.145;44.12,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (45.47,0.375;45.47,3.025;45.85,3.025;45.85,0.915;49.345,0.915;49.345,1.295;49.725,1.295;49.725,0.685;45.85,0.685;45.85,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (51.94,0.375;51.94,3.025;52.32,3.025;52.32,0.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (14.465,0.075;14.465,0.915;15.54,0.915;15.54,3.655;15.92,3.655;15.92,1.435;17.21,1.435;17.21,1.055;15.92,1.055;15.92,0.685;14.845,0.685;14.845,0.075)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (59.77,0.075;59.77,0.915;60.845,0.915;60.845,3.655;61.225,3.655;61.225,1.435;62.515,1.435;62.515,1.055;61.225,1.055;61.225,0.685;60.15,0.685;60.15,0.075)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (3.545,2.335;3.545,2.835;3.535,2.835;3.535,3.235;3.545,3.235;3.545,3.735;3.925,3.735;3.925,3.235;3.935,3.235;3.935,2.835;3.925,2.835;3.925,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (5.475,2.335;5.475,2.835;5.465,2.835;5.465,3.235;5.475,3.235;5.475,3.735;5.855,3.735;5.855,3.235;5.865,3.235;5.865,2.835;5.855,2.835;5.855,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (6.475,1.935;6.475,2.335;6.48,2.335;6.48,3.735;6.86,3.735;6.86,2.335;6.875,2.335;6.875,1.935)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (7.545,2.335;7.545,2.835;7.535,2.835;7.535,3.235;7.545,3.235;7.545,3.735;7.925,3.735;7.925,3.235;7.935,3.235;7.935,2.835;7.925,2.835;7.925,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (22.445,2.335;22.445,2.835;22.435,2.835;22.435,3.235;22.445,3.235;22.445,3.735;22.825,3.735;22.825,3.235;22.835,3.235;22.835,2.835;22.825,2.835;22.825,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (24.375,2.335;24.375,2.835;24.365,2.835;24.365,3.235;24.375,3.235;24.375,3.735;24.755,3.735;24.755,3.235;24.765,3.235;24.765,2.835;24.755,2.835;24.755,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (25.375,1.935;25.375,2.335;25.38,2.335;25.38,3.735;25.76,3.735;25.76,2.335;25.775,2.335;25.775,1.935)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (26.445,2.335;26.445,2.835;26.435,2.835;26.435,3.235;26.445,3.235;26.445,3.735;26.825,3.735;26.825,3.235;26.835,3.235;26.835,2.835;26.825,2.835;26.825,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (29.835,2.335;29.835,2.835;29.825,2.835;29.825,3.235;29.835,3.235;29.835,3.735;30.215,3.735;30.215,3.235;30.225,3.235;30.225,2.835;30.215,2.835;30.215,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (30.755,1.935;30.755,2.335;30.765,2.335;30.765,3.735;31.145,3.735;31.145,2.335;31.155,2.335;31.155,1.935)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (31.765,2.335;31.765,2.835;31.755,2.835;31.755,3.235;31.765,3.235;31.765,3.735;32.145,3.735;32.145,3.235;32.155,3.235;32.155,2.835;32.145,2.835;32.145,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (33.835,2.335;33.835,2.835;33.825,2.835;33.825,3.235;33.835,3.235;33.835,3.735;34.215,3.735;34.215,3.235;34.225,3.235;34.225,2.835;34.215,2.835;34.215,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (38.035,2.335;38.035,2.835;38.025,2.835;38.025,3.235;38.035,3.235;38.035,3.735;38.415,3.735;38.415,3.235;38.425,3.235;38.425,2.835;38.415,2.835;38.415,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (38.955,1.935;38.955,2.335;38.965,2.335;38.965,3.735;39.345,3.735;39.345,2.335;39.355,2.335;39.355,1.935)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (39.965,2.335;39.965,2.835;39.955,2.835;39.955,3.235;39.965,3.235;39.965,3.735;40.345,3.735;40.345,3.235;40.355,3.235;40.355,2.835;40.345,2.835;40.345,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (42.035,2.335;42.035,2.835;42.025,2.835;42.025,3.235;42.035,3.235;42.035,3.735;42.415,3.735;42.415,3.235;42.425,3.235;42.425,2.835;42.415,2.835;42.415,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (46.235,2.335;46.235,2.835;46.225,2.835;46.225,3.235;46.235,3.235;46.235,3.735;46.615,3.735;46.615,3.235;46.625,3.235;46.625,2.835;46.615,2.835;46.615,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (47.155,1.935;47.155,2.335;47.165,2.335;47.165,3.735;47.545,3.735;47.545,2.335;47.555,2.335;47.555,1.935)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (48.165,2.335;48.165,2.835;48.155,2.835;48.155,3.235;48.165,3.235;48.165,3.735;48.545,3.735;48.545,3.235;48.555,3.235;48.555,2.835;48.545,2.835;48.545,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (50.235,2.335;50.235,2.835;50.225,2.835;50.225,3.235;50.235,3.235;50.235,3.735;50.615,3.735;50.615,3.235;50.625,3.235;50.625,2.835;50.615,2.835;50.615,2.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (13.415,2.255;13.415,3.965;11.585,3.965;11.585,2.64;11.205,2.64;11.205,3.965;8.715,3.965;8.715,2.64;8.335,2.64;8.335,3.965;4.855,3.965;4.855,2.335;4.475,2.335;4.475,3.965;2.115,3.965;2.115,2.645;1.735,2.645;1.735,3.965;0.29,3.965;0.29,2.645;-0.09,2.645;-0.09,3.965;-0.44,3.965;-0.44,2.645;-0.82,2.645;-0.82,3.965;-1.01,3.965;-1.01,4.195;64.025,4.195;64.025,3.965;62.285,3.965;62.285,2.265;61.905,2.265;61.905,3.965;59.1,3.965;59.1,2.255;58.72,2.255;58.72,3.965;56.89,3.965;56.89,2.64;56.51,2.64;56.51,3.965;54.02,3.965;54.02,2.64;53.64,2.64;53.64,3.965;53.22,3.965;53.22,2.645;52.84,2.645;52.84,3.965;51.41,3.965;51.41,2.645;51.03,2.645;51.03,3.965;49.55,3.965;49.55,2.335;49.17,2.335;49.17,3.965;44.9,3.965;44.9,2.645;44.52,2.645;44.52,3.965;43.21,3.965;43.21,2.645;42.83,2.645;42.83,3.965;41.35,3.965;41.35,2.335;40.97,2.335;40.97,3.965;36.7,3.965;36.7,2.645;36.32,2.645;36.32,3.965;35.01,3.965;35.01,2.645;34.63,2.645;34.63,3.965;33.15,3.965;33.15,2.335;32.77,2.335;32.77,3.965;28.405,3.965;28.405,2.645;28.025,2.645;28.025,3.965;27.615,3.965;27.615,2.645;27.235,2.645;27.235,3.965;23.755,3.965;23.755,2.335;23.375,2.335;23.375,3.965;21.015,3.965;21.015,2.645;20.635,2.645;20.635,3.965;19.19,3.965;19.19,2.645;18.81,2.645;18.81,3.965;16.98,3.965;16.98,2.265;16.6,2.265;16.6,3.965;13.795,3.965;13.795,2.255)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (40.46,4.425;40.46,4.825;40.86,4.825;40.86,4.425)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1.02,0.7;1.02,1.38;1.42,1.38;1.42,0.98;5.63,0.98;5.63,1.485;6.03,1.485;6.03,0.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (19.92,0.7;19.92,1.38;20.32,1.38;20.32,0.98;24.53,0.98;24.53,1.485;24.93,1.485;24.93,0.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (21.12,-1.425;21.12,-0.695;21.52,-0.695;21.52,-1.025;54.21,-1.025;54.21,1.5;54.61,1.5;54.61,-1.425)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (43.73,1.145;43.73,1.545;46.51,1.545;46.51,1.145)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (35.53,-0.685;35.53,0.765;35.93,0.765;35.93,-0.285;48.655,-0.285;48.655,1.555;49.055,1.555;49.055,-0.685)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (0.12,1.31;0.12,2.11;5.075,2.11;5.075,1.31;4.675,1.31;4.675,1.71;0.52,1.71;0.52,1.31)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (6.475,-0.005;6.475,2.335;6.875,2.335;6.875,1.08;13.625,1.08;13.625,1.11;14.025,1.11;14.025,1.08;19.02,1.08;19.02,2.11;23.975,2.11;23.975,1.31;23.575,1.31;23.575,1.71;19.42,1.71;19.42,0.8;14.025,0.8;14.025,0.71;13.625,0.71;13.625,0.8;6.875,0.8;6.875,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (25.375,-0.735;25.375,2.335;25.775,2.335;25.775,-0.335;32.205,-0.335;32.205,1.545;32.605,1.545;32.605,-0.735)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (30.755,-0.005;30.755,2.335;31.155,2.335;31.155,2.235;35.135,2.235;35.135,1.835;31.155,1.835;31.155,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (38.955,-0.005;38.955,2.335;39.355,2.335;39.355,2.235;43.335,2.235;43.335,1.835;39.355,1.835;39.355,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (47.155,-0.005;47.155,2.335;47.555,2.335;47.555,2.235;51.535,2.235;51.535,1.835;47.555,1.835;47.555,-0.005)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (3.535,2.835;3.535,3.235;7.935,3.235;7.935,2.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (22.435,2.835;22.435,3.235;26.835,3.235;26.835,2.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (29.825,2.835;29.825,3.235;34.225,3.235;34.225,2.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (38.025,2.835;38.025,3.235;42.425,3.235;42.425,2.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (46.225,2.835;46.225,3.235;50.625,3.235;50.625,2.835)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (28.16,1.62;28.16,2.02;28.5,2.02;28.5,3.92;37.105,3.92;37.105,1.62;36.37,1.62;36.37,2.02;36.705,2.02;36.705,3.52;28.9,3.52;28.9,1.62)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.4'</category>
+   <cell>1bitblock</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (17.715,2.255;17.715,4.825;40.86,4.825;40.86,4.425;18.115,4.425;18.115,2.255)</value>
    </values>
   </item>
  </items>
