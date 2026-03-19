@@ -23,6 +23,8 @@ N -460 135 -460 150 {lab=GND}
 N -460 132.5 -460 135 {lab=GND}
 N -460 47.5 -460 77.5 {lab=S0}
 N 140 70 140 90 {lab=GND}
+N -595 -232.5 -595 -212.5 {lab=VDD}
+N -595 -152.5 -595 -132.5 {lab=GND}
 C {MUX41.sym} 0 10 0 0 {name=x5}
 C {vsource.sym} -330 -52.5 0 0 {name=vIN1 value=3.3 savecurrent=false}
 C {gnd.sym} -330 -10 0 0 {name=l10 lab=GND}
@@ -102,3 +104,6 @@ C {code_shown.sym} 295 -410 0 0 {name=s1 only_toplevel=false value="
   write 1bit_tb.raw
 .endc
 "}
+C {vsource.sym} -595 -182.5 0 0 {name=V1 value=3.3 savecurrent=false}
+C {vdd.sym} -595 -232.5 0 0 {name=l7 lab=VDD}
+C {gnd.sym} -595 -132.5 0 0 {name=l8 lab=GND}

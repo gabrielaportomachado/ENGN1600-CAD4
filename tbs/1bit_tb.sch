@@ -25,6 +25,8 @@ N 285 40 285 60 {lab=GND}
 N 140 -20 285 -20 {lab=P}
 N 140 0 225 0 {lab=Y}
 N 140 20 150 20 {lab=Cout}
+N -775 47.5 -775 67.5 {lab=VDD}
+N -775 127.5 -775 147.5 {lab=GND}
 C {vsource.sym} -247.5 20 0 0 {name=vA value=3.3 savecurrent=false}
 C {gnd.sym} -247.5 62.5 0 0 {name=l10 lab=GND}
 C {lab_wire.sym} -247.5 -35 0 0 {name=p12 sig_type=std_logic lab=A}
@@ -111,3 +113,6 @@ C {code_shown.sym} 335 -422.5 0 0 {name=s1 only_toplevel=false value="
   write 1bit_tb.raw
 .endc
 "}
+C {vsource.sym} -775 97.5 0 0 {name=V2 value=3.3 savecurrent=false}
+C {vdd.sym} -775 47.5 0 0 {name=l9 lab=VDD}
+C {gnd.sym} -775 147.5 0 0 {name=l11 lab=GND}

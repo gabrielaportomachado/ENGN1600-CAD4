@@ -44,7 +44,7 @@ C {code_shown.sym} 295 -410 0 0 {name=s1 only_toplevel=false value="
   let vhigh = 3.3
   let trise = 1n
   let tfall = 1n
-  let t_unit = 100n
+  let t_unit = 500n
 
   ** 2. Pre-calculate Widths and Periods (The Binary Counter)
   * Each input doubles the period of the previous one
