@@ -1,8 +1,8 @@
-** sch_path: /foss/designs/ENGN1600-CAD4/1bitblock.sch
+** sch_path: /foss/designs/CAD4/1bitblock.sch
 .subckt 1bitblock P A B Cin S0 S1 Y Cout
 *.PININFO A:I B:I Cin:I S0:I S1:I Y:O Cout:O P:O
-x1 B G A AND
-x2 B A P XOR
+x1 A G B AND
+x2 A B P XOR
 x3 P G OR OR
 x4 P Cin ADD XOR
 x5 S0 ADD S1 G Y OR P MUX41
@@ -11,8 +11,8 @@ x7 net1 G Cout OR
 .ends
 
 * expanding   symbol:  AND.sym # of pins=3
-** sym_path: /foss/designs/ENGN1600-CAD4/AND.sym
-** sch_path: /foss/designs/ENGN1600-CAD4/AND.sch
+** sym_path: /foss/designs/CAD4/AND.sym
+** sch_path: /foss/designs/CAD4/AND.sch
 .subckt AND IN0 OUT IN1
 *.PININFO OUT:O IN0:I IN1:I
 M1 net1 IN0 net2 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
@@ -24,8 +24,8 @@ x1 OUT net1 INV
 
 
 * expanding   symbol:  XOR.sym # of pins=3
-** sym_path: /foss/designs/ENGN1600-CAD4/XOR.sym
-** sch_path: /foss/designs/ENGN1600-CAD4/XOR.sch
+** sym_path: /foss/designs/CAD4/XOR.sym
+** sch_path: /foss/designs/CAD4/XOR.sch
 .subckt XOR IN0 IN1 OUT
 *.PININFO OUT:O IN0:I IN1:I
 M3 OUT Ab net1 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
@@ -42,8 +42,8 @@ x1 Bb IN1 INV
 
 
 * expanding   symbol:  OR.sym # of pins=3
-** sym_path: /foss/designs/ENGN1600-CAD4/OR.sym
-** sch_path: /foss/designs/ENGN1600-CAD4/OR.sch
+** sym_path: /foss/designs/CAD4/OR.sym
+** sch_path: /foss/designs/CAD4/OR.sch
 .subckt OR IN0 IN1 OUT
 *.PININFO OUT:O IN0:I IN1:I
 M1 net1 IN1 GND GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
@@ -55,8 +55,8 @@ x1 OUT net1 INV
 
 
 * expanding   symbol:  MUX41.sym # of pins=7
-** sym_path: /foss/designs/ENGN1600-CAD4/MUX41.sym
-** sch_path: /foss/designs/ENGN1600-CAD4/MUX41.sch
+** sym_path: /foss/designs/CAD4/MUX41.sym
+** sch_path: /foss/designs/CAD4/MUX41.sch
 .subckt MUX41 S0 IN0 S1 IN1 OUT IN2 IN3
 *.PININFO IN0:I IN1:I S0:I S1:I IN2:I IN3:I OUT:O
 x1 IN0 S0 n1 IN1 MUX21
@@ -66,8 +66,8 @@ x3 n1 S1 OUT n2 MUX21
 
 
 * expanding   symbol:  INV.sym # of pins=2
-** sym_path: /foss/designs/ENGN1600-CAD4/INV.sym
-** sch_path: /foss/designs/ENGN1600-CAD4/INV.sch
+** sym_path: /foss/designs/CAD4/INV.sym
+** sch_path: /foss/designs/CAD4/INV.sch
 .subckt INV OUT IN
 *.PININFO IN:I OUT:O
 M1 OUT IN VDD VDD pfet_03v3 L=0.28u W=1u nf=1 m=1
@@ -76,8 +76,8 @@ M2 OUT IN GND GND nfet_03v3 L=0.28u W=0.5u nf=1 m=1
 
 
 * expanding   symbol:  MUX21.sym # of pins=4
-** sym_path: /foss/designs/ENGN1600-CAD4/MUX21.sym
-** sch_path: /foss/designs/ENGN1600-CAD4/MUX21.sch
+** sym_path: /foss/designs/CAD4/MUX21.sym
+** sch_path: /foss/designs/CAD4/MUX21.sch
 .subckt MUX21 IN0 S OUT IN1
 *.PININFO OUT:O IN0:I IN1:I S:I
 M3 net1 IN1 net2 vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
@@ -89,7 +89,7 @@ M6 net2 Sb vdd vdd pfet_03v3 L=0.28u W=2u nf=1 m=1
 M7 net1 IN1 net4 GND nfet_03v3 L=0.28u W=1u nf=1 m=1
 M8 net4 S GND GND nfet_03v3 L=0.28u W=1u nf=1 m=1
 x3 Sb S INV
-x4 OUT net1 INV
+x1 OUT net1 INV
 .ends
 
 .GLOBAL GND
