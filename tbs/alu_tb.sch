@@ -445,12 +445,6 @@ C {vsource.sym} -350 -760 0 0 {name=VS0 value=0 savecurrent=false}
 C {gnd.sym} -350 -720 0 0 {name=l38 lab=GND}
 C {lab_wire.sym} -300 -840 0 0 {name=p36 sig_type=std_logic lab=S0}
 C {lab_wire.sym} -240 -820 0 0 {name=p37 sig_type=std_logic lab=S1}
-C {devices/code_shown.sym} 267.5 -157.5 0 0 {name=MODELS only_toplevel=true
-format="tcleval( @value )"
-value="
-.include $::180MCU_MODELS/design.ngspice
-.lib $::180MCU_MODELS/sm141064.ngspice typical
-"}
 C {code_shown.sym} 247.5 -1257.5 0 0 {name=s1 only_toplevel=false value="
 .control
   let vlow = 0
@@ -528,3 +522,9 @@ C {lab_wire.sym} 180 -100 0 0 {name=p54 sig_type=std_logic lab=Y7}
 C {lab_wire.sym} 180 -80 0 0 {name=p55 sig_type=std_logic lab=Y3}
 C {lab_wire.sym} 180 -60 0 0 {name=p56 sig_type=std_logic lab=Z}
 C {vdd.sym} -900 -462.5 0 0 {name=l1 lab=VDD}
+C {devices/code_shown.sym} 257.5 -157.5 0 0 {name=MODELS1 only_toplevel=true
+format="tcleval( @value )"
+value="
+.include $::180MCU_MODELS/design.ngspice
+.lib $::180MCU_MODELS/sm141064.ngspice typical
+"}
