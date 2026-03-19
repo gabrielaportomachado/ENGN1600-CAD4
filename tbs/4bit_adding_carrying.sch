@@ -111,7 +111,13 @@ C {code_shown.sym} 317.5 -487.5 0 0 {name=s1 only_toplevel=false value="
   * When 0ns < t < 20ns (Cin=0): Sum=1111, Cout=0, BP=1
   * When 20ns < t < 40ns (Cin=1): Sum=0000, Cout=1, BP=1
   
-  plot v(Cin) v(BP) v(Cout) v(Y3) v(Y2) v(Y1) v(Y0)
+  plot v(Cin)
+  plot v(BP)
+  plot v(Cout)
+  plot v(Y3)
+  plot v(Y2)
+  plot v(Y1)
+  plot v(Y0)
   
   write 4bit_propagate_test.raw
 .endc
