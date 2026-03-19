@@ -109,8 +109,12 @@ C {code_shown.sym} 317.5 -487.5 0 0 {name=s1 only_toplevel=false value="
   * Logic Check: 5 + 3 = 8 (Binary 1000)
   * Expecting: Y3=High, Y2=Low, Y1=Low, Y0=Low, Cout=Low
   
-  plot v(Y3) v(Y2) v(Y1) v(Y0) v(Cout) v(BP)
-  
+  plot v(Y3)
+  plot v(Y2)
+  plot v(Y1)
+  plot v(Y0)
+  plot v(Cout)
+  plot v(BP)
   write 4bit_static_results.raw
 .endc
 "}
