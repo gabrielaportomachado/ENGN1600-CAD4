@@ -32,9 +32,9 @@ N 1190 -70 1260 -70 {lab=#net4}
 N 1190 10 1260 10 {lab=Cin}
 N 1380 -30 1440 -30 {lab=Cout}
 N 1130 -110 1190 -110 {lab=P3}
-N 1200 -330 1260 -330 {lab=P0}
-N 1200 -290 1260 -290 {lab=P1}
-N 1200 -250 1260 -250 {lab=P2}
+N 1200 -330 1260 -330 {lab=P3}
+N 1200 -290 1260 -290 {lab=P2}
+N 1200 -250 1260 -250 {lab=P1}
 N 1200 -210 1260 -210 {lab=P3}
 N 1460 -270 1520 -270 {lab=BP}
 N 1320 -150 1320 -100 {lab=BP}
@@ -79,10 +79,10 @@ C {lab_wire.sym} 110 -110 0 0 {name=p34 sig_type=std_logic lab=P0}
 C {lab_wire.sym} 470 -110 0 0 {name=p36 sig_type=std_logic lab=P1}
 C {lab_wire.sym} 820 -110 0 0 {name=p37 sig_type=std_logic lab=P2}
 C {lab_wire.sym} 1170 -110 0 0 {name=p38 sig_type=std_logic lab=P3}
-C {lab_wire.sym} 1240 -330 0 0 {name=p39 sig_type=std_logic lab=P0}
-C {lab_wire.sym} 1240 -290 0 0 {name=p40 sig_type=std_logic lab=P1}
-C {lab_wire.sym} 1240 -250 0 0 {name=p41 sig_type=std_logic lab=P2}
-C {lab_wire.sym} 1240 -210 0 0 {name=p42 sig_type=std_logic lab=P3}
+C {lab_wire.sym} 1240 -330 0 0 {name=p39 sig_type=std_logic lab=P3}
+C {lab_wire.sym} 1240 -290 0 0 {name=p40 sig_type=std_logic lab=P2}
+C {lab_wire.sym} 1240 -250 0 0 {name=p41 sig_type=std_logic lab=P1}
+C {lab_wire.sym} 1240 -210 0 0 {name=p42 sig_type=std_logic lab=P0}
 C {opin.sym} 1520 -270 0 0 {name=p43 lab=BP}
 C {lab_wire.sym} 1320 -130 2 0 {name=p44 sig_type=std_logic lab=BP}
 C {lab_wire.sym} 360 -170 1 0 {name=p12 sig_type=std_logic lab=S0}

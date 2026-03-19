@@ -6,7 +6,7 @@ x2 P1 A1 B1 net1 S0 S1 Y1 net2 1bitblock
 x3 P2 A2 B2 net2 S0 S1 Y2 net3 1bitblock
 x4 P3 A3 B3 net3 S0 S1 Y3 net4 1bitblock
 x5 net4 BP Cout Cin MUX21
-x6 BP P0 P1 P2 P3 AND4
+x6 BP P3 P2 P1 P0 AND4
 .ends
 
 * expanding   symbol:  1bitblock.sym # of pins=8
