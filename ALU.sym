@@ -115,7 +115,10 @@ B 5 -152.5 297.5 -147.5 302.5 {name=B3 dir=in}
 B 5 -152.5 317.5 -147.5 322.5 {name=B11 dir=in}
 B 5 -152.5 337.5 -147.5 342.5 {name=Cin dir=in}
 B 5 147.5 17.5 152.5 22.5 {name=Z dir=out}
-P 4 5 130 -350 -130 -350 -130 350 130 350 130 -350 {}
+P 4 5 130 -350 -130 -350 -130 350 130 350 130 -350 {type=primitive
+format="@name @pinlist @symname"
+template="name=X1"
+symname=ALU}
 T {@symname} -31.5 -6 0 0 0.3 0.3 {}
 T {@name} -15 18 0 0 0.2 0.2 {}
 T {S0} -125 -344 0 0 0.2 0.2 {}

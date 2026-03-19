@@ -112,9 +112,12 @@ B 5 -162.5 217.5 -157.5 222.5 {name=B3 dir=in}
 B 5 -162.5 237.5 -157.5 242.5 {name=B11 dir=in}
 B 5 -162.5 257.5 -157.5 262.5 {name=Cin dir=in}
 B 5 137.5 -62.5 142.5 -57.5 {name=Z dir=out}
-P 4 5 120 -430 -140 -430 -140 270 120 270 120 -430 {}
-T {1x ALU} -41.5 -86 0 0 0.3 0.3 {}
-T {@name} 85 -452 0 0 0.2 0.2 {}
+P 4 5 120 -430 -140 -430 -140 270 120 270 120 -430 {type=primitive
+format="@name @pinlist @symname"
+template="name=X1"
+symname=ALU}
+T {@symname} -41.5 -86 0 0 0.3 0.3 {}
+T {@name} -25 -62 0 0 0.2 0.2 {}
 T {S0} -135 -424 0 0 0.2 0.2 {}
 T {S1} -135 -404 0 0 0.2 0.2 {}
 T {F} 115 -424 0 1 0.2 0.2 {}
@@ -474,7 +477,7 @@ C {code_shown.sym} 717.5 -1197.5 0 0 {name=s1 only_toplevel=false value="
   alter VS1 = $&vlow
   alter VS0 = $&vlow
 
-  * carry in = 0
+  * Carry in = 0
   alter VCin = $&vlow
 
   * A = 0x0003
@@ -513,12 +516,78 @@ C {code_shown.sym} 717.5 -1197.5 0 0 {name=s1 only_toplevel=false value="
   alter VB1  = $&vlow
   alter VB0  = $&vhigh
 
-  tran 0.1n 50n
+  * Solve DC operating point first
+  op
 
-  * show all vectors actually available
-  display
+  * Print only the bits that matter for 3 + 5 = 8
+  echo EXPECTED: Y3=3.3, Y2=0, Y1=0, Y0=0, F=0
+  print v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
 
-  * write raw file no matter what
+  * Optional very short transient, just for waveform screenshot
+  tran 0.1n 5n
+  plot v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
+
+  write alu_add_results.raw
+.endc
+"
+.control
+  let vlow = 0
+  let vhigh = 3.3
+
+  * ADD mode
+  alter VS1 = $&vlow
+  alter VS0 = $&vlow
+
+  * Carry in = 0
+  alter VCin = $&vlow
+
+  * A = 0x0003
+  alter VA15 = $&vlow
+  alter VA14 = $&vlow
+  alter VA13 = $&vlow
+  alter VA12 = $&vlow
+  alter VA11 = $&vlow
+  alter VA10 = $&vlow
+  alter VA9  = $&vlow
+  alter VA8  = $&vlow
+  alter VA7  = $&vlow
+  alter VA6  = $&vlow
+  alter VA5  = $&vlow
+  alter VA4  = $&vlow
+  alter VA3  = $&vlow
+  alter VA2  = $&vlow
+  alter VA1  = $&vhigh
+  alter VA0  = $&vhigh
+
+  * B = 0x0005
+  alter VB15 = $&vlow
+  alter VB14 = $&vlow
+  alter VB13 = $&vlow
+  alter VB12 = $&vlow
+  alter VB11 = $&vlow
+  alter VB10 = $&vlow
+  alter VB9  = $&vlow
+  alter VB8  = $&vlow
+  alter VB7  = $&vlow
+  alter VB6  = $&vlow
+  alter VB5  = $&vlow
+  alter VB4  = $&vlow
+  alter VB3  = $&vlow
+  alter VB2  = $&vhigh
+  alter VB1  = $&vlow
+  alter VB0  = $&vhigh
+
+  * Solve DC operating point first
+  op
+
+  * Print only the bits that matter for 3 + 5 = 8
+  echo EXPECTED: Y3=3.3, Y2=0, Y1=0, Y0=0, F=0
+  print v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
+
+  * Optional very short transient, just for waveform screenshot
+  tran 0.1n 5n
+  plot v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
+
   write alu_add_results.raw
 .endc
 "}
@@ -541,8 +610,8 @@ C {lab_wire.sym} 180 -120 0 0 {name=p53 sig_type=std_logic lab=Y15}
 C {lab_wire.sym} 180 -100 0 0 {name=p54 sig_type=std_logic lab=Y7}
 C {lab_wire.sym} 180 -80 0 0 {name=p55 sig_type=std_logic lab=Y3}
 C {lab_wire.sym} 167.5 -60 0 0 {name=p56 sig_type=std_logic lab=Z}
-C {vdd.sym} -985 -492.5 0 0 {name=l1 lab=VDD}
-C {devices/code_shown.sym} 687.5 -37.5 0 0 {name=MODELS1 only_toplevel=true
+C {vdd.sym} -985 -492.5 0 0 {name=l1 lab=vdd}
+C {devices/code_shown.sym} 687.5 32.5 0 0 {name=MODELS1 only_toplevel=true
 format="tcleval( @value )"
 value="
 .include $::180MCU_MODELS/design.ngspice
