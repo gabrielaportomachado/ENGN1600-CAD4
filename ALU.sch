@@ -84,7 +84,7 @@ N 2070 100 2120 100 {lab=BP3}
 N 2320 40 2380 40 {lab=Z}
 N -200 -400 -150 -400 {lab=S0}
 N -200 -360 -150 -360 {lab=S1}
-C {ENGN1600-CAD4/4bitblock.sym} 40 -130 0 0 {name=x1}
+C {4bitblock.sym} 40 -130 0 0 {name=x1}
 C {lab_wire.sym} 50 -270 1 0 {name=p27 sig_type=std_logic lab=S0}
 C {lab_wire.sym} 30 -270 1 0 {name=p28 sig_type=std_logic lab=S1}
 C {opin.sym} 250 -160 0 0 {name=p26 lab=Y0}
@@ -101,7 +101,7 @@ C {ipin.sym} -160 -90 0 0 {name=p7 lab=A3}
 C {ipin.sym} -160 -70 0 0 {name=p8 lab=B3}
 C {ipin.sym} -160 -50 0 0 {name=p9 lab=Cin}
 C {lab_wire.sym} 230 -210 0 0 {name=p10 sig_type=std_logic lab=BP0}
-C {ENGN1600-CAD4/4bitblock.sym} 560 -130 0 0 {name=x2}
+C {4bitblock.sym} 560 -130 0 0 {name=x2}
 C {lab_wire.sym} 570 -270 1 0 {name=p11 sig_type=std_logic lab=S0}
 C {lab_wire.sym} 550 -270 1 0 {name=p12 sig_type=std_logic lab=S1}
 C {opin.sym} 770 -160 0 0 {name=p13 lab=Y4}
@@ -117,7 +117,7 @@ C {ipin.sym} 360 -110 0 0 {name=p23 lab=B6}
 C {ipin.sym} 360 -90 0 0 {name=p24 lab=A7}
 C {ipin.sym} 360 -70 0 0 {name=p25 lab=B7}
 C {lab_wire.sym} 750 -210 0 0 {name=p30 sig_type=std_logic lab=BP1}
-C {ENGN1600-CAD4/4bitblock.sym} 1080 -130 0 0 {name=x3}
+C {4bitblock.sym} 1080 -130 0 0 {name=x3}
 C {lab_wire.sym} 1090 -270 1 0 {name=p31 sig_type=std_logic lab=S0}
 C {lab_wire.sym} 1070 -270 1 0 {name=p32 sig_type=std_logic lab=S1}
 C {opin.sym} 1290 -160 0 0 {name=p33 lab=Y8}
@@ -149,22 +149,22 @@ C {ipin.sym} 1400 -90 0 0 {name=p59 lab=A15}
 C {ipin.sym} 1400 -70 0 0 {name=p60 lab=B15}
 C {lab_wire.sym} 1790 -210 0 0 {name=p61 sig_type=std_logic lab=BP3}
 C {lab_wire.sym} 1610 20 1 0 {name=p62 sig_type=std_logic lab=SUM15}
-C {ENGN1600-CAD4/XOR.sym} 2190 -240 0 0 {name=x5}
+C {XOR.sym} 2190 -240 0 0 {name=x5}
 C {opin.sym} 2310 -240 0 0 {name=p64 lab=F}
 C {lab_wire.sym} 1590 -10 3 0 {name=p63 sig_type=std_logic lab=Cout-1}
 C {lab_wire.sym} 1760 -50 2 0 {name=p65 sig_type=std_logic lab=Cout}
 C {lab_wire.sym} 2080 -260 2 0 {name=p66 sig_type=std_logic lab=Cout}
 C {lab_wire.sym} 2080 -220 2 0 {name=p67 sig_type=std_logic lab=Cout-1}
-C {ENGN1600-CAD4/XOR.sym} 2190 -120 0 0 {name=x6}
+C {XOR.sym} 2190 -120 0 0 {name=x6}
 C {opin.sym} 2310 -120 0 0 {name=p68 lab=N}
 C {lab_wire.sym} 2080 -140 2 0 {name=p69 sig_type=std_logic lab=F}
 C {lab_wire.sym} 2080 -100 2 0 {name=p70 sig_type=std_logic lab=SUM15}
-C {ENGN1600-CAD4/AND4.sym} 2180 40 0 0 {name=x7}
+C {AND4.sym} 2180 40 0 0 {name=x7}
 C {lab_wire.sym} 2110 -20 0 0 {name=p71 sig_type=std_logic lab=BP0}
 C {lab_wire.sym} 2110 20 0 0 {name=p72 sig_type=std_logic lab=BP1}
 C {lab_wire.sym} 2110 60 0 0 {name=p73 sig_type=std_logic lab=BP2}
 C {lab_wire.sym} 2110 100 0 0 {name=p74 sig_type=std_logic lab=BP3}
 C {opin.sym} 2380 40 0 0 {name=p75 lab=Z}
-C {ENGN1600-CAD4/4bitblock_LAST.sym} 1600 -140 0 0 {name=x4}
+C {4bitblock_LAST.sym} 1600 -140 0 0 {name=x4}
 C {ipin.sym} -200 -400 0 0 {name=p76 lab=S0}
 C {ipin.sym} -200 -360 0 0 {name=p77 lab=S1}
