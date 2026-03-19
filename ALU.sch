@@ -168,3 +168,6 @@ C {opin.sym} 2380 40 0 0 {name=p75 lab=Z}
 C {4bitblock_LAST.sym} 1600 -140 0 0 {name=x4}
 C {ipin.sym} -200 -400 0 0 {name=p76 lab=S0}
 C {ipin.sym} -200 -360 0 0 {name=p77 lab=S1}
+C {lab_wire.sym} -180 -400 1 0 {name=p78 sig_type=std_logic lab=S0}
+C {lab_wire.sym} -180 -360 1 0 {name=p79 sig_type=std_logic lab=S1}
+C {lab_wire.sym} 2260 -240 2 0 {name=p80 sig_type=std_logic lab=F}

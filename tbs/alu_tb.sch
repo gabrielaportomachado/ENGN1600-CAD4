@@ -169,7 +169,7 @@ T {B3} -135 216 0 0 0.2 0.2 {}
 T {B11} -135 236 0 0 0.2 0.2 {}
 T {Cin} -135 256 0 0 0.2 0.2 {}
 T {Z} 115 -64 0 1 0.2 0.2 {}
-N -900 -380 -900 -350 {lab=GND}
+N -985 -410 -985 -380 {lab=GND}
 N -560 -560 -560 -550 {lab=GND}
 N -510 -540 -510 -530 {lab=GND}
 N -450 -520 -450 -510 {lab=GND}
@@ -336,10 +336,30 @@ N 140 -140 180 -140 {lab=Y11}
 N 140 -120 180 -120 {lab=Y15}
 N 140 -100 180 -100 {lab=Y7}
 N 140 -80 180 -80 {lab=Y3}
-N 140 -60 180 -60 {lab=Z}
-N -900 -460 -900 -440 {lab=#net1}
-C {vsource.sym} -900 -410 0 0 {name=V1 value=3.3 savecurrent=false}
-C {gnd.sym} -900 -350 0 0 {name=l2 lab=GND}
+N -985 -490 -985 -470 {lab=#net1}
+N 180 -420 665 -420 {lab=F}
+N 180 -400 640 -400 {lab=Y4}
+N 180 -380 625 -380 {lab=Y8}
+N 180 -360 607.5 -360 {lab=Y12}
+N 180 -340 590 -340 {lab=Y0}
+N 180 -320 572.5 -320 {lab=Y5}
+N 180 -300 555 -300 {lab=Y9}
+N 180 -280 540 -280 {lab=Y1}
+N 180 -260 520 -260 {lab=Y13}
+N 180 -240 497.5 -240 {lab=Y10}
+N 497.5 -240 500 -240 {lab=Y10}
+N 180 -220 480 -220 {lab=N}
+N 180 -200 462.5 -200 {lab=Y2}
+N 180 -180 447.5 -180 {lab=Y14}
+N 180 -160 430 -160 {lab=Y6}
+N 180 -140 410 -140 {lab=Y11}
+N 180 -120 390 -120 {lab=Y15}
+N 180 -100 372.5 -100 {lab=Y7}
+N 180 -80 355 -80 {lab=Y3}
+N 140 -60 320 -60 {lab=Z}
+N 320 -60 335 -60 {lab=Z}
+C {vsource.sym} -985 -440 0 0 {name=V1 value=3.3 savecurrent=false}
+C {gnd.sym} -985 -380 0 0 {name=l2 lab=GND}
 C {vsource.sym} -560 -590 0 0 {name=VA0 value=0 savecurrent=false}
 C {lab_wire.sym} -450 -660 0 0 {name=p3 sig_type=std_logic lab=A0}
 C {gnd.sym} -560 -550 0 0 {name=l4 lab=GND}
@@ -445,7 +465,7 @@ C {vsource.sym} -350 -760 0 0 {name=VS0 value=0 savecurrent=false}
 C {gnd.sym} -350 -720 0 0 {name=l38 lab=GND}
 C {lab_wire.sym} -300 -840 0 0 {name=p36 sig_type=std_logic lab=S0}
 C {lab_wire.sym} -240 -820 0 0 {name=p37 sig_type=std_logic lab=S1}
-C {code_shown.sym} 247.5 -1257.5 0 0 {name=s1 only_toplevel=false value="
+C {code_shown.sym} 717.5 -1197.5 0 0 {name=s1 only_toplevel=false value="
 .control
   let vlow = 0
   let vhigh = 3.3
@@ -520,11 +540,125 @@ C {lab_wire.sym} 180 -140 0 0 {name=p52 sig_type=std_logic lab=Y11}
 C {lab_wire.sym} 180 -120 0 0 {name=p53 sig_type=std_logic lab=Y15}
 C {lab_wire.sym} 180 -100 0 0 {name=p54 sig_type=std_logic lab=Y7}
 C {lab_wire.sym} 180 -80 0 0 {name=p55 sig_type=std_logic lab=Y3}
-C {lab_wire.sym} 180 -60 0 0 {name=p56 sig_type=std_logic lab=Z}
-C {vdd.sym} -900 -462.5 0 0 {name=l1 lab=VDD}
-C {devices/code_shown.sym} 257.5 -157.5 0 0 {name=MODELS1 only_toplevel=true
+C {lab_wire.sym} 167.5 -60 0 0 {name=p56 sig_type=std_logic lab=Z}
+C {vdd.sym} -985 -492.5 0 0 {name=l1 lab=VDD}
+C {devices/code_shown.sym} 687.5 -37.5 0 0 {name=MODELS1 only_toplevel=true
 format="tcleval( @value )"
 value="
 .include $::180MCU_MODELS/design.ngspice
 .lib $::180MCU_MODELS/sm141064.ngspice typical
 "}
+C {capa.sym} 665 -390 0 0 {name=C3
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 665 -360 0 0 {name=l3 lab=GND}
+C {capa.sym} 640 -370 0 0 {name=C2
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 640 -340 0 0 {name=l40 lab=GND}
+C {capa.sym} 625 -350 0 0 {name=C4
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 625 -320 0 0 {name=l41 lab=GND}
+C {capa.sym} 607.5 -330 0 0 {name=C5
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 607.5 -300 0 0 {name=l42 lab=GND}
+C {capa.sym} 590 -310 0 0 {name=C1
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 590 -280 0 0 {name=l39 lab=GND}
+C {capa.sym} 572.5 -290 0 0 {name=C6
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 572.5 -260 0 0 {name=l43 lab=GND}
+C {capa.sym} 555 -270 0 0 {name=C7
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 555 -240 0 0 {name=l44 lab=GND}
+C {capa.sym} 540 -250 0 0 {name=C8
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 540 -220 0 0 {name=l45 lab=GND}
+C {capa.sym} 520 -230 0 0 {name=C9
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 520 -200 0 0 {name=l46 lab=GND}
+C {capa.sym} 500 -210 0 0 {name=C10
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 500 -180 0 0 {name=l47 lab=GND}
+C {capa.sym} 480 -190 0 0 {name=C11
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 480 -160 0 0 {name=l48 lab=GND}
+C {capa.sym} 462.5 -170 0 0 {name=C12
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 462.5 -140 0 0 {name=l49 lab=GND}
+C {capa.sym} 447.5 -150 0 0 {name=C13
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 447.5 -120 0 0 {name=l50 lab=GND}
+C {capa.sym} 430 -130 0 0 {name=C14
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 430 -100 0 0 {name=l51 lab=GND}
+C {capa.sym} 410 -110 0 0 {name=C15
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 410 -80 0 0 {name=l52 lab=GND}
+C {capa.sym} 390 -90 0 0 {name=C16
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 390 -60 0 0 {name=l53 lab=GND}
+C {capa.sym} 372.5 -70 0 0 {name=C17
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 372.5 -40 0 0 {name=l54 lab=GND}
+C {capa.sym} 355 -50 0 0 {name=C18
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 355 -20 0 0 {name=l55 lab=GND}
+C {capa.sym} 335 -30 0 0 {name=C19
+m=1
+value=20f
+footprint=1206
+device="ceramic capacitor"}
+C {gnd.sym} 335 0 0 0 {name=l56 lab=GND}
