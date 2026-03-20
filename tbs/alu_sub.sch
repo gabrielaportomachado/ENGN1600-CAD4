@@ -100,9 +100,9 @@ N -1017.5 -50 -1017.5 -20 {lab=A15}
 N -957.5 37.5 -957.5 52.5 {lab=GND}
 N -957.5 35 -957.5 37.5 {lab=GND}
 N -957.5 -50 -957.5 -20 {lab=B15}
-N -467.5 -467.5 -467.5 -452.5 {lab=GND}
-N -467.5 -470 -467.5 -467.5 {lab=GND}
-N -467.5 -555 -467.5 -525 {lab=S0}
+N -575 -307.5 -575 -292.5 {lab=GND}
+N -575 -310 -575 -307.5 {lab=GND}
+N -575 -395 -575 -365 {lab=S0}
 N -657.5 -307.5 -657.5 -292.5 {lab=GND}
 N -657.5 -310 -657.5 -307.5 {lab=GND}
 N -657.5 -395 -657.5 -365 {lab=S1}
@@ -111,7 +111,13 @@ N -1397.5 185 -1397.5 187.5 {lab=GND}
 N -1397.5 100 -1397.5 130 {lab=Cin}
 N -1302.5 160 -1302.5 180 {lab=VDD}
 N -1302.5 240 -1302.5 260 {lab=GND}
-C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
+N -575 -122.5 -575 -107.5 {lab=GND}
+N -575 -125 -575 -122.5 {lab=GND}
+N -575 -210 -575 -180 {lab=S2}
+N -657.5 -122.5 -657.5 -107.5 {lab=GND}
+N -657.5 -125 -657.5 -122.5 {lab=GND}
+N -657.5 -210 -657.5 -180 {lab=S3}
+C {code_shown.sym} 2042.5 -1867.5 0 0 {name=s1 only_toplevel=false value="
 .control
   let vlow = 0
   let vhigh = 3.3
@@ -119,11 +125,13 @@ C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
   * ADD mode
   alter VS1 = $&vlow
   alter VS0 = $&vlow
+  alter VS3 = $&vhigh
+  alter VS2 = $&vhigh
 
   * Carry in = 0
-  alter VCin = $&vlow
+  alter VCin = $&vhigh
 
-  * A = 0x0103 = 259
+* --- A = 0x0003 (All bits High) ---
   alter VA15 = $&vlow
   alter VA14 = $&vlow
   alter VA13 = $&vlow
@@ -131,7 +139,7 @@ C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
   alter VA11 = $&vlow
   alter VA10 = $&vlow
   alter VA9  = $&vlow
-  alter VA8  = $&vhigh
+  alter VA8  = $&vlow
   alter VA7  = $&vlow
   alter VA6  = $&vlow
   alter VA5  = $&vlow
@@ -141,7 +149,7 @@ C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
   alter VA1  = $&vhigh
   alter VA0  = $&vhigh
 
-  * B = 0x0005
+  * --- B = 0x0008 (Only Bit 0 High) ---
   alter VB15 = $&vlow
   alter VB14 = $&vlow
   alter VB13 = $&vlow
@@ -154,10 +162,10 @@ C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
   alter VB6  = $&vlow
   alter VB5  = $&vlow
   alter VB4  = $&vlow
-  alter VB3  = $&vlow
-  alter VB2  = $&vhigh
+  alter VB3  = $&vhigh
+  alter VB2  = $&vlow
   alter VB1  = $&vlow
-  alter VB0  = $&vhigh
+  alter VB0  = $&vlow
 
   * Solve DC operating point first
   op
@@ -259,10 +267,11 @@ meas tran v0  find v(y0)  at=30n
   end
   * --- Calculate Decimal Sum ---
 print decimal_result 
+print F[100]
 write alu_add_results.raw
 .endc
 "}
-C {devices/code_shown.sym} 687.5 32.5 0 0 {name=MODELS1 only_toplevel=true
+C {devices/code_shown.sym} 1037.5 -10 0 0 {name=MODELS1 only_toplevel=true
 format="tcleval( @value )"
 value="
 .include $::180MCU_MODELS/design.ngspice
@@ -369,42 +378,24 @@ C {lab_wire.sym} -160 -380 0 0 {name=p33 sig_type=std_logic lab=A0}
 C {lab_wire.sym} -160 -360 0 0 {name=p34 sig_type=std_logic lab=A4}
 C {lab_wire.sym} -160 -340 0 0 {name=p35 sig_type=std_logic lab=A12}
 C {lab_wire.sym} -160 -320 0 0 {name=p36 sig_type=std_logic lab=A8}
-C {lab_wire.sym} -160 -300 0 0 {name=p37 sig_type=std_logic lab=B4}
-C {lab_wire.sym} -160 -280 0 0 {name=p57 sig_type=std_logic lab=B0}
-C {lab_wire.sym} -160 -260 0 0 {name=p58 sig_type=std_logic lab=B12}
-C {lab_wire.sym} -160 -240 0 0 {name=p59 sig_type=std_logic lab=B8}
 C {lab_wire.sym} -160 -220 0 0 {name=p60 sig_type=std_logic lab=A1}
 C {lab_wire.sym} -160 -200 0 0 {name=p61 sig_type=std_logic lab=A13}
 C {lab_wire.sym} -160 -180 0 0 {name=p62 sig_type=std_logic lab=A5}
 C {lab_wire.sym} -160 -160 0 0 {name=p63 sig_type=std_logic lab=A9}
-C {lab_wire.sym} -160 -140 0 0 {name=p64 sig_type=std_logic lab=B5}
-C {lab_wire.sym} -160 -120 0 0 {name=p65 sig_type=std_logic lab=B1}
-C {lab_wire.sym} -160 -100 0 0 {name=p66 sig_type=std_logic lab=B13}
-C {lab_wire.sym} -160 -80 0 0 {name=p67 sig_type=std_logic lab=B9}
 C {lab_wire.sym} -160 -60 0 0 {name=p68 sig_type=std_logic lab=A14}
 C {lab_wire.sym} -160 -40 0 0 {name=p69 sig_type=std_logic lab=A6}
 C {lab_wire.sym} -160 -20 0 0 {name=p70 sig_type=std_logic lab=A2}
 C {lab_wire.sym} -160 0 0 0 {name=p71 sig_type=std_logic lab=A10}
-C {lab_wire.sym} -160 20 0 0 {name=p72 sig_type=std_logic lab=B14}
-C {lab_wire.sym} -160 40 0 0 {name=p73 sig_type=std_logic lab=B6}
-C {lab_wire.sym} -160 60 0 0 {name=p74 sig_type=std_logic lab=B2}
-C {lab_wire.sym} -160 80 0 0 {name=p75 sig_type=std_logic lab=B10}
 C {lab_wire.sym} -160 100 0 0 {name=p76 sig_type=std_logic lab=A7}
 C {lab_wire.sym} -160 120 0 0 {name=p77 sig_type=std_logic lab=A15}
 C {lab_wire.sym} -160 140 0 0 {name=p78 sig_type=std_logic lab=A3}
 C {lab_wire.sym} -160 160 0 0 {name=p79 sig_type=std_logic lab=A11}
-C {lab_wire.sym} -160 180 0 0 {name=p80 sig_type=std_logic lab=B7}
-C {lab_wire.sym} -160 200 0 0 {name=p81 sig_type=std_logic lab=B15}
-C {lab_wire.sym} -160 220 0 0 {name=p82 sig_type=std_logic lab=B3}
-C {lab_wire.sym} -160 240 0 0 {name=p83 sig_type=std_logic lab=B11}
-C {vsource.sym} -467.5 -495 0 0 {name=vS0 value=3.3 savecurrent=false}
-C {gnd.sym} -467.5 -452.5 0 0 {name=l36 lab=GND}
+C {vsource.sym} -575 -335 0 0 {name=vS0 value=3.3 savecurrent=false}
+C {gnd.sym} -575 -292.5 0 0 {name=l36 lab=GND}
 C {vsource.sym} -657.5 -335 0 0 {name=vS1 value=3.3 savecurrent=false}
 C {gnd.sym} -657.5 -292.5 0 0 {name=l37 lab=GND}
 C {lab_wire.sym} -657.5 -390 0 0 {name=p84 sig_type=std_logic lab=S1}
-C {lab_wire.sym} -467.5 -550 0 0 {name=p85 sig_type=std_logic lab=S0}
-C {lab_wire.sym} -160 -400 0 0 {name=p86 sig_type=std_logic lab=S1}
-C {lab_wire.sym} -160 -420 0 0 {name=p87 sig_type=std_logic lab=S0}
+C {lab_wire.sym} -575 -390 0 0 {name=p85 sig_type=std_logic lab=S0}
 C {vsource.sym} -1397.5 160 0 0 {name=vCin value=3.3 savecurrent=false}
 C {gnd.sym} -1397.5 202.5 0 0 {name=l38 lab=GND}
 C {lab_wire.sym} -1397.5 102.5 0 0 {name=p88 sig_type=std_logic lab=Cin}
@@ -412,22 +403,101 @@ C {lab_wire.sym} -160 260 0 0 {name=p89 sig_type=std_logic lab=Cin}
 C {vsource.sym} -1302.5 210 0 0 {name=V2 value=3.3 savecurrent=false}
 C {vdd.sym} -1302.5 160 0 0 {name=l1 lab=VDD}
 C {gnd.sym} -1302.5 260 0 0 {name=l2 lab=GND}
-C {lab_wire.sym} 140 -420 2 0 {name=p38 sig_type=std_logic lab=F}
-C {lab_wire.sym} 140 -400 2 0 {name=p39 sig_type=std_logic lab=Y4}
-C {lab_wire.sym} 140 -380 2 0 {name=p40 sig_type=std_logic lab=Y8}
-C {lab_wire.sym} 140 -360 2 0 {name=p41 sig_type=std_logic lab=Y12}
-C {lab_wire.sym} 140 -340 2 0 {name=p42 sig_type=std_logic lab=Y0}
-C {lab_wire.sym} 140 -320 2 0 {name=p43 sig_type=std_logic lab=Y5}
-C {lab_wire.sym} 140 -300 2 0 {name=p44 sig_type=std_logic lab=Y9}
-C {lab_wire.sym} 140 -280 2 0 {name=p45 sig_type=std_logic lab=Y1}
-C {lab_wire.sym} 140 -260 2 0 {name=p46 sig_type=std_logic lab=Y13}
-C {lab_wire.sym} 140 -240 2 0 {name=p47 sig_type=std_logic lab=Y10}
-C {lab_wire.sym} 140 -220 2 0 {name=p48 sig_type=std_logic lab=N}
-C {lab_wire.sym} 140 -200 2 0 {name=p49 sig_type=std_logic lab=Y2}
-C {lab_wire.sym} 140 -180 2 0 {name=p50 sig_type=std_logic lab=Y14}
-C {lab_wire.sym} 140 -160 2 0 {name=p51 sig_type=std_logic lab=Y6}
-C {lab_wire.sym} 140 -140 2 0 {name=p52 sig_type=std_logic lab=Y11}
-C {lab_wire.sym} 140 -120 2 0 {name=p53 sig_type=std_logic lab=Y15}
-C {lab_wire.sym} 140 -100 2 0 {name=p54 sig_type=std_logic lab=Y7}
-C {lab_wire.sym} 140 -80 2 0 {name=p55 sig_type=std_logic lab=Y3}
-C {lab_wire.sym} 140 -60 2 0 {name=p56 sig_type=std_logic lab=Z}
+C {lab_wire.sym} 140 -420 2 0 {name=p38 sig_type=std_logic lab=FA}
+C {lab_wire.sym} 140 -400 2 0 {name=p39 sig_type=std_logic lab=YA4}
+C {lab_wire.sym} 140 -380 2 0 {name=p40 sig_type=std_logic lab=YA8}
+C {lab_wire.sym} 140 -360 2 0 {name=p41 sig_type=std_logic lab=YA12}
+C {lab_wire.sym} 140 -340 2 0 {name=p42 sig_type=std_logic lab=YA0}
+C {lab_wire.sym} 140 -320 2 0 {name=p43 sig_type=std_logic lab=YA5}
+C {lab_wire.sym} 140 -300 2 0 {name=p44 sig_type=std_logic lab=YA9}
+C {lab_wire.sym} 140 -280 2 0 {name=p45 sig_type=std_logic lab=YA1}
+C {lab_wire.sym} 140 -260 2 0 {name=p46 sig_type=std_logic lab=YA13}
+C {lab_wire.sym} 140 -240 2 0 {name=p47 sig_type=std_logic lab=YA10}
+C {lab_wire.sym} 140 -220 2 0 {name=p48 sig_type=std_logic lab=NA}
+C {lab_wire.sym} 140 -200 2 0 {name=p49 sig_type=std_logic lab=YA2}
+C {lab_wire.sym} 140 -180 2 0 {name=p50 sig_type=std_logic lab=YA14}
+C {lab_wire.sym} 140 -160 2 0 {name=p51 sig_type=std_logic lab=YA6}
+C {lab_wire.sym} 140 -140 2 0 {name=p52 sig_type=std_logic lab=YA11}
+C {lab_wire.sym} 140 -120 2 0 {name=p53 sig_type=std_logic lab=YA15}
+C {lab_wire.sym} 140 -100 2 0 {name=p54 sig_type=std_logic lab=YA7}
+C {lab_wire.sym} 140 -80 2 0 {name=p55 sig_type=std_logic lab=YA3}
+C {lab_wire.sym} 140 -60 2 0 {name=p56 sig_type=std_logic lab=ZA}
+C {ALU.sym} 590 -80 0 0 {name=x2}
+C {lab_wire.sym} 440 -300 0 0 {name=p94 sig_type=std_logic lab=B4}
+C {lab_wire.sym} 440 -280 0 0 {name=p95 sig_type=std_logic lab=B0}
+C {lab_wire.sym} 440 -260 0 0 {name=p96 sig_type=std_logic lab=B12}
+C {lab_wire.sym} 440 -240 0 0 {name=p97 sig_type=std_logic lab=B8}
+C {lab_wire.sym} 440 -140 0 0 {name=p102 sig_type=std_logic lab=B5}
+C {lab_wire.sym} 440 -120 0 0 {name=p103 sig_type=std_logic lab=B1}
+C {lab_wire.sym} 440 -100 0 0 {name=p104 sig_type=std_logic lab=B13}
+C {lab_wire.sym} 440 -80 0 0 {name=p105 sig_type=std_logic lab=B9}
+C {lab_wire.sym} 440 20 0 0 {name=p110 sig_type=std_logic lab=B14}
+C {lab_wire.sym} 440 40 0 0 {name=p111 sig_type=std_logic lab=B6}
+C {lab_wire.sym} 440 60 0 0 {name=p112 sig_type=std_logic lab=B2}
+C {lab_wire.sym} 440 80 0 0 {name=p113 sig_type=std_logic lab=B10}
+C {lab_wire.sym} 440 180 0 0 {name=p118 sig_type=std_logic lab=B7}
+C {lab_wire.sym} 440 200 0 0 {name=p119 sig_type=std_logic lab=B15}
+C {lab_wire.sym} 440 220 0 0 {name=p120 sig_type=std_logic lab=B3}
+C {lab_wire.sym} 440 240 0 0 {name=p121 sig_type=std_logic lab=B11}
+C {lab_wire.sym} 440 -400 0 0 {name=p122 sig_type=std_logic lab=S1}
+C {lab_wire.sym} 440 -420 0 0 {name=p123 sig_type=std_logic lab=S0}
+C {lab_wire.sym} 440 260 0 0 {name=p124 sig_type=std_logic lab=Cin}
+C {lab_wire.sym} 740 -420 2 0 {name=p125 sig_type=std_logic lab=F}
+C {lab_wire.sym} 740 -400 2 0 {name=p126 sig_type=std_logic lab=Y4}
+C {lab_wire.sym} 740 -380 2 0 {name=p127 sig_type=std_logic lab=Y8}
+C {lab_wire.sym} 740 -360 2 0 {name=p128 sig_type=std_logic lab=Y12}
+C {lab_wire.sym} 740 -340 2 0 {name=p129 sig_type=std_logic lab=Y0}
+C {lab_wire.sym} 740 -320 2 0 {name=p130 sig_type=std_logic lab=Y5}
+C {lab_wire.sym} 740 -300 2 0 {name=p131 sig_type=std_logic lab=Y9}
+C {lab_wire.sym} 740 -280 2 0 {name=p132 sig_type=std_logic lab=Y1}
+C {lab_wire.sym} 740 -260 2 0 {name=p133 sig_type=std_logic lab=Y13}
+C {lab_wire.sym} 740 -240 2 0 {name=p134 sig_type=std_logic lab=Y10}
+C {lab_wire.sym} 740 -220 2 0 {name=p135 sig_type=std_logic lab=N}
+C {lab_wire.sym} 740 -200 2 0 {name=p136 sig_type=std_logic lab=Y2}
+C {lab_wire.sym} 740 -180 2 0 {name=p137 sig_type=std_logic lab=Y14}
+C {lab_wire.sym} 740 -160 2 0 {name=p138 sig_type=std_logic lab=Y6}
+C {lab_wire.sym} 740 -140 2 0 {name=p139 sig_type=std_logic lab=Y11}
+C {lab_wire.sym} 740 -120 2 0 {name=p140 sig_type=std_logic lab=Y15}
+C {lab_wire.sym} 740 -100 2 0 {name=p141 sig_type=std_logic lab=Y7}
+C {lab_wire.sym} 740 -80 2 0 {name=p142 sig_type=std_logic lab=Y3}
+C {lab_wire.sym} 740 -60 2 0 {name=p143 sig_type=std_logic lab=Z}
+C {vdd.sym} -160 -300 3 0 {name=l3 lab=VDD}
+C {vdd.sym} -160 -280 3 0 {name=l39 lab=VDD}
+C {vdd.sym} -160 -260 3 0 {name=l40 lab=VDD}
+C {vdd.sym} -160 -240 3 0 {name=l41 lab=VDD}
+C {vdd.sym} -160 -140 3 0 {name=l42 lab=VDD}
+C {vdd.sym} -160 -120 3 0 {name=l43 lab=VDD}
+C {vdd.sym} -160 -100 3 0 {name=l44 lab=VDD}
+C {vdd.sym} -160 -80 3 0 {name=l45 lab=VDD}
+C {vdd.sym} -160 20 3 0 {name=l46 lab=VDD}
+C {vdd.sym} -160 40 3 0 {name=l47 lab=VDD}
+C {vdd.sym} -160 60 3 0 {name=l48 lab=VDD}
+C {vdd.sym} -160 80 3 0 {name=l49 lab=VDD}
+C {vdd.sym} -160 180 3 0 {name=l50 lab=VDD}
+C {vdd.sym} -160 200 3 0 {name=l51 lab=VDD}
+C {vdd.sym} -160 220 3 0 {name=l52 lab=VDD}
+C {vdd.sym} -160 240 3 0 {name=l53 lab=VDD}
+C {lab_wire.sym} 440 -380 0 0 {name=p37 sig_type=std_logic lab=YA0}
+C {lab_wire.sym} 440 -360 0 0 {name=p57 sig_type=std_logic lab=YA4}
+C {lab_wire.sym} 440 -340 0 0 {name=p58 sig_type=std_logic lab=YA12}
+C {lab_wire.sym} 440 -320 0 0 {name=p59 sig_type=std_logic lab=YA8}
+C {lab_wire.sym} 440 -220 0 0 {name=p64 sig_type=std_logic lab=YA1}
+C {lab_wire.sym} 440 -200 0 0 {name=p65 sig_type=std_logic lab=YA13}
+C {lab_wire.sym} 440 -180 0 0 {name=p66 sig_type=std_logic lab=YA5}
+C {lab_wire.sym} 440 -160 0 0 {name=p67 sig_type=std_logic lab=YA9}
+C {lab_wire.sym} 440 -60 0 0 {name=p72 sig_type=std_logic lab=YA14}
+C {lab_wire.sym} 440 -40 0 0 {name=p73 sig_type=std_logic lab=YA6}
+C {lab_wire.sym} 440 -20 0 0 {name=p74 sig_type=std_logic lab=YA2}
+C {lab_wire.sym} 440 0 0 0 {name=p75 sig_type=std_logic lab=YA10}
+C {lab_wire.sym} 440 100 0 0 {name=p80 sig_type=std_logic lab=YA7}
+C {lab_wire.sym} 440 120 0 0 {name=p81 sig_type=std_logic lab=YA15}
+C {lab_wire.sym} 440 140 0 0 {name=p82 sig_type=std_logic lab=YA3}
+C {lab_wire.sym} 440 160 0 0 {name=p83 sig_type=std_logic lab=YA11}
+C {vsource.sym} -575 -150 0 0 {name=vS2 value=3.3 savecurrent=false}
+C {gnd.sym} -575 -107.5 0 0 {name=l54 lab=GND}
+C {vsource.sym} -657.5 -150 0 0 {name=vS3 value=3.3 savecurrent=false}
+C {gnd.sym} -657.5 -107.5 0 0 {name=l55 lab=GND}
+C {lab_wire.sym} -657.5 -205 0 0 {name=p90 sig_type=std_logic lab=S3}
+C {lab_wire.sym} -575 -205 0 0 {name=p91 sig_type=std_logic lab=S2}
+C {lab_wire.sym} -160 -420 0 0 {name=p87 sig_type=std_logic lab=S2}
+C {lab_wire.sym} -160 -400 0 0 {name=p86 sig_type=std_logic lab=S3}

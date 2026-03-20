@@ -123,25 +123,25 @@ C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
   * Carry in = 0
   alter VCin = $&vlow
 
-  * A = 0x0103 = 259
-  alter VA15 = $&vlow
-  alter VA14 = $&vlow
-  alter VA13 = $&vlow
-  alter VA12 = $&vlow
-  alter VA11 = $&vlow
-  alter VA10 = $&vlow
-  alter VA9  = $&vlow
+* --- A = 0xFFFF (All bits High) ---
+  alter VA15 = $&vhigh
+  alter VA14 = $&vhigh
+  alter VA13 = $&vhigh
+  alter VA12 = $&vhigh
+  alter VA11 = $&vhigh
+  alter VA10 = $&vhigh
+  alter VA9  = $&vhigh
   alter VA8  = $&vhigh
-  alter VA7  = $&vlow
-  alter VA6  = $&vlow
-  alter VA5  = $&vlow
-  alter VA4  = $&vlow
-  alter VA3  = $&vlow
-  alter VA2  = $&vlow
+  alter VA7  = $&vhigh
+  alter VA6  = $&vhigh
+  alter VA5  = $&vhigh
+  alter VA4  = $&vhigh
+  alter VA3  = $&vhigh
+  alter VA2  = $&vhigh
   alter VA1  = $&vhigh
   alter VA0  = $&vhigh
 
-  * B = 0x0005
+  * --- B = 0x0001 (Only Bit 0 High) ---
   alter VB15 = $&vlow
   alter VB14 = $&vlow
   alter VB13 = $&vlow
@@ -155,7 +155,7 @@ C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
   alter VB5  = $&vlow
   alter VB4  = $&vlow
   alter VB3  = $&vlow
-  alter VB2  = $&vhigh
+  alter VB2  = $&vlow
   alter VB1  = $&vlow
   alter VB0  = $&vhigh
 
@@ -259,6 +259,7 @@ meas tran v0  find v(y0)  at=30n
   end
   * --- Calculate Decimal Sum ---
 print decimal_result 
+print F[100]
 write alu_add_results.raw
 .endc
 "}
