@@ -1,3 +1,5 @@
 We have elected to use a carry-bypass adder. In this case we group by every 4 bits, and for each 4 bits we calculate whether the 4 bits would propagate the Cin. This means that the worst case would be when Cin must ripple through all four of the muxes. This then leads to our our critical path which is precisely when we must propagate through all of the muxes. This is when all of A are 0 and all of B are one and we toggle Cin. 
 
 Some other design decisions we made was to reuse the XOR for both P and the actual XOR output. We do the same for generate which is our AND. We have a 4 by 1 mux for every bit.  
+
+Prop Delay for 4bitblock: 1.274483e-10
