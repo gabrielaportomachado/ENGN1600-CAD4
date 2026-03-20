@@ -1,0 +1,1227 @@
+| units: 0.5 tech: gf180mcuD format: MIT
+x MUX21_0/m2_540_79# GND Cout GND s=10600,412 d=10500,410 l=56 w=100 x=16294 y=-688 nfet_03v3
+x BP VDD MUX21_0/a_157_63# VDD s=25400,654 d=26000,660 l=56 w=200 x=14979 y=-1092 pfet_03v3
+x Cin MUX21_0/m2_540_79# MUX21_0/a_718_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=15540 y=-1032 pfet_03v3
+x BP GND MUX21_0/a_517_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=15339 y=-589 nfet_03v3
+x MUX21_0/a_157_63# MUX21_0/a_909_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=15932 y=-589 nfet_03v3
+x BP MUX21_0/a_718_407# MUX21_0/m2_540_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=15339 y=-1032 pfet_03v3
+x BP GND MUX21_0/a_157_63# GND s=12700,454 d=12600,452 l=56 w=100 x=14979 y=-688 nfet_03v3
+x MUX21_0/a_157_63# VDD MUX21_0/a_718_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=15932 y=-1032 pfet_03v3
+x m1_12480_n3815# MUX21_0/m2_540_79# MUX21_0/a_909_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=15731 y=-589 nfet_03v3
+x m1_12480_n3815# MUX21_0/a_718_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=15731 y=-1032 pfet_03v3
+x MUX21_0/m2_540_79# VDD Cout VDD s=21200,612 d=21800,618 l=56 w=200 x=16294 y=-1092 pfet_03v3
+x Cin MUX21_0/a_517_n37# MUX21_0/m2_540_79# GND s=14500,345 d=13500,335 l=56 w=200 x=15540 y=-589 nfet_03v3
+x 1bitblock$2_0/a_1845_466# GND 1bitblock$2_0/a_2419_63# GND s=9700,394 d=12600,452 l=56 w=100 x=2166 y=-2748 nfet_03v3
+x A2 1bitblock$2_0/a_1845_n37# 1bitblock$2_0/a_1845_466# GND s=16800,368 d=26000,660 l=56 w=200 x=1816 y=-2847 nfet_03v3
+x P2 VDD 1bitblock$2_0/a_3940_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=3687 y=-2344 pfet_03v3
+x 1bitblock$2_0/a_510_63# 1bitblock$2_0/a_1262_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=1210 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_4290_63# 1bitblock$2_0/a_5042_407# 1bitblock$2_0/a_5243_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=4990 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_2419_63# 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/a_6721_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=6076 y=-2404 pfet_03v3
+x m1_12484_n953# VDD 1bitblock$2_0/a_10906_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=10653 y=-2345 pfet_03v3
+x m1_12484_n953# GND 1bitblock$2_0/a_4290_63# GND s=11200,424 d=12600,452 l=56 w=100 x=4037 y=-2748 nfet_03v3
+x B2 1bitblock$2_0/a_705_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=617 y=-2404 pfet_03v3
+x P2 GND 1bitblock$2_0/a_2861_3# GND s=13000,460 d=7250,245 l=56 w=100 x=2608 y=-2808 nfet_03v3
+x 1bitblock$2_0/a_2419_63# 1bitblock$2_0/a_2861_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=2809 y=-2808 nfet_03v3
+x P2 1bitblock$2_0/a_7768_n37# 1bitblock$2_0/m2_7791_79# GND s=14500,345 d=13500,335 l=56 w=200 x=7716 y=-2847 nfet_03v3
+x m1_12484_n953# GND 1bitblock$2_0/a_10906_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=10653 y=-2847 nfet_03v3
+x S1 GND 1bitblock$2_0/a_9050_63# GND s=9600,392 d=12400,448 l=56 w=100 x=8797 y=-2748 nfet_03v3
+x 1bitblock$2_0/a_11480_63# GND 1bitblock$2_0/a_11922_3# GND s=13000,460 d=7250,245 l=56 w=100 x=11669 y=-2808 nfet_03v3
+x 1bitblock$2_0/a_2419_63# 1bitblock$2_0/a_11922_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=11870 y=-2808 nfet_03v3
+x 1bitblock$2_0/a_510_63# P2 1bitblock$2_0/a_705_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=1210 y=-2404 pfet_03v3
+x m1_12484_n953# GND 1bitblock$2_0/a_4650_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=4397 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_2419_63# 1bitblock$2_0/a_2861_391# 1bitblock$2_0/a_2861_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=2809 y=-2420 pfet_03v3
+x S0 GND 1bitblock$2_0/a_5768_63# GND s=12700,454 d=12600,452 l=56 w=100 x=5515 y=-2748 nfet_03v3
+x 1bitblock$2_0/a_9050_63# 1bitblock$2_0/a_9800_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=9748 y=-2847 nfet_03v3
+x P2 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/a_8361_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=7716 y=-2404 pfet_03v3
+x S1 GND 1bitblock$2_0/a_9408_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=9155 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_2861_3# VDD 1bitblock$2_0/a_3498_3# VDD s=27000,670 d=26000,660 l=56 w=200 x=3245 y=-2420 pfet_03v3
+x S0 GND 1bitblock$2_0/a_7410_63# GND s=9600,392 d=12400,448 l=56 w=100 x=7157 y=-2748 nfet_03v3
+x 1bitblock$2_0/a_7410_63# 1bitblock$2_0/a_8160_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=8108 y=-2847 nfet_03v3
+x 1bitblock$2_0/m2_7791_79# GND 1bitblock$2_0/a_8723_63# GND s=10600,412 d=10500,410 l=56 w=100 x=8470 y=-2748 nfet_03v3
+x m1_12484_n953# 1bitblock$2_0/a_5243_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=4397 y=-2404 pfet_03v3
+x S0 VDD 1bitblock$2_0/a_5768_63# VDD s=25400,654 d=26000,660 l=56 w=200 x=5515 y=-2344 pfet_03v3
+x S1 VDD 1bitblock$2_0/a_9050_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=8797 y=-2344 pfet_03v3
+x 1bitblock$2_0/a_11480_63# VDD 1bitblock$2_0/a_11922_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=11669 y=-2420 pfet_03v3
+x A2 GND 1bitblock$2_0/a_160_63# GND s=13000,460 d=12600,452 l=56 w=100 x=-93 y=-2748 nfet_03v3
+x 1bitblock$2_0/a_9050_63# VDD 1bitblock$2_0/a_9609_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=9748 y=-2404 pfet_03v3
+x S0 GND 1bitblock$2_0/a_6128_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=5875 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_5768_63# 1bitblock$2_0/a_6520_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=6468 y=-2847 nfet_03v3
+x S0 VDD 1bitblock$2_0/a_7410_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=7157 y=-2344 pfet_03v3
+x S1 1bitblock$2_0/a_9609_407# 1bitblock$2_0/m2_9431_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=9155 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_10906_466# GND 1bitblock$2_0/a_11480_63# GND s=9700,394 d=12600,452 l=56 w=100 x=11227 y=-2748 nfet_03v3
+x B2 VDD 1bitblock$2_0/a_1845_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=1592 y=-2345 pfet_03v3
+x 1bitblock$2_0/a_7410_63# VDD 1bitblock$2_0/a_8361_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=8108 y=-2404 pfet_03v3
+x P2 1bitblock$2_0/a_10906_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=10877 y=-2345 pfet_03v3
+x 1bitblock$2_0/m2_6151_79# GND 1bitblock$2_0/a_7083_63# GND s=10600,412 d=10500,410 l=56 w=100 x=6830 y=-2748 nfet_03v3
+x B2 VDD 1bitblock$2_0/a_510_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=257 y=-2344 pfet_03v3
+x 1bitblock$2_0/m2_9431_79# VDD Y2 VDD s=21200,612 d=28600,686 l=56 w=200 x=10110 y=-2344 pfet_03v3
+x B2 GND 1bitblock$2_0/a_510_63# GND s=11200,424 d=12600,452 l=56 w=100 x=257 y=-2748 nfet_03v3
+x 1bitblock$2_0/a_160_63# P2 1bitblock$2_0/a_1262_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=1009 y=-2847 nfet_03v3
+x B2 GND 1bitblock$2_0/a_1845_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=1592 y=-2847 nfet_03v3
+x S0 1bitblock$2_0/a_6721_407# 1bitblock$2_0/m2_6151_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=5875 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_5768_63# VDD 1bitblock$2_0/a_6721_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=6468 y=-2404 pfet_03v3
+x 1bitblock$2_0/m2_9431_79# GND Y2 GND s=10600,412 d=14300,486 l=56 w=100 x=10110 y=-2748 nfet_03v3
+x P2 1bitblock$2_0/a_10906_n37# 1bitblock$2_0/a_10906_466# GND s=16800,368 d=26000,660 l=56 w=200 x=10877 y=-2847 nfet_03v3
+x 1bitblock$2_0/m2_7791_79# VDD 1bitblock$2_0/a_8723_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=8470 y=-2344 pfet_03v3
+x 1bitblock$2_0/a_10906_466# VDD 1bitblock$2_0/a_11480_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=11227 y=-2345 pfet_03v3
+x 1bitblock$2_0/a_11922_3# GND m2_10721_n3315# GND s=13000,460 d=12600,452 l=56 w=100 x=12306 y=-2808 nfet_03v3
+x 1bitblock$2_0/m2_6151_79# VDD 1bitblock$2_0/a_7083_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=6830 y=-2344 pfet_03v3
+x S0 GND 1bitblock$2_0/a_7768_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=7515 y=-2847 nfet_03v3
+x A2 VDD 1bitblock$2_0/a_160_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=-93 y=-2344 pfet_03v3
+x 1bitblock$2_0/a_160_63# 1bitblock$2_0/a_705_407# P2 VDD s=27000,535 d=29000,545 l=56 w=400 x=1009 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_3940_63# 1bitblock$2_0/a_5042_407# 1bitblock$2_0/a_5042_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=4789 y=-2847 nfet_03v3
+x A2 1bitblock$2_0/a_870_n37# P2 GND s=14500,345 d=13500,335 l=56 w=200 x=818 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_2419_63# 1bitblock$2_0/a_11922_391# 1bitblock$2_0/a_11922_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=11870 y=-2420 pfet_03v3
+x 1bitblock$2_0/a_7083_63# 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/a_9800_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=9547 y=-2847 nfet_03v3
+x S0 1bitblock$2_0/a_8361_407# 1bitblock$2_0/m2_7791_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=7515 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_3940_63# 1bitblock$2_0/a_5243_407# 1bitblock$2_0/a_5042_407# VDD s=27000,535 d=29000,545 l=56 w=400 x=4789 y=-2404 pfet_03v3
+x P2 GND 1bitblock$2_0/a_3940_63# GND s=13000,460 d=12600,452 l=56 w=100 x=3687 y=-2748 nfet_03v3
+x 1bitblock$2_0/a_3498_3# 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/a_8160_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=7907 y=-2847 nfet_03v3
+x A2 VDD 1bitblock$2_0/a_705_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=818 y=-2404 pfet_03v3
+x P2 1bitblock$2_0/a_4650_n37# 1bitblock$2_0/a_5042_407# GND s=14500,345 d=13500,335 l=56 w=200 x=4598 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_5042_407# 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/a_6520_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=6267 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_7083_63# 1bitblock$2_0/a_9609_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=9547 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_1845_466# VDD 1bitblock$2_0/a_2419_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=2166 y=-2345 pfet_03v3
+x 1bitblock$2_0/a_8723_63# 1bitblock$2_0/a_9408_n37# 1bitblock$2_0/m2_9431_79# GND s=14500,345 d=13500,335 l=56 w=200 x=9356 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_3498_3# 1bitblock$2_0/a_8361_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=7907 y=-2404 pfet_03v3
+x P2 VDD 1bitblock$2_0/a_2861_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=2608 y=-2420 pfet_03v3
+x m1_12484_n953# VDD 1bitblock$2_0/a_4290_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=4037 y=-2344 pfet_03v3
+x P2 VDD 1bitblock$2_0/a_5243_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=4598 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_5042_407# 1bitblock$2_0/a_6721_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=6267 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_2861_3# GND 1bitblock$2_0/a_3498_3# GND s=13000,460 d=12600,452 l=56 w=100 x=3245 y=-2808 nfet_03v3
+x 1bitblock$2_0/a_8723_63# 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/a_9609_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=9356 y=-2404 pfet_03v3
+x 1bitblock$2_0/a_4290_63# 1bitblock$2_0/a_5042_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=4990 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_2419_63# 1bitblock$2_0/a_6128_n37# 1bitblock$2_0/m2_6151_79# GND s=14500,345 d=13500,335 l=56 w=200 x=6076 y=-2847 nfet_03v3
+x A2 1bitblock$2_0/a_1845_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=1816 y=-2345 pfet_03v3
+x B2 GND 1bitblock$2_0/a_870_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=617 y=-2847 nfet_03v3
+x 1bitblock$2_0/a_11922_3# VDD m2_10721_n3315# VDD s=27000,670 d=26000,660 l=56 w=200 x=12306 y=-2420 pfet_03v3
+x P2 AND4_0/a_518_229# VDD VDD s=15200,352 d=15200,352 l=56 w=200 x=13740 y=-1234 pfet_03v3
+x P1 VDD AND4_0/a_518_229# VDD s=15200,352 d=15200,352 l=56 w=200 x=13948 y=-1234 pfet_03v3
+x AND4_0/a_518_229# VDD BP VDD s=26000,660 d=26000,660 l=56 w=200 x=13174 y=-1234 pfet_03v3
+x P1 AND4_0/a_704_n441# AND4_0/a_912_n441# GND s=30400,552 d=30400,552 l=56 w=400 x=13948 y=-565 nfet_03v3
+x P0 AND4_0/a_518_229# VDD VDD s=26000,660 d=15200,352 l=56 w=200 x=14156 y=-1234 pfet_03v3
+x P0 GND AND4_0/a_704_n441# GND s=53600,1068 d=30400,552 l=56 w=400 x=14156 y=-565 nfet_03v3
+x P3 AND4_0/a_1120_n441# AND4_0/a_518_229# GND s=30400,552 d=45600,1028 l=56 w=400 x=13532 y=-565 nfet_03v3
+x AND4_0/a_518_229# GND BP GND s=11800,436 d=12600,452 l=56 w=100 x=13174 y=-689 nfet_03v3
+x P3 VDD AND4_0/a_518_229# VDD s=15200,352 d=22000,620 l=56 w=200 x=13532 y=-1234 pfet_03v3
+x P2 AND4_0/a_912_n441# AND4_0/a_1120_n441# GND s=30400,552 d=30400,552 l=56 w=400 x=13740 y=-565 nfet_03v3
+x 1bitblock$3_0/a_1845_466# GND 1bitblock$3_0/a_2419_63# GND s=9700,394 d=12600,452 l=56 w=100 x=2162 y=-3584 nfet_03v3
+x A3 1bitblock$3_0/a_1845_n37# 1bitblock$3_0/a_1845_466# GND s=16800,368 d=26000,660 l=56 w=200 x=1812 y=-3485 nfet_03v3
+x P3 VDD 1bitblock$3_0/a_3940_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=3683 y=-3988 pfet_03v3
+x 1bitblock$3_0/a_510_63# 1bitblock$3_0/a_1262_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=1206 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_4290_63# 1bitblock$3_0/a_5042_407# 1bitblock$3_0/a_5243_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=4986 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_2419_63# 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/a_6721_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=6072 y=-3928 pfet_03v3
+x m2_10721_n3315# VDD 1bitblock$3_0/a_10906_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=10649 y=-3987 pfet_03v3
+x m2_10721_n3315# GND 1bitblock$3_0/a_4290_63# GND s=11200,424 d=12600,452 l=56 w=100 x=4033 y=-3584 nfet_03v3
+x B3 1bitblock$3_0/a_705_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=613 y=-3928 pfet_03v3
+x P3 GND 1bitblock$3_0/a_2861_3# GND s=13000,460 d=7250,245 l=56 w=100 x=2604 y=-3524 nfet_03v3
+x 1bitblock$3_0/a_2419_63# 1bitblock$3_0/a_2861_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=2805 y=-3524 nfet_03v3
+x P3 1bitblock$3_0/a_7768_n37# 1bitblock$3_0/m2_7791_79# GND s=14500,345 d=13500,335 l=56 w=200 x=7712 y=-3485 nfet_03v3
+x m2_10721_n3315# GND 1bitblock$3_0/a_10906_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=10649 y=-3485 nfet_03v3
+x S1 GND 1bitblock$3_0/a_9050_63# GND s=9600,392 d=12400,448 l=56 w=100 x=8793 y=-3584 nfet_03v3
+x 1bitblock$3_0/a_11480_63# GND 1bitblock$3_0/a_11922_3# GND s=13000,460 d=7250,245 l=56 w=100 x=11665 y=-3524 nfet_03v3
+x 1bitblock$3_0/a_2419_63# 1bitblock$3_0/a_11922_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=11866 y=-3524 nfet_03v3
+x 1bitblock$3_0/a_510_63# P3 1bitblock$3_0/a_705_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=1206 y=-3928 pfet_03v3
+x m2_10721_n3315# GND 1bitblock$3_0/a_4650_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=4393 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_2419_63# 1bitblock$3_0/a_2861_391# 1bitblock$3_0/a_2861_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=2805 y=-3912 pfet_03v3
+x S0 GND 1bitblock$3_0/a_5768_63# GND s=12700,454 d=12600,452 l=56 w=100 x=5511 y=-3584 nfet_03v3
+x 1bitblock$3_0/a_9050_63# 1bitblock$3_0/a_9800_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=9744 y=-3485 nfet_03v3
+x P3 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/a_8361_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=7712 y=-3928 pfet_03v3
+x S1 GND 1bitblock$3_0/a_9408_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=9151 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_2861_3# VDD 1bitblock$3_0/a_3498_3# VDD s=27000,670 d=26000,660 l=56 w=200 x=3241 y=-3912 pfet_03v3
+x S0 GND 1bitblock$3_0/a_7410_63# GND s=9600,392 d=12400,448 l=56 w=100 x=7153 y=-3584 nfet_03v3
+x 1bitblock$3_0/a_7410_63# 1bitblock$3_0/a_8160_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=8104 y=-3485 nfet_03v3
+x 1bitblock$3_0/m2_7791_79# GND 1bitblock$3_0/a_8723_63# GND s=10600,412 d=10500,410 l=56 w=100 x=8466 y=-3584 nfet_03v3
+x m2_10721_n3315# 1bitblock$3_0/a_5243_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=4393 y=-3928 pfet_03v3
+x S0 VDD 1bitblock$3_0/a_5768_63# VDD s=25400,654 d=26000,660 l=56 w=200 x=5511 y=-3988 pfet_03v3
+x S1 VDD 1bitblock$3_0/a_9050_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=8793 y=-3988 pfet_03v3
+x 1bitblock$3_0/a_11480_63# VDD 1bitblock$3_0/a_11922_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=11665 y=-3912 pfet_03v3
+x A3 GND 1bitblock$3_0/a_160_63# GND s=13000,460 d=12600,452 l=56 w=100 x=-97 y=-3584 nfet_03v3
+x 1bitblock$3_0/a_9050_63# VDD 1bitblock$3_0/a_9609_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=9744 y=-3928 pfet_03v3
+x S0 GND 1bitblock$3_0/a_6128_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=5871 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_5768_63# 1bitblock$3_0/a_6520_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=6464 y=-3485 nfet_03v3
+x S0 VDD 1bitblock$3_0/a_7410_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=7153 y=-3988 pfet_03v3
+x S1 1bitblock$3_0/a_9609_407# 1bitblock$3_0/m2_9431_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=9151 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_10906_466# GND 1bitblock$3_0/a_11480_63# GND s=9700,394 d=12600,452 l=56 w=100 x=11223 y=-3584 nfet_03v3
+x B3 VDD 1bitblock$3_0/a_1845_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=1588 y=-3987 pfet_03v3
+x 1bitblock$3_0/a_7410_63# VDD 1bitblock$3_0/a_8361_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=8104 y=-3928 pfet_03v3
+x P3 1bitblock$3_0/a_10906_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=10873 y=-3987 pfet_03v3
+x 1bitblock$3_0/m2_6151_79# GND 1bitblock$3_0/a_7083_63# GND s=10600,412 d=10500,410 l=56 w=100 x=6826 y=-3584 nfet_03v3
+x B3 VDD 1bitblock$3_0/a_510_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=253 y=-3988 pfet_03v3
+x 1bitblock$3_0/m2_9431_79# VDD Y3 VDD s=21200,612 d=28600,686 l=56 w=200 x=10106 y=-3988 pfet_03v3
+x B3 GND 1bitblock$3_0/a_510_63# GND s=11200,424 d=12600,452 l=56 w=100 x=253 y=-3584 nfet_03v3
+x 1bitblock$3_0/a_160_63# P3 1bitblock$3_0/a_1262_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=1005 y=-3485 nfet_03v3
+x B3 GND 1bitblock$3_0/a_1845_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=1588 y=-3485 nfet_03v3
+x S0 1bitblock$3_0/a_6721_407# 1bitblock$3_0/m2_6151_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=5871 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_5768_63# VDD 1bitblock$3_0/a_6721_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=6464 y=-3928 pfet_03v3
+x 1bitblock$3_0/m2_9431_79# GND Y3 GND s=10600,412 d=14300,486 l=56 w=100 x=10106 y=-3584 nfet_03v3
+x P3 1bitblock$3_0/a_10906_n37# 1bitblock$3_0/a_10906_466# GND s=16800,368 d=26000,660 l=56 w=200 x=10873 y=-3485 nfet_03v3
+x 1bitblock$3_0/m2_7791_79# VDD 1bitblock$3_0/a_8723_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=8466 y=-3988 pfet_03v3
+x 1bitblock$3_0/a_10906_466# VDD 1bitblock$3_0/a_11480_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=11223 y=-3987 pfet_03v3
+x 1bitblock$3_0/a_11922_3# GND m1_12480_n3815# GND s=13000,460 d=12600,452 l=56 w=100 x=12302 y=-3524 nfet_03v3
+x 1bitblock$3_0/m2_6151_79# VDD 1bitblock$3_0/a_7083_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=6826 y=-3988 pfet_03v3
+x S0 GND 1bitblock$3_0/a_7768_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=7511 y=-3485 nfet_03v3
+x A3 VDD 1bitblock$3_0/a_160_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=-97 y=-3988 pfet_03v3
+x 1bitblock$3_0/a_160_63# 1bitblock$3_0/a_705_407# P3 VDD s=27000,535 d=29000,545 l=56 w=400 x=1005 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_3940_63# 1bitblock$3_0/a_5042_407# 1bitblock$3_0/a_5042_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=4785 y=-3485 nfet_03v3
+x A3 1bitblock$3_0/a_870_n37# P3 GND s=14500,345 d=13500,335 l=56 w=200 x=814 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_2419_63# 1bitblock$3_0/a_11922_391# 1bitblock$3_0/a_11922_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=11866 y=-3912 pfet_03v3
+x 1bitblock$3_0/a_7083_63# 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/a_9800_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=9543 y=-3485 nfet_03v3
+x S0 1bitblock$3_0/a_8361_407# 1bitblock$3_0/m2_7791_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=7511 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_3940_63# 1bitblock$3_0/a_5243_407# 1bitblock$3_0/a_5042_407# VDD s=27000,535 d=29000,545 l=56 w=400 x=4785 y=-3928 pfet_03v3
+x P3 GND 1bitblock$3_0/a_3940_63# GND s=13000,460 d=12600,452 l=56 w=100 x=3683 y=-3584 nfet_03v3
+x 1bitblock$3_0/a_3498_3# 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/a_8160_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=7903 y=-3485 nfet_03v3
+x A3 VDD 1bitblock$3_0/a_705_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=814 y=-3928 pfet_03v3
+x P3 1bitblock$3_0/a_4650_n37# 1bitblock$3_0/a_5042_407# GND s=14500,345 d=13500,335 l=56 w=200 x=4594 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_5042_407# 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/a_6520_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=6263 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_7083_63# 1bitblock$3_0/a_9609_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=9543 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_1845_466# VDD 1bitblock$3_0/a_2419_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=2162 y=-3987 pfet_03v3
+x 1bitblock$3_0/a_8723_63# 1bitblock$3_0/a_9408_n37# 1bitblock$3_0/m2_9431_79# GND s=14500,345 d=13500,335 l=56 w=200 x=9352 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_3498_3# 1bitblock$3_0/a_8361_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=7903 y=-3928 pfet_03v3
+x P3 VDD 1bitblock$3_0/a_2861_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=2604 y=-3912 pfet_03v3
+x m2_10721_n3315# VDD 1bitblock$3_0/a_4290_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=4033 y=-3988 pfet_03v3
+x P3 VDD 1bitblock$3_0/a_5243_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=4594 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_5042_407# 1bitblock$3_0/a_6721_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=6263 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_2861_3# GND 1bitblock$3_0/a_3498_3# GND s=13000,460 d=12600,452 l=56 w=100 x=3241 y=-3524 nfet_03v3
+x 1bitblock$3_0/a_8723_63# 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/a_9609_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=9352 y=-3928 pfet_03v3
+x 1bitblock$3_0/a_4290_63# 1bitblock$3_0/a_5042_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=4986 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_2419_63# 1bitblock$3_0/a_6128_n37# 1bitblock$3_0/m2_6151_79# GND s=14500,345 d=13500,335 l=56 w=200 x=6072 y=-3485 nfet_03v3
+x A3 1bitblock$3_0/a_1845_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=1812 y=-3987 pfet_03v3
+x B3 GND 1bitblock$3_0/a_870_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=613 y=-3485 nfet_03v3
+x 1bitblock$3_0/a_11922_3# VDD m1_12480_n3815# VDD s=27000,670 d=26000,660 l=56 w=200 x=12302 y=-3912 pfet_03v3
+x 1bitblock_0/a_1845_466# GND 1bitblock_0/a_2419_63# GND s=9700,394 d=12600,452 l=56 w=100 x=2168 y=133 nfet_03v3
+x A0 1bitblock_0/a_1845_n37# 1bitblock_0/a_1845_466# GND s=16800,368 d=26000,660 l=56 w=200 x=1818 y=34 nfet_03v3
+x P0 VDD 1bitblock_0/a_3940_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=3689 y=537 pfet_03v3
+x 1bitblock_0/a_510_63# 1bitblock_0/a_1262_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=1212 y=34 nfet_03v3
+x 1bitblock_0/a_4290_63# 1bitblock_0/a_5042_407# 1bitblock_0/a_5243_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=4992 y=477 pfet_03v3
+x 1bitblock_0/a_2419_63# 1bitblock_0/m2_6151_79# 1bitblock_0/a_6721_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=6078 y=477 pfet_03v3
+x Cin VDD 1bitblock_0/a_10906_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=10655 y=536 pfet_03v3
+x Cin GND 1bitblock_0/a_4290_63# GND s=11200,424 d=12600,452 l=56 w=100 x=4039 y=133 nfet_03v3
+x B0 1bitblock_0/a_705_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=619 y=477 pfet_03v3
+x P0 GND 1bitblock_0/a_2861_3# GND s=13000,460 d=7250,245 l=56 w=100 x=2610 y=73 nfet_03v3
+x 1bitblock_0/a_2419_63# 1bitblock_0/a_2861_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=2811 y=73 nfet_03v3
+x P0 1bitblock_0/a_7768_n37# 1bitblock_0/m2_7791_79# GND s=14500,345 d=13500,335 l=56 w=200 x=7718 y=34 nfet_03v3
+x Cin GND 1bitblock_0/a_10906_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=10655 y=34 nfet_03v3
+x S1 GND 1bitblock_0/a_9050_63# GND s=9600,392 d=12400,448 l=56 w=100 x=8799 y=133 nfet_03v3
+x 1bitblock_0/a_11480_63# GND 1bitblock_0/a_11922_3# GND s=13000,460 d=7250,245 l=56 w=100 x=11671 y=73 nfet_03v3
+x 1bitblock_0/a_2419_63# 1bitblock_0/a_11922_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=11872 y=73 nfet_03v3
+x 1bitblock_0/a_510_63# P0 1bitblock_0/a_705_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=1212 y=477 pfet_03v3
+x Cin GND 1bitblock_0/a_4650_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=4399 y=34 nfet_03v3
+x 1bitblock_0/a_2419_63# 1bitblock_0/a_2861_391# 1bitblock_0/a_2861_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=2811 y=461 pfet_03v3
+x S0 GND 1bitblock_0/a_5768_63# GND s=12700,454 d=12600,452 l=56 w=100 x=5517 y=133 nfet_03v3
+x 1bitblock_0/a_9050_63# 1bitblock_0/a_9800_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=9750 y=34 nfet_03v3
+x P0 1bitblock_0/m2_7791_79# 1bitblock_0/a_8361_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=7718 y=477 pfet_03v3
+x S1 GND 1bitblock_0/a_9408_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=9157 y=34 nfet_03v3
+x 1bitblock_0/a_2861_3# VDD 1bitblock_0/a_3498_3# VDD s=27000,670 d=26000,660 l=56 w=200 x=3247 y=461 pfet_03v3
+x S0 GND 1bitblock_0/a_7410_63# GND s=9600,392 d=12400,448 l=56 w=100 x=7159 y=133 nfet_03v3
+x 1bitblock_0/a_7410_63# 1bitblock_0/a_8160_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=8110 y=34 nfet_03v3
+x 1bitblock_0/m2_7791_79# GND 1bitblock_0/a_8723_63# GND s=10600,412 d=10500,410 l=56 w=100 x=8472 y=133 nfet_03v3
+x Cin 1bitblock_0/a_5243_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=4399 y=477 pfet_03v3
+x S0 VDD 1bitblock_0/a_5768_63# VDD s=25400,654 d=26000,660 l=56 w=200 x=5517 y=537 pfet_03v3
+x S1 VDD 1bitblock_0/a_9050_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=8799 y=537 pfet_03v3
+x 1bitblock_0/a_11480_63# VDD 1bitblock_0/a_11922_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=11671 y=461 pfet_03v3
+x A0 GND 1bitblock_0/a_160_63# GND s=13000,460 d=12600,452 l=56 w=100 x=-91 y=133 nfet_03v3
+x 1bitblock_0/a_9050_63# VDD 1bitblock_0/a_9609_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=9750 y=477 pfet_03v3
+x S0 GND 1bitblock_0/a_6128_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=5877 y=34 nfet_03v3
+x 1bitblock_0/a_5768_63# 1bitblock_0/a_6520_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=6470 y=34 nfet_03v3
+x S0 VDD 1bitblock_0/a_7410_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=7159 y=537 pfet_03v3
+x S1 1bitblock_0/a_9609_407# 1bitblock_0/m2_9431_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=9157 y=477 pfet_03v3
+x 1bitblock_0/a_10906_466# GND 1bitblock_0/a_11480_63# GND s=9700,394 d=12600,452 l=56 w=100 x=11229 y=133 nfet_03v3
+x B0 VDD 1bitblock_0/a_1845_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=1594 y=536 pfet_03v3
+x 1bitblock_0/a_7410_63# VDD 1bitblock_0/a_8361_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=8110 y=477 pfet_03v3
+x P0 1bitblock_0/a_10906_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=10879 y=536 pfet_03v3
+x 1bitblock_0/m2_6151_79# GND 1bitblock_0/a_7083_63# GND s=10600,412 d=10500,410 l=56 w=100 x=6832 y=133 nfet_03v3
+x B0 VDD 1bitblock_0/a_510_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=259 y=537 pfet_03v3
+x 1bitblock_0/m2_9431_79# VDD Y0 VDD s=21200,612 d=28600,686 l=56 w=200 x=10112 y=537 pfet_03v3
+x B0 GND 1bitblock_0/a_510_63# GND s=11200,424 d=12600,452 l=56 w=100 x=259 y=133 nfet_03v3
+x 1bitblock_0/a_160_63# P0 1bitblock_0/a_1262_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=1011 y=34 nfet_03v3
+x B0 GND 1bitblock_0/a_1845_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=1594 y=34 nfet_03v3
+x S0 1bitblock_0/a_6721_407# 1bitblock_0/m2_6151_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=5877 y=477 pfet_03v3
+x 1bitblock_0/a_5768_63# VDD 1bitblock_0/a_6721_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=6470 y=477 pfet_03v3
+x 1bitblock_0/m2_9431_79# GND Y0 GND s=10600,412 d=14300,486 l=56 w=100 x=10112 y=133 nfet_03v3
+x P0 1bitblock_0/a_10906_n37# 1bitblock_0/a_10906_466# GND s=16800,368 d=26000,660 l=56 w=200 x=10879 y=34 nfet_03v3
+x 1bitblock_0/m2_7791_79# VDD 1bitblock_0/a_8723_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=8472 y=537 pfet_03v3
+x 1bitblock_0/a_10906_466# VDD 1bitblock_0/a_11480_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=11229 y=536 pfet_03v3
+x 1bitblock_0/a_11922_3# GND m1_12486_242# GND s=13000,460 d=12600,452 l=56 w=100 x=12308 y=73 nfet_03v3
+x 1bitblock_0/m2_6151_79# VDD 1bitblock_0/a_7083_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=6832 y=537 pfet_03v3
+x S0 GND 1bitblock_0/a_7768_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=7517 y=34 nfet_03v3
+x A0 VDD 1bitblock_0/a_160_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=-91 y=537 pfet_03v3
+x 1bitblock_0/a_160_63# 1bitblock_0/a_705_407# P0 VDD s=27000,535 d=29000,545 l=56 w=400 x=1011 y=477 pfet_03v3
+x 1bitblock_0/a_3940_63# 1bitblock_0/a_5042_407# 1bitblock_0/a_5042_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=4791 y=34 nfet_03v3
+x A0 1bitblock_0/a_870_n37# P0 GND s=14500,345 d=13500,335 l=56 w=200 x=820 y=34 nfet_03v3
+x 1bitblock_0/a_2419_63# 1bitblock_0/a_11922_391# 1bitblock_0/a_11922_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=11872 y=461 pfet_03v3
+x 1bitblock_0/a_7083_63# 1bitblock_0/m2_9431_79# 1bitblock_0/a_9800_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=9549 y=34 nfet_03v3
+x S0 1bitblock_0/a_8361_407# 1bitblock_0/m2_7791_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=7517 y=477 pfet_03v3
+x 1bitblock_0/a_3940_63# 1bitblock_0/a_5243_407# 1bitblock_0/a_5042_407# VDD s=27000,535 d=29000,545 l=56 w=400 x=4791 y=477 pfet_03v3
+x P0 GND 1bitblock_0/a_3940_63# GND s=13000,460 d=12600,452 l=56 w=100 x=3689 y=133 nfet_03v3
+x 1bitblock_0/a_3498_3# 1bitblock_0/m2_7791_79# 1bitblock_0/a_8160_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=7909 y=34 nfet_03v3
+x A0 VDD 1bitblock_0/a_705_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=820 y=477 pfet_03v3
+x P0 1bitblock_0/a_4650_n37# 1bitblock_0/a_5042_407# GND s=14500,345 d=13500,335 l=56 w=200 x=4600 y=34 nfet_03v3
+x 1bitblock_0/a_5042_407# 1bitblock_0/m2_6151_79# 1bitblock_0/a_6520_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=6269 y=34 nfet_03v3
+x 1bitblock_0/a_7083_63# 1bitblock_0/a_9609_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=9549 y=477 pfet_03v3
+x 1bitblock_0/a_1845_466# VDD 1bitblock_0/a_2419_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=2168 y=536 pfet_03v3
+x 1bitblock_0/a_8723_63# 1bitblock_0/a_9408_n37# 1bitblock_0/m2_9431_79# GND s=14500,345 d=13500,335 l=56 w=200 x=9358 y=34 nfet_03v3
+x 1bitblock_0/a_3498_3# 1bitblock_0/a_8361_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=7909 y=477 pfet_03v3
+x P0 VDD 1bitblock_0/a_2861_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=2610 y=461 pfet_03v3
+x Cin VDD 1bitblock_0/a_4290_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=4039 y=537 pfet_03v3
+x P0 VDD 1bitblock_0/a_5243_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=4600 y=477 pfet_03v3
+x 1bitblock_0/a_5042_407# 1bitblock_0/a_6721_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=6269 y=477 pfet_03v3
+x 1bitblock_0/a_2861_3# GND 1bitblock_0/a_3498_3# GND s=13000,460 d=12600,452 l=56 w=100 x=3247 y=73 nfet_03v3
+x 1bitblock_0/a_8723_63# 1bitblock_0/m2_9431_79# 1bitblock_0/a_9609_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=9358 y=477 pfet_03v3
+x 1bitblock_0/a_4290_63# 1bitblock_0/a_5042_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=4992 y=34 nfet_03v3
+x 1bitblock_0/a_2419_63# 1bitblock_0/a_6128_n37# 1bitblock_0/m2_6151_79# GND s=14500,345 d=13500,335 l=56 w=200 x=6078 y=34 nfet_03v3
+x A0 1bitblock_0/a_1845_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=1818 y=536 pfet_03v3
+x B0 GND 1bitblock_0/a_870_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=619 y=34 nfet_03v3
+x 1bitblock_0/a_11922_3# VDD m1_12486_242# VDD s=27000,670 d=26000,660 l=56 w=200 x=12308 y=461 pfet_03v3
+x 1bitblock$1_0/a_1845_466# GND 1bitblock$1_0/a_2419_63# GND s=9700,394 d=12600,452 l=56 w=100 x=2166 y=-688 nfet_03v3
+x A1 1bitblock$1_0/a_1845_n37# 1bitblock$1_0/a_1845_466# GND s=16800,368 d=26000,660 l=56 w=200 x=1816 y=-589 nfet_03v3
+x P1 VDD 1bitblock$1_0/a_3940_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=3687 y=-1092 pfet_03v3
+x 1bitblock$1_0/a_510_63# 1bitblock$1_0/a_1262_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=1210 y=-589 nfet_03v3
+x 1bitblock$1_0/a_4290_63# 1bitblock$1_0/a_5042_407# 1bitblock$1_0/a_5243_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=4990 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_2419_63# 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/a_6721_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=6076 y=-1032 pfet_03v3
+x m1_12486_242# VDD 1bitblock$1_0/a_10906_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=10653 y=-1091 pfet_03v3
+x m1_12486_242# GND 1bitblock$1_0/a_4290_63# GND s=11200,424 d=12600,452 l=56 w=100 x=4037 y=-688 nfet_03v3
+x B1 1bitblock$1_0/a_705_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=617 y=-1032 pfet_03v3
+x P1 GND 1bitblock$1_0/a_2861_3# GND s=13000,460 d=7250,245 l=56 w=100 x=2608 y=-628 nfet_03v3
+x 1bitblock$1_0/a_2419_63# 1bitblock$1_0/a_2861_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=2809 y=-628 nfet_03v3
+x P1 1bitblock$1_0/a_7768_n37# 1bitblock$1_0/m2_7791_79# GND s=14500,345 d=13500,335 l=56 w=200 x=7716 y=-589 nfet_03v3
+x m1_12486_242# GND 1bitblock$1_0/a_10906_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=10653 y=-589 nfet_03v3
+x S1 GND 1bitblock$1_0/a_9050_63# GND s=9600,392 d=12400,448 l=56 w=100 x=8797 y=-688 nfet_03v3
+x 1bitblock$1_0/a_11480_63# GND 1bitblock$1_0/a_11922_3# GND s=13000,460 d=7250,245 l=56 w=100 x=11669 y=-628 nfet_03v3
+x 1bitblock$1_0/a_2419_63# 1bitblock$1_0/a_11922_3# GND GND s=7250,245 d=12600,452 l=56 w=100 x=11870 y=-628 nfet_03v3
+x 1bitblock$1_0/a_510_63# P1 1bitblock$1_0/a_705_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=1210 y=-1032 pfet_03v3
+x m1_12486_242# GND 1bitblock$1_0/a_4650_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=4397 y=-589 nfet_03v3
+x 1bitblock$1_0/a_2419_63# 1bitblock$1_0/a_2861_391# 1bitblock$1_0/a_2861_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=2809 y=-1016 pfet_03v3
+x S0 GND 1bitblock$1_0/a_5768_63# GND s=12700,454 d=12600,452 l=56 w=100 x=5515 y=-688 nfet_03v3
+x 1bitblock$1_0/a_9050_63# 1bitblock$1_0/a_9800_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=9748 y=-589 nfet_03v3
+x P1 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/a_8361_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=7716 y=-1032 pfet_03v3
+x S1 GND 1bitblock$1_0/a_9408_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=9155 y=-589 nfet_03v3
+x 1bitblock$1_0/a_2861_3# VDD 1bitblock$1_0/a_3498_3# VDD s=27000,670 d=26000,660 l=56 w=200 x=3245 y=-1016 pfet_03v3
+x S0 GND 1bitblock$1_0/a_7410_63# GND s=9600,392 d=12400,448 l=56 w=100 x=7157 y=-688 nfet_03v3
+x 1bitblock$1_0/a_7410_63# 1bitblock$1_0/a_8160_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=8108 y=-589 nfet_03v3
+x 1bitblock$1_0/m2_7791_79# GND 1bitblock$1_0/a_8723_63# GND s=10600,412 d=10500,410 l=56 w=100 x=8470 y=-688 nfet_03v3
+x m1_12486_242# 1bitblock$1_0/a_5243_407# VDD VDD s=43600,1018 d=29000,545 l=56 w=400 x=4397 y=-1032 pfet_03v3
+x S0 VDD 1bitblock$1_0/a_5768_63# VDD s=25400,654 d=26000,660 l=56 w=200 x=5515 y=-1092 pfet_03v3
+x S1 VDD 1bitblock$1_0/a_9050_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=8797 y=-1092 pfet_03v3
+x 1bitblock$1_0/a_11480_63# VDD 1bitblock$1_0/a_11922_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=11669 y=-1016 pfet_03v3
+x A1 GND 1bitblock$1_0/a_160_63# GND s=13000,460 d=12600,452 l=56 w=100 x=-93 y=-688 nfet_03v3
+x 1bitblock$1_0/a_9050_63# VDD 1bitblock$1_0/a_9609_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=9748 y=-1032 pfet_03v3
+x S0 GND 1bitblock$1_0/a_6128_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=5875 y=-589 nfet_03v3
+x 1bitblock$1_0/a_5768_63# 1bitblock$1_0/a_6520_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=6468 y=-589 nfet_03v3
+x S0 VDD 1bitblock$1_0/a_7410_63# VDD s=19200,592 d=25600,656 l=56 w=200 x=7157 y=-1092 pfet_03v3
+x S1 1bitblock$1_0/a_9609_407# 1bitblock$1_0/m2_9431_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=9155 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_10906_466# GND 1bitblock$1_0/a_11480_63# GND s=9700,394 d=12600,452 l=56 w=100 x=11227 y=-688 nfet_03v3
+x B1 VDD 1bitblock$1_0/a_1845_466# VDD s=26000,660 d=16800,368 l=56 w=200 x=1592 y=-1091 pfet_03v3
+x 1bitblock$1_0/a_7410_63# VDD 1bitblock$1_0/a_8361_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=8108 y=-1032 pfet_03v3
+x P1 1bitblock$1_0/a_10906_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=10877 y=-1091 pfet_03v3
+x 1bitblock$1_0/m2_6151_79# GND 1bitblock$1_0/a_7083_63# GND s=10600,412 d=10500,410 l=56 w=100 x=6830 y=-688 nfet_03v3
+x B1 VDD 1bitblock$1_0/a_510_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=257 y=-1092 pfet_03v3
+x 1bitblock$1_0/m2_9431_79# VDD Y1 VDD s=21200,612 d=28600,686 l=56 w=200 x=10110 y=-1092 pfet_03v3
+x B1 GND 1bitblock$1_0/a_510_63# GND s=11200,424 d=12600,452 l=56 w=100 x=257 y=-688 nfet_03v3
+x 1bitblock$1_0/a_160_63# P1 1bitblock$1_0/a_1262_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=1009 y=-589 nfet_03v3
+x B1 GND 1bitblock$1_0/a_1845_n37# GND s=25200,652 d=16800,368 l=56 w=200 x=1592 y=-589 nfet_03v3
+x S0 1bitblock$1_0/a_6721_407# 1bitblock$1_0/m2_6151_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=5875 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_5768_63# VDD 1bitblock$1_0/a_6721_407# VDD s=29000,545 d=52000,1060 l=56 w=400 x=6468 y=-1032 pfet_03v3
+x 1bitblock$1_0/m2_9431_79# GND Y1 GND s=10600,412 d=14300,486 l=56 w=100 x=10110 y=-688 nfet_03v3
+x P1 1bitblock$1_0/a_10906_n37# 1bitblock$1_0/a_10906_466# GND s=16800,368 d=26000,660 l=56 w=200 x=10877 y=-589 nfet_03v3
+x 1bitblock$1_0/m2_7791_79# VDD 1bitblock$1_0/a_8723_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=8470 y=-1092 pfet_03v3
+x 1bitblock$1_0/a_10906_466# VDD 1bitblock$1_0/a_11480_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=11227 y=-1091 pfet_03v3
+x 1bitblock$1_0/a_11922_3# GND m1_12484_n953# GND s=13000,460 d=12600,452 l=56 w=100 x=12306 y=-628 nfet_03v3
+x 1bitblock$1_0/m2_6151_79# VDD 1bitblock$1_0/a_7083_63# VDD s=21200,612 d=21800,618 l=56 w=200 x=6830 y=-1092 pfet_03v3
+x S0 GND 1bitblock$1_0/a_7768_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=7515 y=-589 nfet_03v3
+x A1 VDD 1bitblock$1_0/a_160_63# VDD s=26000,660 d=25200,652 l=56 w=200 x=-93 y=-1092 pfet_03v3
+x 1bitblock$1_0/a_160_63# 1bitblock$1_0/a_705_407# P1 VDD s=27000,535 d=29000,545 l=56 w=400 x=1009 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_3940_63# 1bitblock$1_0/a_5042_407# 1bitblock$1_0/a_5042_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=4789 y=-589 nfet_03v3
+x A1 1bitblock$1_0/a_870_n37# P1 GND s=14500,345 d=13500,335 l=56 w=200 x=818 y=-589 nfet_03v3
+x 1bitblock$1_0/a_2419_63# 1bitblock$1_0/a_11922_391# 1bitblock$1_0/a_11922_3# VDD s=29000,545 d=52000,1060 l=56 w=400 x=11870 y=-1016 pfet_03v3
+x 1bitblock$1_0/a_7083_63# 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/a_9800_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=9547 y=-589 nfet_03v3
+x S0 1bitblock$1_0/a_8361_407# 1bitblock$1_0/m2_7791_79# VDD s=43600,1018 d=29000,545 l=56 w=400 x=7515 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_3940_63# 1bitblock$1_0/a_5243_407# 1bitblock$1_0/a_5042_407# VDD s=27000,535 d=29000,545 l=56 w=400 x=4789 y=-1032 pfet_03v3
+x P1 GND 1bitblock$1_0/a_3940_63# GND s=13000,460 d=12600,452 l=56 w=100 x=3687 y=-688 nfet_03v3
+x 1bitblock$1_0/a_3498_3# 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/a_8160_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=7907 y=-589 nfet_03v3
+x A1 VDD 1bitblock$1_0/a_705_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=818 y=-1032 pfet_03v3
+x P1 1bitblock$1_0/a_4650_n37# 1bitblock$1_0/a_5042_407# GND s=14500,345 d=13500,335 l=56 w=200 x=4598 y=-589 nfet_03v3
+x 1bitblock$1_0/a_5042_407# 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/a_6520_n37# GND s=13500,335 d=14500,345 l=56 w=200 x=6267 y=-589 nfet_03v3
+x 1bitblock$1_0/a_7083_63# 1bitblock$1_0/a_9609_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=9547 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_1845_466# VDD 1bitblock$1_0/a_2419_63# VDD s=29400,494 d=26000,660 l=56 w=200 x=2166 y=-1091 pfet_03v3
+x 1bitblock$1_0/a_8723_63# 1bitblock$1_0/a_9408_n37# 1bitblock$1_0/m2_9431_79# GND s=14500,345 d=13500,335 l=56 w=200 x=9356 y=-589 nfet_03v3
+x 1bitblock$1_0/a_3498_3# 1bitblock$1_0/a_8361_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=7907 y=-1032 pfet_03v3
+x P1 VDD 1bitblock$1_0/a_2861_391# VDD s=52000,1060 d=29000,545 l=56 w=400 x=2608 y=-1016 pfet_03v3
+x m1_12486_242# VDD 1bitblock$1_0/a_4290_63# VDD s=22400,624 d=26000,660 l=56 w=200 x=4037 y=-1092 pfet_03v3
+x P1 VDD 1bitblock$1_0/a_5243_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=4598 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_5042_407# 1bitblock$1_0/a_6721_407# VDD VDD s=27000,535 d=29000,545 l=56 w=400 x=6267 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_2861_3# GND 1bitblock$1_0/a_3498_3# GND s=13000,460 d=12600,452 l=56 w=100 x=3245 y=-628 nfet_03v3
+x 1bitblock$1_0/a_8723_63# 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/a_9609_407# VDD s=29000,545 d=27000,535 l=56 w=400 x=9356 y=-1032 pfet_03v3
+x 1bitblock$1_0/a_4290_63# 1bitblock$1_0/a_5042_n37# GND GND s=14500,345 d=26000,660 l=56 w=200 x=4990 y=-589 nfet_03v3
+x 1bitblock$1_0/a_2419_63# 1bitblock$1_0/a_6128_n37# 1bitblock$1_0/m2_6151_79# GND s=14500,345 d=13500,335 l=56 w=200 x=6076 y=-589 nfet_03v3
+x A1 1bitblock$1_0/a_1845_466# VDD VDD s=16800,368 d=29400,494 l=56 w=200 x=1816 y=-1091 pfet_03v3
+x B1 GND 1bitblock$1_0/a_870_n37# GND s=21600,616 d=14500,345 l=56 w=200 x=617 y=-589 nfet_03v3
+x 1bitblock$1_0/a_11922_3# VDD m1_12484_n953# VDD s=27000,670 d=26000,660 l=56 w=200 x=12306 y=-1016 pfet_03v3
+C P1 Cin 2.2
+C VDD S1 2.3
+C P3 1bitblock$3_0/a_3498_3# 2.0
+C P0 VDD 3.2
+C S0 VDD 6.8
+C P2 VDD 4.1
+C P0 1bitblock_0/a_3498_3# 2.1
+C P3 VDD 3.2
+C P1 VDD 2.6
+C m1_12486_242#0 3.4
+R m1_12486_242# 479
+= m1_12486_242# via_dev$8_13/m1_0_0#
+= m1_12486_242# m2_10725_n419#
+= m1_12486_242# 1bitblock_0/a_12559_3#
+= m1_12486_242# 1bitblock$1_0/a_4158_271#
+= m1_12486_242# 1bitblock$1_0/via_dev$5$1_1/a_0_0#
+= m1_12486_242# 1bitblock$1_0/a_10850_n151#
+= m1_12486_242# 1bitblock$1_0/via_dev$5$1_0/a_0_0#
+= m1_12486_242# 1bitblock$1_0/m2_4224_n285#
+R 1bitblock$1_0/a_7083_63# 152
+= 1bitblock$1_0/a_7083_63# 1bitblock$1_0/via_dev$5$1_6/a_0_0#
+= 1bitblock$1_0/a_7083_63# 1bitblock$1_0/a_9744_n104#
+= 1bitblock$1_0/a_7083_63# 1bitblock$1_0/via_dev$4$1_3/m1_0_0#
+= 1bitblock$1_0/a_7083_63# 1bitblock$1_0/m2_7106_n137#
+R 1bitblock$1_0/a_8723_63# 150
+= 1bitblock$1_0/a_8723_63# 1bitblock$1_0/via_dev$4$1_1/m1_0_0#
+= 1bitblock$1_0/a_8723_63# 1bitblock$1_0/a_9542_233#
+= 1bitblock$1_0/a_8723_63# 1bitblock$1_0/via_dev$4$1_2/m1_0_0#
+= 1bitblock$1_0/a_8723_63# 1bitblock$1_0/m2_8826_229#
+R 1bitblock$1_0/m2_9431_79# 145
+= 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/via_dev$5$1_8/a_0_0#
+= 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/a_10307_n103#
+= 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/via_dev$4$1_5/m1_0_0#
+= 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/a_9408_407#
+= 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/via_dev$4$1_6/m1_0_0#
+= 1bitblock$1_0/m2_9431_79# 1bitblock$1_0/a_9609_n37#
+R 1bitblock$1_0/m2_7791_79# 145
+= 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/via_dev$5$1_7/a_0_0#
+= 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/a_8667_n103#
+= 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/via_dev$4$1_10/m1_0_0#
+= 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/a_7768_407#
+= 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/via_dev$4$1_11/m1_0_0#
+= 1bitblock$1_0/m2_7791_79# 1bitblock$1_0/a_7969_n37#
+R 1bitblock$1_0/a_9609_407# 104
+= 1bitblock$1_0/a_9609_407# 1bitblock$1_0/via_dev$4$1_9/m1_0_0#
+= 1bitblock$1_0/a_9609_407# 1bitblock$1_0/a_10001_407#
+= 1bitblock$1_0/a_9609_407# 1bitblock$1_0/via_dev$4$1_7/m1_0_0#
+= 1bitblock$1_0/a_9609_407# 1bitblock$1_0/a_9243_407#
+= 1bitblock$1_0/a_9609_407# 1bitblock$1_0/via_dev$4$1_8/m1_0_0#
+= 1bitblock$1_0/a_9609_407# 1bitblock$1_0/m2_9325_567#
+R 1bitblock$1_0/a_8361_407# 104
+= 1bitblock$1_0/a_8361_407# 1bitblock$1_0/via_dev$4$1_13/m1_0_0#
+= 1bitblock$1_0/a_8361_407# 1bitblock$1_0/a_7969_407#
+= 1bitblock$1_0/a_8361_407# 1bitblock$1_0/via_dev$4$1_12/m1_0_0#
+= 1bitblock$1_0/a_8361_407# 1bitblock$1_0/a_7603_407#
+= 1bitblock$1_0/a_8361_407# 1bitblock$1_0/via_dev$4$1_4/m1_0_0#
+= 1bitblock$1_0/a_8361_407# 1bitblock$1_0/m2_7685_567#
+R 1bitblock$1_0/m2_6151_79# 145
+= 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/via_dev$5$1_9/a_0_0#
+= 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/a_7027_n103#
+= 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/via_dev$4$1_14/m1_0_0#
+= 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/a_6128_407#
+= 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/via_dev$4$1_15/m1_0_0#
+= 1bitblock$1_0/m2_6151_79# 1bitblock$1_0/a_6329_n37#
+R 1bitblock$1_0/a_6721_407# 104
+= 1bitblock$1_0/a_6721_407# 1bitblock$1_0/via_dev$4$1_18/m1_0_0#
+= 1bitblock$1_0/a_6721_407# 1bitblock$1_0/a_6329_407#
+= 1bitblock$1_0/a_6721_407# 1bitblock$1_0/via_dev$4$1_17/m1_0_0#
+= 1bitblock$1_0/a_6721_407# 1bitblock$1_0/a_5963_407#
+= 1bitblock$1_0/a_6721_407# 1bitblock$1_0/via_dev$4$1_16/m1_0_0#
+= 1bitblock$1_0/a_6721_407# 1bitblock$1_0/m2_6045_567#
+R 1bitblock$1_0/a_5042_407# 161
+= 1bitblock$1_0/a_5042_407# 1bitblock$1_0/via_dev$5$1_3/a_0_0#
+= 1bitblock$1_0/a_5042_407# 1bitblock$1_0/a_6464_n104#
+= 1bitblock$1_0/a_5042_407# 1bitblock$1_0/via_dev$4$1_24/m1_0_0#
+= 1bitblock$1_0/a_5042_407# 1bitblock$1_0/a_4851_n37#
+= 1bitblock$1_0/a_5042_407# 1bitblock$1_0/via_dev$4$1_22/m1_0_0#
+= 1bitblock$1_0/a_5042_407# 1bitblock$1_0/m2_5075_n147#
+R 1bitblock$1_0/a_3940_63# 154
+= 1bitblock$1_0/a_3940_63# 1bitblock$1_0/via_dev$5$1_12/a_0_0#
+= 1bitblock$1_0/a_3940_63# 1bitblock$1_0/a_4986_n103#
+= 1bitblock$1_0/a_3940_63# 1bitblock$1_0/via_dev$4$1_23/m1_0_0#
+= 1bitblock$1_0/a_3940_63# 1bitblock$1_0/m2_3984_140#
+C P10 8.1
+R P1 1137
+= P1 via_dev$8_8/m1_0_0#
+= P1 AND4_0/a_784_79#
+= P1 m1_13959_n1145#
+= P1 via_dev$8_9/m1_0_0#
+= P1 m1_1770_n330#
+= P1 m2_1701_n784#
+= P1 1bitblock$1_0/m2_1295_79#
+= P1 1bitblock$1_0/via_dev$5$1_11/a_0_0#
+= P1 1bitblock$1_0/a_4795_n103#
+= P1 1bitblock$1_0/via_dev$5$1_13/a_0_0#
+= P1 1bitblock$1_0/a_2805_n57#
+= P1 1bitblock$1_0/via_dev$5$1_10/a_0_0#
+= P1 1bitblock$1_0/m2_3804_342#
+= P1 1bitblock$1_0/a_3884_n57#
+= P1 1bitblock$1_0/via_dev$4$1_30/m1_0_0#
+= P1 1bitblock$1_0/a_1262_407#
+= P1 1bitblock$1_0/via_dev$4$1_28/m1_0_0#
+= P1 1bitblock$1_0/a_1071_n37#
+R 1bitblock$1_0/a_160_63# 154
+= 1bitblock$1_0/a_160_63# 1bitblock$1_0/via_dev$4$1_29/m1_0_0#
+= 1bitblock$1_0/a_160_63# 1bitblock$1_0/m2_204_140#
+= 1bitblock$1_0/a_160_63# 1bitblock$1_0/via_dev$5$1_16/a_0_0#
+= 1bitblock$1_0/a_160_63# 1bitblock$1_0/a_1206_n103#
+R A1 764
+= A1 1bitblock$1_0/m2_24_342#
+= A1 1bitblock$1_0/via_dev$5$1_15/a_0_0#
+= A1 1bitblock$1_0/a_1015_n103#
+= A1 1bitblock$1_0/via_dev$5$1_14/a_0_0#
+= A1 1bitblock$1_0/a_104_n271#
+R 1bitblock$1_0/a_5243_407# 104
+= 1bitblock$1_0/a_5243_407# 1bitblock$1_0/via_dev$4$1_19/m1_0_0#
+= 1bitblock$1_0/a_5243_407# 1bitblock$1_0/a_4851_407#
+= 1bitblock$1_0/a_5243_407# 1bitblock$1_0/via_dev$4$1_20/m1_0_0#
+= 1bitblock$1_0/a_5243_407# 1bitblock$1_0/a_4485_407#
+= 1bitblock$1_0/a_5243_407# 1bitblock$1_0/via_dev$4$1_21/m1_0_0#
+= 1bitblock$1_0/a_5243_407# 1bitblock$1_0/m2_4567_567#
+R 1bitblock$1_0/a_705_407# 104
+= 1bitblock$1_0/a_705_407# 1bitblock$1_0/via_dev$4$1_25/m1_0_0#
+= 1bitblock$1_0/a_705_407# 1bitblock$1_0/a_1463_407#
+= 1bitblock$1_0/a_705_407# 1bitblock$1_0/via_dev$4$1_26/m1_0_0#
+= 1bitblock$1_0/a_705_407# 1bitblock$1_0/a_1071_407#
+= 1bitblock$1_0/a_705_407# 1bitblock$1_0/via_dev$4$1_27/m1_0_0#
+= 1bitblock$1_0/a_705_407# 1bitblock$1_0/m2_787_567#
+R 1bitblock$1_0/a_3498_3# 168
+= 1bitblock$1_0/a_3498_3# 1bitblock$1_0/via_dev$5$1_2/a_0_0#
+= 1bitblock$1_0/a_3498_3# 1bitblock$1_0/a_8093_255#
+= 1bitblock$1_0/a_3498_3# 1bitblock$1_0/via_dev$4$1_0/m1_0_0#
+= 1bitblock$1_0/a_3498_3# 1bitblock$1_0/m2_3543_531#
+R 1bitblock$1_0/a_11922_3# 128
+R 1bitblock$1_0/a_11922_391# 19
+R 1bitblock$1_0/a_10906_466# 134
+R 1bitblock$1_0/a_11480_63# 145
+R Y1 19
+= Y1 1bitblock$1_0/a_10363_63#
+R 1bitblock$1_0/a_9050_63# 154
+R 1bitblock$1_0/a_7410_63# 154
+R 1bitblock$1_0/a_5768_63# 154
+R 1bitblock$1_0/a_4290_63# 149
+R 1bitblock$1_0/a_2861_3# 128
+R 1bitblock$1_0/a_2861_391# 19
+R 1bitblock$1_0/a_1845_466# 134
+C 1bitblock$1_0/a_2419_63#0 6.6
+R 1bitblock$1_0/a_2419_63# 2231
+R 1bitblock$1_0/a_510_63# 149
+R B1 675
+= B1 1bitblock$1_0/a_378_271#
+C Cin0 4.6
+R Cin 630
+= Cin m1_15541_n412#
+= Cin via_dev$8_0/m1_0_0#
+= Cin MUX21_0/a_650_n277#
+= Cin m1_10807_n176#
+= Cin 1bitblock_0/a_4158_271#
+= Cin 1bitblock_0/via_dev$5_1/a_0_0#
+= Cin 1bitblock_0/a_10850_n151#
+= Cin 1bitblock_0/via_dev$5_0/a_0_0#
+= Cin 1bitblock_0/m2_4224_n285#
+R 1bitblock_0/a_7083_63# 152
+= 1bitblock_0/a_7083_63# 1bitblock_0/via_dev$5_6/a_0_0#
+= 1bitblock_0/a_7083_63# 1bitblock_0/a_9744_n104#
+= 1bitblock_0/a_7083_63# 1bitblock_0/via_dev$4_3/m1_0_0#
+= 1bitblock_0/a_7083_63# 1bitblock_0/m2_7106_n137#
+R 1bitblock_0/a_8723_63# 150
+= 1bitblock_0/a_8723_63# 1bitblock_0/via_dev$4_1/m1_0_0#
+= 1bitblock_0/a_8723_63# 1bitblock_0/a_9542_233#
+= 1bitblock_0/a_8723_63# 1bitblock_0/via_dev$4_2/m1_0_0#
+= 1bitblock_0/a_8723_63# 1bitblock_0/m2_8826_229#
+R 1bitblock_0/m2_9431_79# 145
+= 1bitblock_0/m2_9431_79# 1bitblock_0/via_dev$5_8/a_0_0#
+= 1bitblock_0/m2_9431_79# 1bitblock_0/a_10307_n103#
+= 1bitblock_0/m2_9431_79# 1bitblock_0/via_dev$4_5/m1_0_0#
+= 1bitblock_0/m2_9431_79# 1bitblock_0/a_9408_407#
+= 1bitblock_0/m2_9431_79# 1bitblock_0/via_dev$4_6/m1_0_0#
+= 1bitblock_0/m2_9431_79# 1bitblock_0/a_9609_n37#
+R 1bitblock_0/m2_7791_79# 145
+= 1bitblock_0/m2_7791_79# 1bitblock_0/via_dev$5_7/a_0_0#
+= 1bitblock_0/m2_7791_79# 1bitblock_0/a_8667_n103#
+= 1bitblock_0/m2_7791_79# 1bitblock_0/via_dev$4_10/m1_0_0#
+= 1bitblock_0/m2_7791_79# 1bitblock_0/a_7768_407#
+= 1bitblock_0/m2_7791_79# 1bitblock_0/via_dev$4_11/m1_0_0#
+= 1bitblock_0/m2_7791_79# 1bitblock_0/a_7969_n37#
+R 1bitblock_0/a_8361_407# 104
+= 1bitblock_0/a_8361_407# 1bitblock_0/via_dev$4_13/m1_0_0#
+= 1bitblock_0/a_8361_407# 1bitblock_0/a_7969_407#
+= 1bitblock_0/a_8361_407# 1bitblock_0/via_dev$4_12/m1_0_0#
+= 1bitblock_0/a_8361_407# 1bitblock_0/a_7603_407#
+= 1bitblock_0/a_8361_407# 1bitblock_0/via_dev$4_4/m1_0_0#
+= 1bitblock_0/a_8361_407# 1bitblock_0/m2_7685_567#
+R 1bitblock_0/m2_6151_79# 145
+= 1bitblock_0/m2_6151_79# 1bitblock_0/via_dev$5_9/a_0_0#
+= 1bitblock_0/m2_6151_79# 1bitblock_0/a_7027_n103#
+= 1bitblock_0/m2_6151_79# 1bitblock_0/via_dev$4_14/m1_0_0#
+= 1bitblock_0/m2_6151_79# 1bitblock_0/a_6128_407#
+= 1bitblock_0/m2_6151_79# 1bitblock_0/via_dev$4_15/m1_0_0#
+= 1bitblock_0/m2_6151_79# 1bitblock_0/a_6329_n37#
+R 1bitblock_0/a_6721_407# 104
+= 1bitblock_0/a_6721_407# 1bitblock_0/via_dev$4_18/m1_0_0#
+= 1bitblock_0/a_6721_407# 1bitblock_0/a_6329_407#
+= 1bitblock_0/a_6721_407# 1bitblock_0/via_dev$4_17/m1_0_0#
+= 1bitblock_0/a_6721_407# 1bitblock_0/a_5963_407#
+= 1bitblock_0/a_6721_407# 1bitblock_0/via_dev$4_16/m1_0_0#
+= 1bitblock_0/a_6721_407# 1bitblock_0/m2_6045_567#
+R 1bitblock_0/a_5042_407# 161
+= 1bitblock_0/a_5042_407# 1bitblock_0/via_dev$5_3/a_0_0#
+= 1bitblock_0/a_5042_407# 1bitblock_0/a_6464_n104#
+= 1bitblock_0/a_5042_407# 1bitblock_0/via_dev$4_24/m1_0_0#
+= 1bitblock_0/a_5042_407# 1bitblock_0/a_4851_n37#
+= 1bitblock_0/a_5042_407# 1bitblock_0/via_dev$4_22/m1_0_0#
+= 1bitblock_0/a_5042_407# 1bitblock_0/m2_5075_n147#
+R 1bitblock_0/a_3940_63# 154
+= 1bitblock_0/a_3940_63# 1bitblock_0/via_dev$5_12/a_0_0#
+= 1bitblock_0/a_3940_63# 1bitblock_0/a_4986_n103#
+= 1bitblock_0/a_3940_63# 1bitblock_0/via_dev$4_23/m1_0_0#
+= 1bitblock_0/a_3940_63# 1bitblock_0/m2_3984_140#
+C P00 4.2
+R P0 1123
+= P0 m1_14167_n1145#
+= P0 AND4_0/a_576_79#
+= P0 1bitblock_0/m2_1295_79#
+= P0 1bitblock_0/via_dev$5_11/a_0_0#
+= P0 1bitblock_0/a_4795_n103#
+= P0 1bitblock_0/via_dev$5_13/a_0_0#
+= P0 1bitblock_0/a_2805_n57#
+= P0 1bitblock_0/via_dev$5_10/a_0_0#
+= P0 1bitblock_0/m2_3804_342#
+= P0 1bitblock_0/a_3884_n57#
+= P0 1bitblock_0/via_dev$4_30/m1_0_0#
+= P0 1bitblock_0/a_1262_407#
+= P0 1bitblock_0/via_dev$4_28/m1_0_0#
+= P0 1bitblock_0/a_1071_n37#
+R 1bitblock_0/a_160_63# 154
+= 1bitblock_0/a_160_63# 1bitblock_0/via_dev$4_29/m1_0_0#
+= 1bitblock_0/a_160_63# 1bitblock_0/m2_204_140#
+= 1bitblock_0/a_160_63# 1bitblock_0/via_dev$5_16/a_0_0#
+= 1bitblock_0/a_160_63# 1bitblock_0/a_1206_n103#
+R A0 764
+= A0 1bitblock_0/m2_24_342#
+= A0 1bitblock_0/via_dev$5_15/a_0_0#
+= A0 1bitblock_0/a_1015_n103#
+= A0 1bitblock_0/via_dev$5_14/a_0_0#
+= A0 1bitblock_0/a_104_n271#
+R 1bitblock_0/a_5243_407# 104
+= 1bitblock_0/a_5243_407# 1bitblock_0/via_dev$4_19/m1_0_0#
+= 1bitblock_0/a_5243_407# 1bitblock_0/a_4851_407#
+= 1bitblock_0/a_5243_407# 1bitblock_0/via_dev$4_20/m1_0_0#
+= 1bitblock_0/a_5243_407# 1bitblock_0/a_4485_407#
+= 1bitblock_0/a_5243_407# 1bitblock_0/via_dev$4_21/m1_0_0#
+= 1bitblock_0/a_5243_407# 1bitblock_0/m2_4567_567#
+R 1bitblock_0/a_705_407# 104
+= 1bitblock_0/a_705_407# 1bitblock_0/via_dev$4_25/m1_0_0#
+= 1bitblock_0/a_705_407# 1bitblock_0/a_1463_407#
+= 1bitblock_0/a_705_407# 1bitblock_0/via_dev$4_26/m1_0_0#
+= 1bitblock_0/a_705_407# 1bitblock_0/a_1071_407#
+= 1bitblock_0/a_705_407# 1bitblock_0/via_dev$4_27/m1_0_0#
+= 1bitblock_0/a_705_407# 1bitblock_0/m2_787_567#
+R 1bitblock_0/a_3498_3# 168
+= 1bitblock_0/a_3498_3# 1bitblock_0/via_dev$5_2/a_0_0#
+= 1bitblock_0/a_3498_3# 1bitblock_0/a_8093_255#
+= 1bitblock_0/a_3498_3# 1bitblock_0/via_dev$4_0/m1_0_0#
+= 1bitblock_0/a_3498_3# 1bitblock_0/m2_3543_531#
+R 1bitblock_0/a_11922_3# 128
+R 1bitblock_0/a_11922_391# 19
+R 1bitblock_0/a_10906_466# 134
+R 1bitblock_0/a_11480_63# 145
+R Y0 19
+= Y0 1bitblock_0/a_10363_63#
+R 1bitblock_0/a_9050_63# 154
+R 1bitblock_0/a_7410_63# 154
+R 1bitblock_0/a_5768_63# 154
+R 1bitblock_0/a_4290_63# 149
+R 1bitblock_0/a_2861_3# 128
+R 1bitblock_0/a_2861_391# 19
+R 1bitblock_0/a_1845_466# 134
+C 1bitblock_0/a_2419_63#0 6.6
+R 1bitblock_0/a_2419_63# 2231
+R 1bitblock_0/a_510_63# 149
+R B0 675
+= B0 1bitblock_0/a_378_271#
+R 1bitblock_0/a_9609_407# 104
+= 1bitblock_0/a_9609_407# 1bitblock_0/via_dev$4_9/m1_0_0#
+= 1bitblock_0/a_9609_407# 1bitblock_0/a_9243_407#
+= 1bitblock_0/a_9609_407# 1bitblock_0/a_10001_407#
+= 1bitblock_0/a_9609_407# 1bitblock_0/via_dev$4_7/m1_0_0#
+= 1bitblock_0/a_9609_407# 1bitblock_0/m2_9325_567#
+= 1bitblock_0/a_9609_407# 1bitblock_0/via_dev$4_8/m1_0_0#
+C m2_10721_n3315#0 3.5
+R m2_10721_n3315# 480
+= m2_10721_n3315# via_dev$8_12/m1_0_0#
+= m2_10721_n3315# m1_12484_n2619#
+= m2_10721_n3315# 1bitblock$2_0/a_12559_3#
+= m2_10721_n3315# 1bitblock$3_0/a_4158_271#
+= m2_10721_n3315# 1bitblock$3_0/via_dev$5$3_1/a_0_0#
+= m2_10721_n3315# 1bitblock$3_0/a_10850_n151#
+= m2_10721_n3315# 1bitblock$3_0/via_dev$5$3_0/a_0_0#
+= m2_10721_n3315# 1bitblock$3_0/m2_4224_n285#
+R 1bitblock$3_0/a_7083_63# 152
+= 1bitblock$3_0/a_7083_63# 1bitblock$3_0/via_dev$5$3_6/a_0_0#
+= 1bitblock$3_0/a_7083_63# 1bitblock$3_0/a_9744_n104#
+= 1bitblock$3_0/a_7083_63# 1bitblock$3_0/via_dev$4$3_3/m1_0_0#
+= 1bitblock$3_0/a_7083_63# 1bitblock$3_0/m2_7106_n137#
+R 1bitblock$3_0/a_8723_63# 150
+= 1bitblock$3_0/a_8723_63# 1bitblock$3_0/via_dev$4$3_1/m1_0_0#
+= 1bitblock$3_0/a_8723_63# 1bitblock$3_0/a_9542_233#
+= 1bitblock$3_0/a_8723_63# 1bitblock$3_0/via_dev$4$3_2/m1_0_0#
+= 1bitblock$3_0/a_8723_63# 1bitblock$3_0/m2_8826_229#
+R 1bitblock$3_0/m2_9431_79# 145
+= 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/via_dev$5$3_8/a_0_0#
+= 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/a_10307_n103#
+= 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/via_dev$4$3_5/m1_0_0#
+= 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/a_9408_407#
+= 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/via_dev$4$3_6/m1_0_0#
+= 1bitblock$3_0/m2_9431_79# 1bitblock$3_0/a_9609_n37#
+R 1bitblock$3_0/m2_7791_79# 145
+= 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/via_dev$5$3_7/a_0_0#
+= 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/a_8667_n103#
+= 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/via_dev$4$3_10/m1_0_0#
+= 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/a_7768_407#
+= 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/via_dev$4$3_11/m1_0_0#
+= 1bitblock$3_0/m2_7791_79# 1bitblock$3_0/a_7969_n37#
+R 1bitblock$3_0/a_9609_407# 104
+= 1bitblock$3_0/a_9609_407# 1bitblock$3_0/via_dev$4$3_9/m1_0_0#
+= 1bitblock$3_0/a_9609_407# 1bitblock$3_0/a_10001_407#
+= 1bitblock$3_0/a_9609_407# 1bitblock$3_0/via_dev$4$3_7/m1_0_0#
+= 1bitblock$3_0/a_9609_407# 1bitblock$3_0/a_9243_407#
+= 1bitblock$3_0/a_9609_407# 1bitblock$3_0/via_dev$4$3_8/m1_0_0#
+= 1bitblock$3_0/a_9609_407# 1bitblock$3_0/m2_9325_567#
+R 1bitblock$3_0/a_8361_407# 104
+= 1bitblock$3_0/a_8361_407# 1bitblock$3_0/via_dev$4$3_13/m1_0_0#
+= 1bitblock$3_0/a_8361_407# 1bitblock$3_0/a_7969_407#
+= 1bitblock$3_0/a_8361_407# 1bitblock$3_0/via_dev$4$3_12/m1_0_0#
+= 1bitblock$3_0/a_8361_407# 1bitblock$3_0/a_7603_407#
+= 1bitblock$3_0/a_8361_407# 1bitblock$3_0/via_dev$4$3_4/m1_0_0#
+= 1bitblock$3_0/a_8361_407# 1bitblock$3_0/m2_7685_567#
+R 1bitblock$3_0/m2_6151_79# 145
+= 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/via_dev$5$3_9/a_0_0#
+= 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/a_7027_n103#
+= 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/via_dev$4$3_14/m1_0_0#
+= 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/a_6128_407#
+= 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/via_dev$4$3_15/m1_0_0#
+= 1bitblock$3_0/m2_6151_79# 1bitblock$3_0/a_6329_n37#
+R 1bitblock$3_0/a_6721_407# 104
+= 1bitblock$3_0/a_6721_407# 1bitblock$3_0/via_dev$4$3_18/m1_0_0#
+= 1bitblock$3_0/a_6721_407# 1bitblock$3_0/a_6329_407#
+= 1bitblock$3_0/a_6721_407# 1bitblock$3_0/via_dev$4$3_17/m1_0_0#
+= 1bitblock$3_0/a_6721_407# 1bitblock$3_0/a_5963_407#
+= 1bitblock$3_0/a_6721_407# 1bitblock$3_0/via_dev$4$3_16/m1_0_0#
+= 1bitblock$3_0/a_6721_407# 1bitblock$3_0/m2_6045_567#
+R 1bitblock$3_0/a_5042_407# 161
+= 1bitblock$3_0/a_5042_407# 1bitblock$3_0/via_dev$5$3_3/a_0_0#
+= 1bitblock$3_0/a_5042_407# 1bitblock$3_0/a_6464_n104#
+= 1bitblock$3_0/a_5042_407# 1bitblock$3_0/via_dev$4$3_24/m1_0_0#
+= 1bitblock$3_0/a_5042_407# 1bitblock$3_0/a_4851_n37#
+= 1bitblock$3_0/a_5042_407# 1bitblock$3_0/via_dev$4$3_22/m1_0_0#
+= 1bitblock$3_0/a_5042_407# 1bitblock$3_0/m2_5075_n147#
+R 1bitblock$3_0/a_3940_63# 154
+= 1bitblock$3_0/a_3940_63# 1bitblock$3_0/via_dev$5$3_12/a_0_0#
+= 1bitblock$3_0/a_3940_63# 1bitblock$3_0/a_4986_n103#
+= 1bitblock$3_0/a_3940_63# 1bitblock$3_0/via_dev$4$3_23/m1_0_0#
+= 1bitblock$3_0/a_3940_63# 1bitblock$3_0/m2_3984_140#
+C P30 4.1
+R P3 1125
+= P3 AND4_0/a_1200_79#
+= P3 m1_13543_n1146#
+= P3 1bitblock$3_0/m2_1295_79#
+= P3 1bitblock$3_0/via_dev$5$3_11/a_0_0#
+= P3 1bitblock$3_0/a_4795_n103#
+= P3 1bitblock$3_0/via_dev$5$3_13/a_0_0#
+= P3 1bitblock$3_0/a_2805_n57#
+= P3 1bitblock$3_0/via_dev$5$3_10/a_0_0#
+= P3 1bitblock$3_0/m2_3804_342#
+= P3 1bitblock$3_0/a_3884_n57#
+= P3 1bitblock$3_0/via_dev$4$3_30/m1_0_0#
+= P3 1bitblock$3_0/a_1262_407#
+= P3 1bitblock$3_0/via_dev$4$3_28/m1_0_0#
+= P3 1bitblock$3_0/a_1071_n37#
+R 1bitblock$3_0/a_160_63# 154
+= 1bitblock$3_0/a_160_63# 1bitblock$3_0/via_dev$4$3_29/m1_0_0#
+= 1bitblock$3_0/a_160_63# 1bitblock$3_0/m2_204_140#
+= 1bitblock$3_0/a_160_63# 1bitblock$3_0/via_dev$5$3_16/a_0_0#
+= 1bitblock$3_0/a_160_63# 1bitblock$3_0/a_1206_n103#
+R A3 764
+= A3 1bitblock$3_0/m2_24_342#
+= A3 1bitblock$3_0/via_dev$5$3_15/a_0_0#
+= A3 1bitblock$3_0/a_1015_n103#
+= A3 1bitblock$3_0/via_dev$5$3_14/a_0_0#
+= A3 1bitblock$3_0/a_104_n271#
+R 1bitblock$3_0/a_5243_407# 104
+= 1bitblock$3_0/a_5243_407# 1bitblock$3_0/via_dev$4$3_19/m1_0_0#
+= 1bitblock$3_0/a_5243_407# 1bitblock$3_0/a_4851_407#
+= 1bitblock$3_0/a_5243_407# 1bitblock$3_0/via_dev$4$3_20/m1_0_0#
+= 1bitblock$3_0/a_5243_407# 1bitblock$3_0/a_4485_407#
+= 1bitblock$3_0/a_5243_407# 1bitblock$3_0/via_dev$4$3_21/m1_0_0#
+= 1bitblock$3_0/a_5243_407# 1bitblock$3_0/m2_4567_567#
+R 1bitblock$3_0/a_705_407# 104
+= 1bitblock$3_0/a_705_407# 1bitblock$3_0/via_dev$4$3_25/m1_0_0#
+= 1bitblock$3_0/a_705_407# 1bitblock$3_0/a_1463_407#
+= 1bitblock$3_0/a_705_407# 1bitblock$3_0/via_dev$4$3_26/m1_0_0#
+= 1bitblock$3_0/a_705_407# 1bitblock$3_0/a_1071_407#
+= 1bitblock$3_0/a_705_407# 1bitblock$3_0/via_dev$4$3_27/m1_0_0#
+= 1bitblock$3_0/a_705_407# 1bitblock$3_0/m2_787_567#
+R 1bitblock$3_0/a_3498_3# 168
+= 1bitblock$3_0/a_3498_3# 1bitblock$3_0/via_dev$5$3_2/a_0_0#
+= 1bitblock$3_0/a_3498_3# 1bitblock$3_0/a_8093_255#
+= 1bitblock$3_0/a_3498_3# 1bitblock$3_0/via_dev$4$3_0/m1_0_0#
+= 1bitblock$3_0/a_3498_3# 1bitblock$3_0/m2_3543_531#
+C m1_12480_n3815#0 2.9
+R m1_12480_n3815# 187
+= m1_12480_n3815# MUX21_0/a_846_955#
+= m1_12480_n3815# 1bitblock$3_0/a_12559_3#
+R 1bitblock$3_0/a_11922_3# 128
+R 1bitblock$3_0/a_11922_391# 19
+R 1bitblock$3_0/a_10906_466# 134
+R 1bitblock$3_0/a_11480_63# 145
+R Y3 19
+= Y3 1bitblock$3_0/a_10363_63#
+R 1bitblock$3_0/a_9050_63# 154
+R 1bitblock$3_0/a_7410_63# 154
+R 1bitblock$3_0/a_5768_63# 154
+R 1bitblock$3_0/a_4290_63# 149
+R 1bitblock$3_0/a_2861_3# 128
+R 1bitblock$3_0/a_2861_391# 19
+R 1bitblock$3_0/a_1845_466# 134
+C 1bitblock$3_0/a_2419_63#0 6.7
+R 1bitblock$3_0/a_2419_63# 2231
+R 1bitblock$3_0/a_510_63# 149
+R B3 675
+= B3 1bitblock$3_0/a_378_271#
+R AND4_0/a_1120_n441# 17
+R AND4_0/a_912_n441# 17
+R AND4_0/a_704_n441# 17
+C BP0 3.0
+R BP 338
+= BP MUX21_0/a_25_271#
+= BP via_dev$8_3/m1_0_0#
+= BP m1_14519_n971#
+= BP via_dev$8_4/m1_0_0#
+= BP m2_14516_n651#
+= BP via_dev$8_5/m1_0_0#
+= BP m1_12998_n466#
+= BP via_dev$8_6/m1_0_0#
+= BP m2_12843_n1034#
+= BP AND4_0/a_1686_n317#
+R AND4_0/a_518_229# 233
+C m1_12484_n953#0 3.5
+R m1_12484_n953# 481
+= m1_12484_n953# via_dev$8_10/m1_0_0#
+= m1_12484_n953# m2_10725_n3097#
+= m1_12484_n953# 1bitblock$1_0/a_12559_3#
+= m1_12484_n953# 1bitblock$2_0/a_4158_271#
+= m1_12484_n953# 1bitblock$2_0/via_dev$5$2_1/a_0_0#
+= m1_12484_n953# 1bitblock$2_0/a_10850_n151#
+= m1_12484_n953# 1bitblock$2_0/via_dev$5$2_0/a_0_0#
+= m1_12484_n953# 1bitblock$2_0/m2_4224_n285#
+R 1bitblock$2_0/a_7083_63# 152
+= 1bitblock$2_0/a_7083_63# 1bitblock$2_0/via_dev$5$2_6/a_0_0#
+= 1bitblock$2_0/a_7083_63# 1bitblock$2_0/a_9744_n104#
+= 1bitblock$2_0/a_7083_63# 1bitblock$2_0/via_dev$4$2_3/m1_0_0#
+= 1bitblock$2_0/a_7083_63# 1bitblock$2_0/m2_7106_n137#
+R 1bitblock$2_0/a_8723_63# 150
+= 1bitblock$2_0/a_8723_63# 1bitblock$2_0/via_dev$4$2_1/m1_0_0#
+= 1bitblock$2_0/a_8723_63# 1bitblock$2_0/a_9542_233#
+= 1bitblock$2_0/a_8723_63# 1bitblock$2_0/via_dev$4$2_2/m1_0_0#
+= 1bitblock$2_0/a_8723_63# 1bitblock$2_0/m2_8826_229#
+R 1bitblock$2_0/m2_9431_79# 145
+= 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/via_dev$5$2_8/a_0_0#
+= 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/a_10307_n103#
+= 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/via_dev$4$2_5/m1_0_0#
+= 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/a_9408_407#
+= 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/via_dev$4$2_6/m1_0_0#
+= 1bitblock$2_0/m2_9431_79# 1bitblock$2_0/a_9609_n37#
+R 1bitblock$2_0/m2_7791_79# 145
+= 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/via_dev$5$2_7/a_0_0#
+= 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/a_8667_n103#
+= 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/via_dev$4$2_10/m1_0_0#
+= 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/a_7768_407#
+= 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/via_dev$4$2_11/m1_0_0#
+= 1bitblock$2_0/m2_7791_79# 1bitblock$2_0/a_7969_n37#
+R 1bitblock$2_0/a_9609_407# 104
+= 1bitblock$2_0/a_9609_407# 1bitblock$2_0/via_dev$4$2_9/m1_0_0#
+= 1bitblock$2_0/a_9609_407# 1bitblock$2_0/a_10001_407#
+= 1bitblock$2_0/a_9609_407# 1bitblock$2_0/via_dev$4$2_7/m1_0_0#
+= 1bitblock$2_0/a_9609_407# 1bitblock$2_0/a_9243_407#
+= 1bitblock$2_0/a_9609_407# 1bitblock$2_0/via_dev$4$2_8/m1_0_0#
+= 1bitblock$2_0/a_9609_407# 1bitblock$2_0/m2_9325_567#
+R 1bitblock$2_0/a_8361_407# 104
+= 1bitblock$2_0/a_8361_407# 1bitblock$2_0/via_dev$4$2_13/m1_0_0#
+= 1bitblock$2_0/a_8361_407# 1bitblock$2_0/a_7969_407#
+= 1bitblock$2_0/a_8361_407# 1bitblock$2_0/via_dev$4$2_12/m1_0_0#
+= 1bitblock$2_0/a_8361_407# 1bitblock$2_0/a_7603_407#
+= 1bitblock$2_0/a_8361_407# 1bitblock$2_0/via_dev$4$2_4/m1_0_0#
+= 1bitblock$2_0/a_8361_407# 1bitblock$2_0/m2_7685_567#
+R 1bitblock$2_0/m2_6151_79# 145
+= 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/via_dev$5$2_9/a_0_0#
+= 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/a_7027_n103#
+= 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/via_dev$4$2_14/m1_0_0#
+= 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/a_6128_407#
+= 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/via_dev$4$2_15/m1_0_0#
+= 1bitblock$2_0/m2_6151_79# 1bitblock$2_0/a_6329_n37#
+R 1bitblock$2_0/a_6721_407# 104
+= 1bitblock$2_0/a_6721_407# 1bitblock$2_0/via_dev$4$2_18/m1_0_0#
+= 1bitblock$2_0/a_6721_407# 1bitblock$2_0/a_6329_407#
+= 1bitblock$2_0/a_6721_407# 1bitblock$2_0/via_dev$4$2_17/m1_0_0#
+= 1bitblock$2_0/a_6721_407# 1bitblock$2_0/a_5963_407#
+= 1bitblock$2_0/a_6721_407# 1bitblock$2_0/via_dev$4$2_16/m1_0_0#
+= 1bitblock$2_0/a_6721_407# 1bitblock$2_0/m2_6045_567#
+R 1bitblock$2_0/a_5042_407# 161
+= 1bitblock$2_0/a_5042_407# 1bitblock$2_0/via_dev$5$2_3/a_0_0#
+= 1bitblock$2_0/a_5042_407# 1bitblock$2_0/a_6464_n104#
+= 1bitblock$2_0/a_5042_407# 1bitblock$2_0/via_dev$4$2_24/m1_0_0#
+= 1bitblock$2_0/a_5042_407# 1bitblock$2_0/a_4851_n37#
+= 1bitblock$2_0/a_5042_407# 1bitblock$2_0/via_dev$4$2_22/m1_0_0#
+= 1bitblock$2_0/a_5042_407# 1bitblock$2_0/m2_5075_n147#
+R 1bitblock$2_0/a_3940_63# 154
+= 1bitblock$2_0/a_3940_63# 1bitblock$2_0/via_dev$5$2_12/a_0_0#
+= 1bitblock$2_0/a_3940_63# 1bitblock$2_0/a_4986_n103#
+= 1bitblock$2_0/a_3940_63# 1bitblock$2_0/via_dev$4$2_23/m1_0_0#
+= 1bitblock$2_0/a_3940_63# 1bitblock$2_0/m2_3984_140#
+C P20 4.1
+R P2 1136
+= P2 AND4_0/a_992_79#
+= P2 via_dev$8_7/m1_0_0#
+= P2 m1_13751_n1145#
+= P2 via_dev$8_11/m1_0_0#
+= P2 m1_12381_n1749#
+= P2 m2_2396_n2595#
+= P2 1bitblock$2_0/m2_1295_79#
+= P2 1bitblock$2_0/via_dev$5$2_11/a_0_0#
+= P2 1bitblock$2_0/a_4795_n103#
+= P2 1bitblock$2_0/via_dev$5$2_13/a_0_0#
+= P2 1bitblock$2_0/a_2805_n57#
+= P2 1bitblock$2_0/via_dev$5$2_10/a_0_0#
+= P2 1bitblock$2_0/m2_3804_342#
+= P2 1bitblock$2_0/a_3884_n57#
+= P2 1bitblock$2_0/via_dev$4$2_30/m1_0_0#
+= P2 1bitblock$2_0/a_1262_407#
+= P2 1bitblock$2_0/via_dev$4$2_28/m1_0_0#
+= P2 1bitblock$2_0/a_1071_n37#
+R 1bitblock$2_0/a_160_63# 154
+= 1bitblock$2_0/a_160_63# 1bitblock$2_0/via_dev$4$2_29/m1_0_0#
+= 1bitblock$2_0/a_160_63# 1bitblock$2_0/m2_204_140#
+= 1bitblock$2_0/a_160_63# 1bitblock$2_0/via_dev$5$2_16/a_0_0#
+= 1bitblock$2_0/a_160_63# 1bitblock$2_0/a_1206_n103#
+R A2 764
+= A2 1bitblock$2_0/m2_24_342#
+= A2 1bitblock$2_0/via_dev$5$2_15/a_0_0#
+= A2 1bitblock$2_0/a_1015_n103#
+= A2 1bitblock$2_0/via_dev$5$2_14/a_0_0#
+= A2 1bitblock$2_0/a_104_n271#
+R 1bitblock$2_0/a_5243_407# 104
+= 1bitblock$2_0/a_5243_407# 1bitblock$2_0/via_dev$4$2_19/m1_0_0#
+= 1bitblock$2_0/a_5243_407# 1bitblock$2_0/a_4851_407#
+= 1bitblock$2_0/a_5243_407# 1bitblock$2_0/via_dev$4$2_20/m1_0_0#
+= 1bitblock$2_0/a_5243_407# 1bitblock$2_0/a_4485_407#
+= 1bitblock$2_0/a_5243_407# 1bitblock$2_0/via_dev$4$2_21/m1_0_0#
+= 1bitblock$2_0/a_5243_407# 1bitblock$2_0/m2_4567_567#
+C S00 5.4
+R S0 2753
+= S0 1bitblock_0/m2_5700_324#
+= S0 1bitblock_0/via_dev$5_4/a_0_0#
+= S0 1bitblock_0/a_7354_n103#
+= S0 1bitblock_0/via_dev$5_5/a_0_0#
+= S0 1bitblock_0/a_5712_n103#
+= S0 m2_5443_n3913#
+= S0 1bitblock$1_0/m2_5700_324#
+= S0 1bitblock$1_0/via_dev$5$1_4/a_0_0#
+= S0 1bitblock$1_0/a_7354_n103#
+= S0 1bitblock$1_0/via_dev$5$1_5/a_0_0#
+= S0 1bitblock$1_0/a_5712_n103#
+= S0 1bitblock$3_0/m2_5700_324#
+= S0 1bitblock$3_0/via_dev$5$3_4/a_0_0#
+= S0 1bitblock$3_0/a_7354_n103#
+= S0 1bitblock$3_0/via_dev$5$3_5/a_0_0#
+= S0 1bitblock$3_0/a_5712_n103#
+= S0 1bitblock$2_0/m2_5700_324#
+= S0 1bitblock$2_0/via_dev$5$2_4/a_0_0#
+= S0 1bitblock$2_0/a_7354_n103#
+= S0 1bitblock$2_0/via_dev$5$2_5/a_0_0#
+= S0 1bitblock$2_0/a_5712_n103#
+R 1bitblock$2_0/a_705_407# 104
+= 1bitblock$2_0/a_705_407# 1bitblock$2_0/via_dev$4$2_25/m1_0_0#
+= 1bitblock$2_0/a_705_407# 1bitblock$2_0/a_1463_407#
+= 1bitblock$2_0/a_705_407# 1bitblock$2_0/via_dev$4$2_26/m1_0_0#
+= 1bitblock$2_0/a_705_407# 1bitblock$2_0/a_1071_407#
+= 1bitblock$2_0/a_705_407# 1bitblock$2_0/via_dev$4$2_27/m1_0_0#
+= 1bitblock$2_0/a_705_407# 1bitblock$2_0/m2_787_567#
+R 1bitblock$2_0/a_3498_3# 168
+= 1bitblock$2_0/a_3498_3# 1bitblock$2_0/via_dev$5$2_2/a_0_0#
+= 1bitblock$2_0/a_3498_3# 1bitblock$2_0/a_8093_255#
+= 1bitblock$2_0/a_3498_3# 1bitblock$2_0/via_dev$4$2_0/m1_0_0#
+= 1bitblock$2_0/a_3498_3# 1bitblock$2_0/m2_3543_531#
+R 1bitblock$2_0/a_11922_3# 128
+R 1bitblock$2_0/a_11922_391# 19
+R 1bitblock$2_0/a_10906_466# 134
+R 1bitblock$2_0/a_11480_63# 145
+R Y2 19
+= Y2 1bitblock$2_0/a_10363_63#
+R 1bitblock$2_0/a_9050_63# 154
+C S10 2.9
+R S1 1258
+= S1 1bitblock_0/a_8918_357#
+= S1 1bitblock$1_0/a_8919_370#
+= S1 1bitblock$3_0/a_8918_358#
+= S1 1bitblock$2_0/a_8919_367#
+R 1bitblock$2_0/a_7410_63# 154
+R 1bitblock$2_0/a_5768_63# 154
+R 1bitblock$2_0/a_4290_63# 149
+R 1bitblock$2_0/a_2861_3# 128
+R 1bitblock$2_0/a_2861_391# 19
+R 1bitblock$2_0/a_1845_466# 134
+C 1bitblock$2_0/a_2419_63#0 6.7
+R 1bitblock$2_0/a_2419_63# 2231
+R 1bitblock$2_0/a_510_63# 149
+R B2 675
+= B2 1bitblock$2_0/a_378_271#
+C VDD0 117.0
+R VDD 99257
+= VDD 1bitblock_0/w_n310_281#
+= VDD MUX21_0/w_n310_281#
+= VDD AND4_0/w_237_91#
+= VDD 1bitblock$1_0/w_n310_281#
+= VDD 1bitblock$3_0/w_n310_281#
+= VDD 1bitblock$2_0/w_n310_281#
+R GND 942
+= GND via_dev$8_13/VSUBS
+= GND via_dev$8_0/VSUBS
+= GND via_dev$8_3/VSUBS
+= GND via_dev$8_4/VSUBS
+= GND via_dev$8_8/VSUBS
+= GND via_dev$8_5/VSUBS
+= GND via_dev$8_6/VSUBS
+= GND AND4_0/a_372_n441#
+= GND via_dev$8_10/VSUBS
+= GND via_dev$8_2/VSUBS
+= GND via_dev$8_2/m1_0_0#
+= GND via_dev$8_9/VSUBS
+= GND 1bitblock_0/via_dev$5_9/VSUBS
+= GND 1bitblock_0/via_dev$5_8/VSUBS
+= GND 1bitblock_0/via_dev$4_9/VSUBS
+= GND 1bitblock_0/via_dev$5_1/VSUBS
+= GND 1bitblock_0/via_dev$5_6/VSUBS
+= GND 1bitblock_0/via_dev$4_5/VSUBS
+= GND 1bitblock_0/via_dev$4_7/VSUBS
+= GND 1bitblock_0/via_dev$4_8/VSUBS
+= GND 1bitblock_0/via_dev$4_13/VSUBS
+= GND 1bitblock_0/via_dev$5_7/VSUBS
+= GND 1bitblock_0/via_dev$4_1/VSUBS
+= GND 1bitblock_0/via_dev$4_6/VSUBS
+= GND 1bitblock_0/via_dev$4_2/VSUBS
+= GND 1bitblock_0/via_dev$5_2/VSUBS
+= GND 1bitblock_0/via_dev$4_12/VSUBS
+= GND 1bitblock_0/via_dev$4_10/VSUBS
+= GND 1bitblock_0/via_dev$4_4/VSUBS
+= GND 1bitblock_0/via_dev$5_4/VSUBS
+= GND 1bitblock_0/via_dev$5_5/VSUBS
+= GND 1bitblock_0/via_dev$4_3/VSUBS
+= GND 1bitblock_0/via_dev$4_11/VSUBS
+= GND 1bitblock_0/via_dev$4_18/VSUBS
+= GND 1bitblock_0/via_dev$4_17/VSUBS
+= GND 1bitblock_0/via_dev$4_14/VSUBS
+= GND 1bitblock_0/via_dev$4_16/VSUBS
+= GND 1bitblock_0/via_dev$5_3/VSUBS
+= GND 1bitblock_0/via_dev$5_0/VSUBS
+= GND 1bitblock_0/via_dev$4_15/VSUBS
+= GND 1bitblock_0/via_dev$4_19/VSUBS
+= GND 1bitblock_0/via_dev$4_24/VSUBS
+= GND 1bitblock_0/via_dev$4_20/VSUBS
+= GND 1bitblock_0/via_dev$4_21/VSUBS
+= GND 1bitblock_0/via_dev$5_11/VSUBS
+= GND 1bitblock_0/via_dev$5_12/VSUBS
+= GND 1bitblock_0/via_dev$4_22/VSUBS
+= GND 1bitblock_0/via_dev$4_0/VSUBS
+= GND 1bitblock_0/via_dev$5_16/VSUBS
+= GND 1bitblock_0/via_dev$5_13/VSUBS
+= GND 1bitblock_0/via_dev$4_23/VSUBS
+= GND 1bitblock_0/via_dev$5_10/VSUBS
+= GND 1bitblock_0/via_dev$4_25/VSUBS
+= GND 1bitblock_0/via_dev$4_26/VSUBS
+= GND 1bitblock_0/via_dev$4_27/VSUBS
+= GND 1bitblock_0/via_dev$4_30/VSUBS
+= GND 1bitblock_0/via_dev$4_29/VSUBS
+= GND 1bitblock_0/via_dev$5_15/VSUBS
+= GND 1bitblock_0/via_dev$5_14/VSUBS
+= GND 1bitblock_0/via_dev$4_28/VSUBS
+= GND 1bitblock_0/a_n168_63#
+= GND MUX21_0/via_dev$11_4/VSUBS
+= GND MUX21_0/via_dev$11_3/VSUBS
+= GND MUX21_0/via_dev$11_2/VSUBS
+= GND MUX21_0/via_dev$11_1/VSUBS
+= GND MUX21_0/via_dev$11_0/VSUBS
+= GND MUX21_0/via_dev$1$6_0/VSUBS
+= GND MUX21_0/a_n168_63#
+= GND VSUBS
+= GND via_dev$8_7/VSUBS
+= GND via_dev$8_11/VSUBS
+= GND via_dev$8_12/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_9/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_8/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_9/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_1/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_6/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_5/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_7/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_8/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_13/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_7/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_1/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_6/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_2/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_2/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_12/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_10/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_4/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_4/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_5/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_3/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_11/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_18/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_17/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_14/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_16/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_3/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_0/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_15/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_19/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_24/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_20/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_21/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_11/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_12/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_22/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_0/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_16/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_13/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_23/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_10/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_25/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_26/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_27/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_30/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_29/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_15/VSUBS
+= GND 1bitblock$1_0/via_dev$5$1_14/VSUBS
+= GND 1bitblock$1_0/via_dev$4$1_28/VSUBS
+= GND 1bitblock$1_0/a_n168_63#
+= GND via_dev$8_1/VSUBS
+= GND via_dev$8_1/m1_0_0#
+= GND m2_n703_n3211#
+= GND 1bitblock$3_0/via_dev$5$3_9/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_8/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_9/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_1/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_6/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_5/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_7/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_8/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_13/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_7/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_1/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_6/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_2/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_2/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_12/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_10/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_4/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_4/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_5/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_3/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_11/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_18/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_17/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_14/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_16/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_3/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_0/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_15/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_19/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_24/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_20/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_21/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_11/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_12/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_22/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_0/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_16/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_13/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_23/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_10/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_25/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_26/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_27/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_30/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_29/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_15/VSUBS
+= GND 1bitblock$3_0/via_dev$5$3_14/VSUBS
+= GND 1bitblock$3_0/via_dev$4$3_28/VSUBS
+= GND 1bitblock$3_0/a_n168_63#
+= GND m1_n399_n3473#
+= GND 1bitblock$2_0/via_dev$5$2_9/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_8/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_9/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_1/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_6/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_5/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_7/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_8/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_13/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_7/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_1/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_6/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_2/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_2/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_12/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_10/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_4/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_4/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_5/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_3/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_11/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_18/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_17/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_14/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_16/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_3/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_0/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_15/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_19/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_24/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_20/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_21/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_11/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_12/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_22/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_0/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_16/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_13/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_23/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_10/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_25/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_26/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_27/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_30/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_29/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_15/VSUBS
+= GND 1bitblock$2_0/via_dev$5$2_14/VSUBS
+= GND 1bitblock$2_0/via_dev$4$2_28/VSUBS
+= GND 1bitblock$2_0/a_n168_63#
+R MUX21_0/m2_540_79# 145
+= MUX21_0/m2_540_79# MUX21_0/via_dev$11_1/m1_0_0#
+= MUX21_0/m2_540_79# MUX21_0/a_718_n37#
+= MUX21_0/m2_540_79# MUX21_0/via_dev$11_0/m1_0_0#
+= MUX21_0/m2_540_79# MUX21_0/a_517_407#
+= MUX21_0/m2_540_79# MUX21_0/via_dev$1$6_0/a_0_0#
+= MUX21_0/m2_540_79# MUX21_0/a_1416_n103#
+R MUX21_0/a_718_407# 104
+= MUX21_0/a_718_407# MUX21_0/via_dev$11_4/m1_0_0#
+= MUX21_0/a_718_407# MUX21_0/a_1110_407#
+= MUX21_0/a_718_407# MUX21_0/via_dev$11_3/m1_0_0#
+= MUX21_0/a_718_407# MUX21_0/a_352_407#
+= MUX21_0/a_718_407# MUX21_0/via_dev$11_2/m1_0_0#
+= MUX21_0/a_718_407# MUX21_0/m2_434_567#
+R Cout 20
+= Cout MUX21_0/a_1472_63#
+R MUX21_0/a_157_63# 166
