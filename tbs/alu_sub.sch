@@ -266,6 +266,7 @@ meas tran v0  find v(y0)  at=30n
     let decimal_result = decimal_result + 32768
   end
   * --- Calculate Decimal Sum ---
+echo Subtracting 3 from 8 should be 5
 print decimal_result 
 print F[100]
 write alu_add_results.raw
