@@ -91,14 +91,14 @@ C {code_shown.sym} 317.5 -487.5 0 0 {name=s1 only_toplevel=false value="
   ** 3. Define Fixed 4-Bit Inputs
   * Example: A = 0101 (5 decimal)
   alter vA3 $&vlow
-  alter vA2 $&vhigh
+  alter vA2 $&vlow
   alter vA1 $&vlow
-  alter vA0 $&vhigh
+  alter vA0 $&vlow
 
   * Example: B = 0011 (3 decimal)
   alter vB3 $&vlow
   alter vB2 $&vlow
-  alter vB1 $&vhigh
+  alter vB1 $&vlow
   alter vB0 $&vhigh
 
   ** 4. Run Simulation

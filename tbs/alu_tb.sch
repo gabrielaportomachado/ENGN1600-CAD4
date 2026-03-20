@@ -172,7 +172,6 @@ T {B3} -135 216 0 0 0.2 0.2 {}
 T {B11} -135 236 0 0 0.2 0.2 {}
 T {Cin} -135 256 0 0 0.2 0.2 {}
 T {Z} 115 -64 0 1 0.2 0.2 {}
-N -985 -410 -985 -380 {lab=GND}
 N -560 -560 -560 -550 {lab=GND}
 N -510 -540 -510 -530 {lab=GND}
 N -450 -520 -450 -510 {lab=GND}
@@ -339,7 +338,6 @@ N 140 -140 180 -140 {lab=Y11}
 N 140 -120 180 -120 {lab=Y15}
 N 140 -100 180 -100 {lab=Y7}
 N 140 -80 180 -80 {lab=Y3}
-N -985 -490 -985 -470 {lab=#net1}
 N 180 -420 665 -420 {lab=F}
 N 180 -400 640 -400 {lab=Y4}
 N 180 -380 625 -380 {lab=Y8}
@@ -361,8 +359,8 @@ N 180 -100 372.5 -100 {lab=Y7}
 N 180 -80 355 -80 {lab=Y3}
 N 140 -60 320 -60 {lab=Z}
 N 320 -60 335 -60 {lab=Z}
-C {vsource.sym} -985 -440 0 0 {name=V1 value=3.3 savecurrent=false}
-C {gnd.sym} -985 -380 0 0 {name=l2 lab=GND}
+N -725 -962.5 -725 -942.5 {lab=VDD}
+N -725 -882.5 -725 -862.5 {lab=GND}
 C {vsource.sym} -560 -590 0 0 {name=VA0 value=0 savecurrent=false}
 C {lab_wire.sym} -450 -660 0 0 {name=p3 sig_type=std_logic lab=A0}
 C {gnd.sym} -560 -550 0 0 {name=l4 lab=GND}
@@ -414,7 +412,7 @@ C {lab_wire.sym} -240 160 0 0 {name=p18 sig_type=std_logic lab=A11}
 C {vsource.sym} -600 -420 0 0 {name=VB4 value=0 savecurrent=false}
 C {lab_wire.sym} -250 -280 0 0 {name=p19 sig_type=std_logic lab=B0}
 C {gnd.sym} -600 -380 0 0 {name=l20 lab=GND}
-C {vsource.sym} -550 -400 0 0 {name=VB0 value=0 savecurrent=false}
+C {vsource.sym} -550 -400 0 0 {name=VB0 value=3.3 savecurrent=false}
 C {gnd.sym} -550 -360 0 0 {name=l21 lab=GND}
 C {vsource.sym} -490 -380 0 0 {name=VB12 value=0 savecurrent=false}
 C {gnd.sym} -490 -340 0 0 {name=l22 lab=GND}
@@ -495,8 +493,8 @@ C {code_shown.sym} 717.5 -1197.5 0 0 {name=s1 only_toplevel=false value="
   alter VA4  = $&vlow
   alter VA3  = $&vlow
   alter VA2  = $&vlow
-  alter VA1  = $&vhigh
-  alter VA0  = $&vhigh
+  alter VA1  = $&vlow
+  alter VA0  = $&vlow
 
   * B = 0x0005
   alter VB15 = $&vlow
@@ -512,82 +510,20 @@ C {code_shown.sym} 717.5 -1197.5 0 0 {name=s1 only_toplevel=false value="
   alter VB5  = $&vlow
   alter VB4  = $&vlow
   alter VB3  = $&vlow
-  alter VB2  = $&vhigh
+  alter VB2  = $&vlow
   alter VB1  = $&vlow
   alter VB0  = $&vhigh
 
   * Solve DC operating point first
-  op
+  * op
 
   * Print only the bits that matter for 3 + 5 = 8
   echo EXPECTED: Y3=3.3, Y2=0, Y1=0, Y0=0, F=0
   print v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
-
   * Optional very short transient, just for waveform screenshot
-  tran 0.1n 5n
-  plot v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
-
-  write alu_add_results.raw
-.endc
-"
-.control
-  let vlow = 0
-  let vhigh = 3.3
-
-  * ADD mode
-  alter VS1 = $&vlow
-  alter VS0 = $&vlow
-
-  * Carry in = 0
-  alter VCin = $&vlow
-
-  * A = 0x0003
-  alter VA15 = $&vlow
-  alter VA14 = $&vlow
-  alter VA13 = $&vlow
-  alter VA12 = $&vlow
-  alter VA11 = $&vlow
-  alter VA10 = $&vlow
-  alter VA9  = $&vlow
-  alter VA8  = $&vlow
-  alter VA7  = $&vlow
-  alter VA6  = $&vlow
-  alter VA5  = $&vlow
-  alter VA4  = $&vlow
-  alter VA3  = $&vlow
-  alter VA2  = $&vlow
-  alter VA1  = $&vhigh
-  alter VA0  = $&vhigh
-
-  * B = 0x0005
-  alter VB15 = $&vlow
-  alter VB14 = $&vlow
-  alter VB13 = $&vlow
-  alter VB12 = $&vlow
-  alter VB11 = $&vlow
-  alter VB10 = $&vlow
-  alter VB9  = $&vlow
-  alter VB8  = $&vlow
-  alter VB7  = $&vlow
-  alter VB6  = $&vlow
-  alter VB5  = $&vlow
-  alter VB4  = $&vlow
-  alter VB3  = $&vlow
-  alter VB2  = $&vhigh
-  alter VB1  = $&vlow
-  alter VB0  = $&vhigh
-
-  * Solve DC operating point first
-  op
-
-  * Print only the bits that matter for 3 + 5 = 8
-  echo EXPECTED: Y3=3.3, Y2=0, Y1=0, Y0=0, F=0
-  print v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
-
-  * Optional very short transient, just for waveform screenshot
-  tran 0.1n 5n
-  plot v(y3) v(y2) v(y1) v(y0) v(f) v(z) v(n)
-
+  tran 0.1n 10n
+display
+  plot v(y15) v(y14) v(y13) v(y12) v(y11) v(y10) v(y9) v(y8) v(y7) v(y6) v(y5) v(y4) v(y3) v(y2) v(y1) v(y0)
   write alu_add_results.raw
 .endc
 "}
@@ -610,7 +546,6 @@ C {lab_wire.sym} 180 -120 0 0 {name=p53 sig_type=std_logic lab=Y15}
 C {lab_wire.sym} 180 -100 0 0 {name=p54 sig_type=std_logic lab=Y7}
 C {lab_wire.sym} 180 -80 0 0 {name=p55 sig_type=std_logic lab=Y3}
 C {lab_wire.sym} 167.5 -60 0 0 {name=p56 sig_type=std_logic lab=Z}
-C {vdd.sym} -985 -492.5 0 0 {name=l1 lab=vdd}
 C {devices/code_shown.sym} 687.5 32.5 0 0 {name=MODELS1 only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -731,3 +666,6 @@ value=20f
 footprint=1206
 device="ceramic capacitor"}
 C {gnd.sym} 335 0 0 0 {name=l56 lab=GND}
+C {vsource.sym} -725 -912.5 0 0 {name=V2 value=3.3 savecurrent=false}
+C {vdd.sym} -725 -962.5 0 0 {name=l1 lab=VDD}
+C {gnd.sym} -725 -862.5 0 0 {name=l2 lab=GND}
