@@ -2,4 +2,46 @@ We have elected to use a carry-bypass adder. In this case we group by every 4 bi
 
 Some other design decisions we made was to reuse the XOR for both P and the actual XOR output. We do the same for generate which is our AND. We have a 4 by 1 mux for every bit.  
 
+
+Propagation Delay Calculations: We were able to extract all the parasitics from the entire ALU.gds file, but this was too large to run on xschem. Therefore, we tested the critical path and propagation delay on the 4bit block and used this value to extrapolate for the entire ALU. The critical path we found was from Cin to Cout, when Cin propagates all the way through to Cout.
+
 Prop Delay for 4bitblock: 1.274483e-10
+
+Therefore, entire critical path prop delay:
+t_c \approx 4*t_{4bit} = 4*1.274483e-10 = 0.51ns
+
+This is obviously an approximately but we believe it is a very accurate one as the final gates at the end add very little additional delay.
+
+Important files:
+
+tbs/alu_4bitblock_critical_path.sch -> This is the testbench for calculating the critical path propagation delay for 4 bit block
+SUBMIT/spice_4bitblock_propdelay.png -> Image taken of the propagation delay between Cin and Cout for the 4bit block
+
+tbs/alu_critical_path.sch -> this contains the critical path testbench for the entire alu which will not run given the length of the extracted netlist
+tbs/alu_tb_add.sch -> this contains the testbench for adding two numbers
+tbs/alu_tb_add_overflow.sch -> this contains the testbench for adding two numbers large enough that there should be overflow
+tbs/alu_tb_sub.sch -> this contains the testbench for subtracting two numbers
+tbs/alu_tb_subtract_overflow.sch -> this testbench tests subtracting two values that should return a negative number and not produce an overflow
+tbs/alu_tb_cmpe.sch -> this testbench tests comparing two values that are equal and ensuring the z flag is set
+tbs/alu_tb_cmpne.sch -> This testbench tests when comparing two values that are not equal and thus the n flag should be set and z shouldn't
+
+Note: some of the tests it was asking for such as adding 1 to -1 said that it should produce an overflow flag, but I believe that this is a mistake as we are dealing with signed integers. Nonetheless, we added another testL alu_tb_add_overflow which tests an actual combination that should indeed overflow.
+
+SUBMIT/ALU_antenna_drc.png -> Contains the succesfull ALU antenna drc results
+SUBMIT/ALU_density_drc.png -> contains the successful ALU density drc result
+SUBMIT/ALU_lvs.png -> successful LVS for ALU
+SUBMIT/ALU_main_drc.png -> successful main drc
+SUBMIT/hand_draing_criticalpath.png -> contains the drawing for the critical path which uses the extrapolated data for the single 4bitblock and shows how this signal propagates through the entire ALU.
+
+Note: for testing the ALU output we didn't use waveforms. Instead we wrote an algorithm to actually output the resulting data as an integer this was much quicker then manually verifying correct waveform output.
+SUBMIT/spice_adding_tb_verified.png -> shows correct output for adding two values
+SUBMIT/spice_adding_overflow.png -> shows overflow flag being raised correctly
+SUBMIT/spice_adding_positive_to_neative.png -> Shows adding a positive 1 to -1 which should return 0 and should raise no flags
+SUBMIT/spice_subtract_easy.png -> shows correct subtraction functionality
+SUBMIT/spice_subtracting_1_from_0_works.png -> shows we can flip all the bits and still not worry about an overflow flag
+SUBMIT/spice_cmp_ne_raiseN_dont_raiseZ.png -> Shows correct compare functionality where we have two non equal inputs which raise N but not Z
+SUBMIT/spice_cmp_z_flag_raised.png -> shows comparing two integers that are equal raises z flag.
+
+The rest of the images submitted show the additional work we did to ensure that the ALU functioned correctly but was not part of one of the explicit deliverables.
+
+
