@@ -165,7 +165,7 @@ C {code_shown.sym} 357.5 -657.5 0 0 {name=s1 only_toplevel=false value="
   meas tran vn find v(n) at=30n
   meas tran vz find v(z) at=30n
   meas tran vf find v(f) at=30n
-
+  echo comparing two different numbers and z should not be raised and n should be raised
   print vn vz vf
   write alu_cmp_less_results.raw
 .endc

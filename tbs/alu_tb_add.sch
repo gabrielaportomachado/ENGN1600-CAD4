@@ -258,6 +258,7 @@ meas tran v0  find v(y0)  at=30n
     let decimal_result = decimal_result + 32768
   end
   * --- Calculate Decimal Sum ---
+echo adding 5 to 259
 print decimal_result 
 write alu_add_results.raw
 .endc

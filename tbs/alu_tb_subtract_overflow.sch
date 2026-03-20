@@ -266,6 +266,7 @@ meas tran v0  find v(y0)  at=30n
     let decimal_result = decimal_result + 32768
   end
   * --- Calculate Decimal Sum ---
+echo subtracting 1 from 0 should give all 1s:
 print decimal_result 
 print F[100]
 print v15

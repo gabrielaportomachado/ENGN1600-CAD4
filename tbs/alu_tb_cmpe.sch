@@ -165,7 +165,7 @@ C {code_shown.sym} 357.5 -657.5 0 0 {name=s1 only_toplevel=false value="
   meas tran vz find v(z) at=30n
   meas tran vn find v(n) at=30n
   meas tran vf find v(f) at=30n
-
+  echo comparing 5 to itself which should raize Z flag
   print vz vn vf
   write alu_cmp_equal_results.raw
 .endc

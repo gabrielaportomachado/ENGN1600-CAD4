@@ -258,6 +258,7 @@ meas tran v0  find v(y0)  at=30n
     let decimal_result = decimal_result + 32768
   end
   * --- Calculate Decimal Sum ---
+echo adding -1 to 1 should return 0 and no flag raised
 print decimal_result 
 print F[100]
 write alu_add_results.raw
