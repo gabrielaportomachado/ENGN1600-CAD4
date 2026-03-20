@@ -111,11 +111,7 @@ N -1397.5 185 -1397.5 187.5 {lab=GND}
 N -1397.5 100 -1397.5 130 {lab=Cin}
 N -1302.5 160 -1302.5 180 {lab=VDD}
 N -1302.5 240 -1302.5 260 {lab=GND}
-<<<<<<< HEAD
-C {code_shown.sym} 437.5 -1357.5 0 0 {name=s1 only_toplevel=false value="
-=======
 C {code_shown.sym} 1692.5 -1825 0 0 {name=s1 only_toplevel=false value="
->>>>>>> 1b451d8c407b726270503db33157d65c0fef6f68
 .control
   let vlow = 0
   let vhigh = 3.3
@@ -266,7 +262,7 @@ print decimal_result
 write alu_add_results.raw
 .endc
 "}
-C {devices/code_shown.sym} 1137.5 -177.5 0 0 {name=MODELS1 only_toplevel=true
+C {devices/code_shown.sym} 687.5 32.5 0 0 {name=MODELS1 only_toplevel=true
 format="tcleval( @value )"
 value="
 .include $::180MCU_MODELS/design.ngspice
